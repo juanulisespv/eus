@@ -31,10 +31,13 @@ export async function createClient(request: NextRequest) {
     }
   );
 
-  // IMPORTANTE: refrescar la sesión del usuario si ha expirado
+  // Usar getSession() para leer la sesión desde la cookie local
+  // sin hacer una llamada de red a Supabase (más eficiente en middleware)
   const {
-    data: { user },
-  } = await supabase.auth.getUser();
+    data: { session },
+  } = await supabase.auth.getSession();
+
+  const user = session?.user ?? null;
 
   return { supabase, user, response };
 }
