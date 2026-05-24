@@ -52,6 +52,7 @@ export async function createClient(request: NextRequest) {
   response.headers.set("x-debug-env-anon-len", String(supabaseAnonKey?.length || 0));
   response.headers.set("x-debug-token-cookie-val-len", String(tokenCookie?.value?.length || 0));
   response.headers.set("x-debug-token-cookie-val-start", tokenCookie?.value ? tokenCookie.value.substring(0, 30) : "none");
+  response.headers.set("x-debug-token-cookie-val-end", tokenCookie?.value ? tokenCookie.value.substring(tokenCookie.value.length - 30) : "none");
 
   return { supabase, user, response };
 }
