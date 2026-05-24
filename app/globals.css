@@ -7,6 +7,18 @@
     color-scheme: dark;
   }
 
+  html {
+    /* Base 18px en escritorio → todos los rem de Tailwind escalan proporcionalmente */
+    font-size: 18px;
+  }
+
+  @media (max-width: 640px) {
+    html {
+      /* Base 17px en móvil para mejor legibilidad sin romper layouts */
+      font-size: 17px;
+    }
+  }
+
   body {
     background-color: #08090a; /* background.DEFAULT de Tailwind config */
     color: #f3f4f6;            /* text.primary de Tailwind config */
@@ -15,6 +27,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 }
+
 
 /* Clases de utilidad personalizadas para efectos premium (Linear / Arc style) */
 @layer utilities {
