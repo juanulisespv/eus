@@ -16,29 +16,44 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith("/settings") ||
     pathname.startsWith("/admin");
 
+  // Helper para redireccionar preservando las cookies de sesión actualizadas
+  const redirectWithCookies = (targetUrl: URL) => {
+    const redirectResponse = NextResponse.redirect(targetUrl);
+    response.cookies.getAll().forEach((cookie) => {
+      redirectResponse.cookies.set(cookie.name, cookie.value, {
+        path: cookie.path,
+        domain: cookie.domain,
+        maxAge: cookie.maxAge,
+        secure: cookie.secure,
+        sameSite: cookie.sameSite,
+        expires: cookie.expires,
+        httpOnly: cookie.httpOnly,
+      });
+    });
+    return redirectResponse;
+  };
+
   // 1. Redirección si no está autenticado
   if (isProtectedRoute && !user) {
     url.pathname = "/auth/login";
-    // Preservar la URL a la que intentaba acceder como query parameter
     url.searchParams.set("redirectedFrom", pathname);
-    return NextResponse.redirect(url);
+    return redirectWithCookies(url);
   }
 
   // 2. Redirección para usuarios autenticados que intentan ir al login
   if (pathname === "/auth/login" && user) {
     url.pathname = "/dashboard";
-    return NextResponse.redirect(url);
+    return redirectWithCookies(url);
   }
 
   // 3. Protección de ruta de administración (/admin)
   if (pathname.startsWith("/admin") && user) {
-    // Verificación de rol en los metadatos de Supabase Auth
     const role = user.app_metadata?.role || user.user_metadata?.role;
     const isAdmin = role === "admin";
 
     if (!isAdmin) {
       url.pathname = "/dashboard";
-      return NextResponse.redirect(url);
+      return redirectWithCookies(url);
     }
   }
 
