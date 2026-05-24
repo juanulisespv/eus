@@ -139,7 +139,7 @@ export function FlashCard({
 
             {/* Palabra central */}
             <div className="flex-1 flex flex-col justify-center items-center text-center space-y-4 py-4">
-              <h2 className="text-6xl font-black text-zinc-100 tracking-tighter leading-none">
+              <h2 className="text-5xl font-extrabold text-zinc-100 tracking-tighter">
                 {word.word_eu}
               </h2>
               {word.pronunciation && (
@@ -196,8 +196,8 @@ export function FlashCard({
               {currentExample && (
                 <div className="bg-zinc-950/60 p-4 rounded-2xl border border-white/[0.05]">
                   <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Ejemplo</span>
-                  <p className="font-semibold text-zinc-200 text-sm mt-1">{currentExample.sentence_eu}</p>
-                  <p className="text-xs text-zinc-400 mt-1">{currentExample.sentence_es}</p>
+                  <p className="font-semibold text-zinc-200 text-base mt-1">{currentExample.sentence_eu}</p>
+                  <p className="text-sm text-zinc-400 mt-1">{currentExample.sentence_es}</p>
                 </div>
               )}
 
