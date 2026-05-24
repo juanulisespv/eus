@@ -34,8 +34,22 @@ export default async function DashboardPage() {
     p => p.next_review_at && new Date(p.next_review_at) <= new Date()
   ).length;
 
-  // Palabras nuevas disponibles (nunca revisadas)
-  const newAvailable = allProgress.filter(p => !p.next_review_at).length;
+  // Palabras nuevas disponibles (nunca revisadas, en progreso del usuario)
+  const newInProgress = allProgress.filter(p => !p.next_review_at).length;
+
+  // Si el usuario no tiene NINGUNA palabra asignada aún (usuario nuevo),
+  // contamos cuántas palabras activas hay en el catálogo para mostrar
+  // que hay palabras disponibles para empezar.
+  let catalogAvailable = 0;
+  if (allProgress.length === 0) {
+    const { count } = await supabase
+      .from("words")
+      .select("id", { count: "exact", head: true })
+      .eq("is_active", true);
+    catalogAvailable = Math.min(count ?? 0, 10);
+  }
+
+  const newAvailable = newInProgress + catalogAvailable;
 
   // Total pendientes = vencidas + nuevas (capped a 10 nuevas por sesión)
   const pendingTotal = dueNow + Math.min(newAvailable, 10);

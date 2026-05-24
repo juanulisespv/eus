@@ -34,7 +34,7 @@ export default function StudyPage() {
     if (!user) { router.push("/auth/login"); return; }
 
     // Cargar progreso con datos de la palabra unida
-    const { data: progress, error } = await supabase
+    let { data: progress, error } = await supabase
       .from("user_word_progress")
       .select(`
         *,
@@ -47,7 +47,52 @@ export default function StudyPage() {
       `)
       .eq("user_id", user.id);
 
-    if (error || !progress) { setState("empty"); return; }
+    if (error) { setState("empty"); return; }
+
+    // ── AUTO-ENROLL: usuario nuevo sin palabras asignadas ────────
+    // Si no tiene ningún progreso, le asignamos las primeras 10 palabras
+    // activas del catálogo ordenadas por frecuencia para que pueda empezar
+    // a estudiar de inmediato sin esperar al día siguiente.
+    if (!progress || progress.length === 0) {
+      const { data: seedWords } = await supabase
+        .from("words")
+        .select("id")
+        .eq("is_active", true)
+        .order("frequency_rank", { ascending: true })
+        .limit(10);
+
+      if (seedWords && seedWords.length > 0) {
+        const newRows = seedWords.map(w => ({
+          user_id: user.id,
+          word_id: w.id,
+          ease_factor: 2.5,
+          interval_days: 1,
+          repetitions: 0,
+          mastery_score: 0,
+          total_reviews: 0,
+          correct_reviews: 0,
+          next_review_at: null, // null = palabra nueva, se muestra esta sesión
+        }));
+        await supabase.from("user_word_progress").insert(newRows);
+
+        // Recargar progreso tras insertar
+        const reloaded = await supabase
+          .from("user_word_progress")
+          .select(`
+            *,
+            words (
+              id, word_eu, translation_es, translation_en,
+              category, difficulty, pronunciation, definition_simple,
+              uso_habitual,
+              examples ( sentence_eu, sentence_es )
+            )
+          `)
+          .eq("user_id", user.id);
+        progress = reloaded.data ?? [];
+      }
+    }
+
+    if (!progress || progress.length === 0) { setState("empty"); return; }
 
     const now = new Date();
     const due = progress.filter(p =>
@@ -66,7 +111,7 @@ export default function StudyPage() {
 
     // Reordenar la queue manteniendo los datos de la palabra
     const ordered = cards.map(c =>
-      progress.find(p => p.word_id === c.progress.word_id)
+      progress!.find(p => p.word_id === c.progress.word_id)
     ).filter(Boolean) as ProgressWithWord[];
 
     setQueue(ordered);
