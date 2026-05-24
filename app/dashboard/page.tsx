@@ -3,6 +3,7 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { StatsCard } from "@/components/dashboard/StatsCard";
 import { StreakDisplay } from "@/components/dashboard/StreakDisplay";
+import { CategorySelector } from "@/components/dashboard/CategorySelector";
 import { Button } from "@/components/ui/Button";
 import { BookOpen, Target, CheckCircle, Brain, ArrowRight, Sparkles } from "lucide-react";
 
@@ -167,36 +168,21 @@ export default async function DashboardPage() {
             <div className="bg-zinc-800/40 border border-white/[0.06] rounded-2xl p-5 space-y-4">
               <div>
                 <p className="text-zinc-100 font-semibold">Práctica libre</p>
-                <p className="text-zinc-400 text-sm">Elige una categoría para repasar</p>
+                <p className="text-zinc-400 text-sm">Elige una o varias categorías para repasar</p>
               </div>
-              <div className="flex flex-wrap gap-2">
-                <Link 
-                  href="/study?category=all" 
-                  className="px-4 py-2 rounded-xl bg-violet-600/20 text-violet-300 hover:bg-violet-600/40 font-medium text-sm transition-colors border border-violet-500/20"
-                >
-                  Todo mezclado
-                </Link>
-                {(() => {
-                  const GRAMMAR_TAGS = [
-                    'sustantivo', 'verbo', 'adjetivo', 'adverbio', 'preposicion', 
-                    'conjuncion', 'pronombre', 'frase_hecha', 'numero', 'saludo', 
-                    'otro', 'verbos'
-                  ];
-                  const learnedThemes = Array.from(
-                    new Set(allProgress.flatMap(p => p.words?.tags ?? []))
-                  ).filter(tag => tag && !GRAMMAR_TAGS.includes(tag));
-                  
-                  return learnedThemes.map(c => (
-                    <Link 
-                      key={c} 
-                      href={`/study?category=${c}`} 
-                      className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-medium text-sm transition-colors border border-white/[0.06] capitalize"
-                    >
-                      {c}
-                    </Link>
-                  ));
-                })()}
-              </div>
+              
+              {(() => {
+                const GRAMMAR_TAGS = [
+                  'sustantivo', 'verbo', 'adjetivo', 'adverbio', 'preposicion', 
+                  'conjuncion', 'pronombre', 'frase_hecha', 'numero', 'saludo', 
+                  'otro', 'verbos'
+                ];
+                const learnedThemes = Array.from(
+                  new Set(allProgress.flatMap(p => p.words?.tags ?? []))
+                ).filter(tag => tag && !GRAMMAR_TAGS.includes(tag));
+                
+                return <CategorySelector categories={learnedThemes} />;
+              })()}
             </div>
             {/* Botón: vocabulario */}
             <Link href="/vocabulary" className="block">

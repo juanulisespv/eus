@@ -147,11 +147,14 @@ export default function StudyPage() {
       // seguir practicando sin afectar el algoritmo SRS.
       
       const searchParams = new URLSearchParams(window.location.search);
-      const categoryFilter = searchParams.get("category");
+      const categoryFilter = searchParams.get("categories") || searchParams.get("category");
       
       let practicePool = progress;
       if (categoryFilter && categoryFilter !== "all") {
-        practicePool = progress.filter(p => p.words?.tags?.includes(categoryFilter));
+        const selectedCategories = categoryFilter.split(',').map(c => c.trim());
+        practicePool = progress.filter(p => 
+          p.words?.tags?.some(tag => selectedCategories.includes(tag))
+        );
       }
       
       const shuffled = [...practicePool].sort(() => Math.random() - 0.5).slice(0, 20);
