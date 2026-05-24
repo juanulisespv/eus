@@ -57,12 +57,27 @@ export default function StudyPage() {
 
     if (error) { setState("empty"); return; }
 
-    // ── AUTO-ENROLL / TOP-UP: ajustar palabras nuevas al objetivo diario ──
-    // Calculamos cuántas palabras "nuevas" (next_review_at = null) tiene el
-    // usuario. Si tiene menos que su dailyGoal, enrolamos más del catálogo.
+    // ── AUTO-ENROLL / TOP-UP: Límite estricto diario ────────────────────────
+    // 1. Calcular cuántas palabras nuevas se han estudiado HOY
+    const todayStr = new Date().toISOString().split('T')[0];
+    const { data: todaySessions } = await supabase
+      .from("sessions")
+      .select("new_cards")
+      .eq("user_id", user.id)
+      .eq("status", "completed")
+      .gte("started_at", todayStr);
+      
+    const newCardsStudiedToday = (todaySessions ?? []).reduce((sum, s) => sum + (s.new_cards ?? 0), 0);
+    
+    // 2. Calcular cuántas quedan permitidas hoy
+    const remainingNewToday = Math.max(0, dailyGoal - newCardsStudiedToday);
+
+    // 3. Ver cuántas palabras "nuevas" sin empezar tiene en su cola
     const existingIds = new Set((progress ?? []).map(p => p.word_id));
     const currentNew = (progress ?? []).filter(p => !p.next_review_at).length;
-    const needed = dailyGoal - currentNew;
+    
+    // 4. Si tiene menos de las que aún puede estudiar hoy, enrolamos la diferencia
+    const needed = remainingNewToday - currentNew;
 
     if (needed > 0) {
       // Obtener palabras del catálogo que el usuario aún no tiene asignadas
@@ -119,8 +134,8 @@ export default function StudyPage() {
     const { cards } = getStudyQueue({
       dueWords: due as UserWordProgress[],
       newWords: newWords as UserWordProgress[],
-      maxNew: dailyGoal,
-      limit: dailyGoal + 20, // repasos vencidos + nuevas del objetivo
+      maxNew: remainingNewToday,
+      limit: remainingNewToday + 20, // repasos vencidos + nuevas del objetivo
     });
 
     let orderedQueue: ProgressWithWord[];
