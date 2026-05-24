@@ -568,68 +568,6 @@
     "is_active": true
   },
   {
-    "word_eu": "izan",
-    "translation_es": "ser / haber",
-    "translation_en": "to be",
-    "category": "verbos",
-    "difficulty": 2,
-    "frequency_rank": 29,
-    "pronunciation": "isan",
-    "definition_simple": "El verbo auxiliar principal de la lengua",
-    "uso_habitual": "Funciona como verbo 'ser' y también como auxiliar intransitivo en los tiempos compuestos (yo he venido -> ni etorri naiz).",
-    "frase_1_eu": "Ni irakaslea naiz",
-    "frase_1_es": "Yo soy profesor",
-    "frase_2_eu": "Non izan zara?",
-    "frase_2_es": "¿Dónde has estado?",
-    "tags": [
-      "verbos",
-      "esencial",
-      "auxiliar"
-    ],
-    "is_active": true
-  },
-  {
-    "word_eu": "ukan",
-    "translation_es": "tener / haber (transitivo)",
-    "translation_en": "to have",
-    "category": "verbos",
-    "difficulty": 3,
-    "frequency_rank": 30,
-    "pronunciation": "ukan",
-    "definition_simple": "El verbo transitivo principal que denota posesión o auxiliaridad",
-    "uso_habitual": "Se usa como auxiliar de verbos transitivos (yo he visto -> nik ikusi dut) y para expresar posesión en algunas estructuras.",
-    "frase_1_eu": "Nik liburu bat dut",
-    "frase_1_es": "Tengo un libro (literal: yo lo tengo)",
-    "frase_2_eu": "Zuk txakur bat duzu",
-    "frase_2_es": "Tú tienes un perro",
-    "tags": [
-      "verbos",
-      "esencial",
-      "auxiliar"
-    ],
-    "is_active": true
-  },
-  {
-    "word_eu": "egon",
-    "translation_es": "estar / quedarse",
-    "translation_en": "to be (location/state) / stay",
-    "category": "verbos",
-    "difficulty": 2,
-    "frequency_rank": 31,
-    "pronunciation": "egon",
-    "definition_simple": "Verbo que expresa estado o localización física de alguien o algo",
-    "uso_habitual": "Se conjuga de forma sintética (nago, zaude, dago, gaude...).",
-    "frase_1_eu": "Hemen nago",
-    "frase_1_es": "Estoy aquí",
-    "frase_2_eu": "Aita etxean dago",
-    "frase_2_es": "Padre está en casa",
-    "tags": [
-      "verbos",
-      "esencial"
-    ],
-    "is_active": true
-  },
-  {
     "word_eu": "izan uste",
     "translation_es": "tener (edad, frío, calor...)",
     "translation_en": "to have (attributes)",
@@ -663,27 +601,6 @@
     "frase_1_es": "¿De dónde viene ese chico?",
     "frase_2_eu": "Bihar etorriko naiz",
     "frase_2_es": "Vendré mañana",
-    "tags": [
-      "verbos",
-      "esencial",
-      "movimiento"
-    ],
-    "is_active": true
-  },
-  {
-    "word_eu": "joan",
-    "translation_es": "ir",
-    "translation_en": "to go",
-    "category": "verbos",
-    "difficulty": 1,
-    "frequency_rank": 34,
-    "pronunciation": "joan",
-    "definition_simple": "Moverse de un lugar hacia otro alejado",
-    "uso_habitual": "Su auxiliar es izan: joan naiz (he ido).",
-    "frase_1_eu": "Etxera noa",
-    "frase_1_es": "Voy a casa",
-    "frase_2_eu": "Zerbait hartzera joan gara",
-    "frase_2_es": "Hemos ido a tomar algo",
     "tags": [
       "verbos",
       "esencial",
@@ -2005,6 +1922,245 @@
     "tags": [
       "conectores",
       "tiempo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "izan",
+    "translation_es": "ser (intransitivo - NOR)",
+    "translation_en": "to be",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 101,
+    "pronunciation": "isan",
+    "definition_simple": "Verbo copulativo esencial y auxiliar para verbos intransitivos.",
+    "uso_habitual": "Se usa como verbo principal ('ser') y como auxiliar NOR. Ej: ni naiz, hura da.",
+    "frase_1_eu": "Mendira joan naiz",
+    "frase_1_es": "He ido al monte (auxiliar)",
+    "frase_2_eu": "Hau nire etxea da",
+    "frase_2_es": "Esta es mi casa (principal)",
+    "tags": [
+      "verbo",
+      "auxiliar",
+      "nor"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "naiz",
+    "translation_es": "soy (de izan)",
+    "translation_en": "I am",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 102,
+    "pronunciation": "nais",
+    "definition_simple": "Primera persona singular (ni) del verbo izan.",
+    "uso_habitual": "Forma conjugada directa para 'yo soy'.",
+    "frase_1_eu": "Ni ikaslea naiz",
+    "frase_1_es": "Yo soy estudiante",
+    "frase_2_eu": "Gaur oso berandu esnatu naiz",
+    "frase_2_es": "Hoy me he despertado muy tarde (auxiliar)",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor",
+      "izan"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "da",
+    "translation_es": "es (de izan)",
+    "translation_en": "is",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 103,
+    "pronunciation": "da",
+    "definition_simple": "Tercera persona singular (hura) del verbo izan.",
+    "uso_habitual": "Forma conjugada directa para 'él/ella/eso es'.",
+    "frase_1_eu": "Hori oso garestia da",
+    "frase_1_es": "Eso es muy caro",
+    "frase_2_eu": "Aita oraintxe etorri da",
+    "frase_2_es": "El padre ha venido ahora mismo (auxiliar)",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor",
+      "izan"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "egon",
+    "translation_es": "estar (intransitivo - NOR)",
+    "translation_en": "to be (location/state)",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 104,
+    "pronunciation": "egon",
+    "definition_simple": "Indica estado temporal o ubicación.",
+    "uso_habitual": "Verbo de estado. A diferencia del español, para la edad o características fijas se usa 'izan'.",
+    "frase_1_eu": "Filma oso ondo egon da",
+    "frase_1_es": "La película ha estado muy bien",
+    "frase_2_eu": "Isilik egon, mesedez!",
+    "frase_2_es": "¡Estate quieto/callado, por favor!",
+    "tags": [
+      "verbo",
+      "nor"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "nago",
+    "translation_es": "estoy (de egon)",
+    "translation_en": "I am (state)",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 105,
+    "pronunciation": "nago",
+    "definition_simple": "Primera persona singular (ni) del verbo egon.",
+    "uso_habitual": "Forma conjugada directa para 'yo estoy'.",
+    "frase_1_eu": "Gaur oso nekatuta nago",
+    "frase_1_es": "Hoy estoy muy cansado",
+    "frase_2_eu": "Orain kalean nago zure zain",
+    "frase_2_es": "Ahora estoy en la calle esperándote",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor",
+      "egon"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "dago",
+    "translation_es": "está (de egon)",
+    "translation_en": "is (state)",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 106,
+    "pronunciation": "dago",
+    "definition_simple": "Tercera persona singular (hura) del verbo egon.",
+    "uso_habitual": "Forma conjugada directa para 'él/ella/eso está' o 'hay' (ubicación).",
+    "frase_1_eu": "Mahaian sagar bat dago",
+    "frase_1_es": "Hay una manzana en la mesa",
+    "frase_2_eu": "Komuneko atea itxita dago",
+    "frase_2_es": "La puerta del baño está cerrada",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor",
+      "egon"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ukan",
+    "translation_es": "haber/tener (auxiliar - NOR-NORK)",
+    "translation_en": "to have",
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 107,
+    "pronunciation": "ukan",
+    "definition_simple": "Verbo auxiliar principal para verbos transitivos.",
+    "uso_habitual": "Se usa casi exclusivamente como auxiliar. Ej: ikusi dut (lo he visto). Para posesión física principal se prefiere 'eduki'.",
+    "frase_1_eu": "Auto berri bat erosi dut",
+    "frase_1_es": "He comprado un coche nuevo (auxiliar)",
+    "frase_2_eu": "Ez dut ezer ulertzen",
+    "frase_2_es": "No entiendo nada (auxiliar)",
+    "tags": [
+      "verbo",
+      "auxiliar",
+      "nor-nork"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "dut",
+    "translation_es": "lo he / lo tengo (de ukan)",
+    "translation_en": "I have it",
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 108,
+    "pronunciation": "dut",
+    "definition_simple": "Ni - Hura. Auxiliar transitivo: Yo lo hago/he hecho.",
+    "uso_habitual": "El auxiliar transitivo más común. Indica que el sujeto soy YO (NORK) y el objeto es UNO (NOR).",
+    "frase_1_eu": "Gaur ogi asko jan dut",
+    "frase_1_es": "Hoy he comido mucho pan",
+    "frase_2_eu": "Liburu hori aspaldi irakurri dut",
+    "frase_2_es": "He leído ese libro hace tiempo",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "auxiliar",
+      "nor-nork",
+      "ukan"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "du",
+    "translation_es": "lo ha / lo tiene (de ukan)",
+    "translation_en": "he/she/it has it",
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 109,
+    "pronunciation": "du",
+    "definition_simple": "Hura - Hura. Auxiliar transitivo: Él/Ella lo hace/ha hecho.",
+    "uso_habitual": "Indica que el sujeto es ÉL/ELLA (NORK) y el objeto es UNO (NOR).",
+    "frase_1_eu": "Anek ura edan du",
+    "frase_1_es": "Ane ha bebido agua",
+    "frase_2_eu": "Gizon horrek oso ondo egin du",
+    "frase_2_es": "Ese hombre lo ha hecho muy bien",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "auxiliar",
+      "nor-nork",
+      "ukan"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "joan",
+    "translation_es": "ir (intransitivo - NOR)",
+    "translation_en": "to go",
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 110,
+    "pronunciation": "joan",
+    "definition_simple": "Moverse hacia un lugar.",
+    "uso_habitual": "Verbo de movimiento (NOR). Formas sintéticas comunes: noa (voy), doa (va).",
+    "frase_1_eu": "Bihar hondartzara joango gara",
+    "frase_1_es": "Mañana iremos a la playa",
+    "frase_2_eu": "Mesedez, ez joan horrela!",
+    "frase_2_es": "¡Por favor, no te vayas así!",
+    "tags": [
+      "verbo",
+      "nor",
+      "movimiento"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "noa",
+    "translation_es": "voy (de joan)",
+    "translation_en": "I go / I'm going",
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 111,
+    "pronunciation": "noa",
+    "definition_simple": "Primera persona singular (ni) presente sintético de joan.",
+    "uso_habitual": "Forma conjugada para expresar 'voy' en este momento preciso.",
+    "frase_1_eu": "Orain etxera noa",
+    "frase_1_es": "Ahora voy a casa",
+    "frase_2_eu": "Itxaron, zurekin noa!",
+    "frase_2_es": "¡Espera, voy contigo!",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor",
+      "joan"
     ],
     "is_active": true
   }
