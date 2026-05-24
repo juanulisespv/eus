@@ -16,7 +16,7 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith("/settings") ||
     pathname.startsWith("/admin");
 
-  // Helper para redireccionar preservando las cookies de sesión actualizadas
+  // Helper para redireccionar preservando las cookies de sesión y las cabeceras de depuración
   const redirectWithCookies = (targetUrl: URL) => {
     const redirectResponse = NextResponse.redirect(targetUrl);
     response.cookies.getAll().forEach((cookie) => {
@@ -29,6 +29,12 @@ export async function middleware(request: NextRequest) {
         expires: cookie.expires,
         httpOnly: cookie.httpOnly,
       });
+    });
+    // Copiar cabeceras de depuración
+    response.headers.forEach((value, key) => {
+      if (key.startsWith("x-debug-")) {
+        redirectResponse.headers.set(key, value);
+      }
     });
     return redirectResponse;
   };

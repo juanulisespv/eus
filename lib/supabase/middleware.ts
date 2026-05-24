@@ -31,13 +31,18 @@ export async function createClient(request: NextRequest) {
     }
   );
 
-  // Usar getSession() para leer la sesión desde la cookie local
-  // sin hacer una llamada de red a Supabase (más eficiente en middleware)
   const {
     data: { session },
   } = await supabase.auth.getSession();
 
   const user = session?.user ?? null;
+
+  // Añadir cabeceras de depuración para ver en las herramientas de desarrollo
+  const cookiesList = request.cookies.getAll();
+  response.headers.set("x-debug-user", user ? user.email || "yes" : "null");
+  response.headers.set("x-debug-session", session ? "exists" : "null");
+  response.headers.set("x-debug-cookies-count", String(cookiesList.length));
+  response.headers.set("x-debug-cookies-names", cookiesList.map(c => c.name).join(", "));
 
   return { supabase, user, response };
 }
