@@ -17,7 +17,7 @@ export default async function DashboardPage() {
 
   const { data: progress, error: progressError } = await supabase
     .from("user_word_progress")
-    .select("*")
+    .select("*, words(tags)")
     .eq("user_id", user.id);
 
   const { data: sessionHistory } = await supabase
@@ -177,14 +177,14 @@ export default async function DashboardPage() {
                   Todo mezclado
                 </Link>
                 {(() => {
-                  const THEMES = [
-                    'familia', 'comida', 'ropa', 'trabajo', 'compras', 'transporte', 
-                    'naturaleza', 'clima', 'cuerpo', 'salud', 'emociones', 'animales', 
-                    'verbos', 'saludos', 'numeros', 'lugares', 'hogar'
+                  const GRAMMAR_TAGS = [
+                    'sustantivo', 'verbo', 'adjetivo', 'adverbio', 'preposicion', 
+                    'conjuncion', 'pronombre', 'frase_hecha', 'numero', 'saludo', 
+                    'otro', 'verbos'
                   ];
                   const learnedThemes = Array.from(
                     new Set(allProgress.flatMap(p => p.words?.tags ?? []))
-                  ).filter(tag => THEMES.includes(tag));
+                  ).filter(tag => tag && !GRAMMAR_TAGS.includes(tag));
                   
                   return learnedThemes.map(c => (
                     <Link 
