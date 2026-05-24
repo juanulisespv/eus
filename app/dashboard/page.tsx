@@ -22,7 +22,7 @@ export default async function DashboardPage() {
 
   const { data: sessionHistory } = await supabase
     .from("sessions")
-    .select("correct_count, cards_reviewed, started_at")
+    .select("correct_count, cards_reviewed, started_at, new_cards")
     .eq("user_id", user.id)
     .eq("status", "completed")
     .order("started_at", { ascending: false })
@@ -30,30 +30,45 @@ export default async function DashboardPage() {
 
   const allProgress = progress ?? [];
 
+  // 1. Obtener daily_goal del usuario (por defecto 10)
+  const { data: prefs } = await supabase
+    .from("user_preferences")
+    .select("daily_goal")
+    .eq("user_id", user.id)
+    .maybeSingle();
+  const dailyGoal = prefs?.daily_goal ?? 10;
+
+  // 2. Calcular cuántas palabras nuevas se han estudiado HOY
+  const todayStr = new Date().toISOString().split('T')[0];
+  const newCardsStudiedToday = (sessionHistory ?? [])
+    .filter(s => s.started_at.startsWith(todayStr))
+    .reduce((sum, s) => sum + (s.new_cards ?? 0), 0);
+    
+  const remainingNewToday = Math.max(0, dailyGoal - newCardsStudiedToday);
+
   // Palabras pendientes hoy (next_review_at <= now)
   const dueNow = allProgress.filter(
     p => p.next_review_at && new Date(p.next_review_at) <= new Date()
   ).length;
 
-  // Palabras nuevas disponibles (nunca revisadas, en progreso del usuario)
+  // Palabras nuevas en progreso del usuario
   const newInProgress = allProgress.filter(p => !p.next_review_at).length;
 
-  // Si el usuario no tiene NINGUNA palabra asignada aún (usuario nuevo),
-  // contamos cuántas palabras activas hay en el catálogo para mostrar
-  // que hay palabras disponibles para empezar.
+  // Si el usuario es completamente nuevo y no tiene historial,
+  // verificamos si hay palabras en el catálogo.
   let catalogAvailable = 0;
   if (allProgress.length === 0) {
     const { count } = await supabase
       .from("words")
       .select("id", { count: "exact", head: true })
       .eq("is_active", true);
-    catalogAvailable = Math.min(count ?? 0, 10);
+    catalogAvailable = Math.min(count ?? 0, dailyGoal);
   }
 
   const newAvailable = newInProgress + catalogAvailable;
 
-  // Total pendientes = vencidas + nuevas (capped a 10 nuevas por sesión)
-  const pendingTotal = dueNow + Math.min(newAvailable, 10);
+  // Total pendientes = vencidas + nuevas permitidas hoy
+  const pendingTotal = dueNow + Math.min(newAvailable, remainingNewToday);
 
   // Palabras aprendidas (mastery_score >= 80)
   const learned = allProgress.filter(p => p.mastery_score >= 80).length;
@@ -131,8 +146,8 @@ export default async function DashboardPage() {
                 </p>
                 <p className="text-sm text-violet-200 mt-1">
                   {dueNow > 0 && `${dueNow} repaso${dueNow !== 1 ? "s" : ""}`}
-                  {dueNow > 0 && Math.min(newAvailable, 10) > 0 && " · "}
-                  {Math.min(newAvailable, 10) > 0 && `${Math.min(newAvailable, 10)} nueva${Math.min(newAvailable, 10) !== 1 ? "s" : ""}`}
+                  {dueNow > 0 && Math.min(newAvailable, remainingNewToday) > 0 && " · "}
+                  {Math.min(newAvailable, remainingNewToday) > 0 && `${Math.min(newAvailable, remainingNewToday)} nueva${Math.min(newAvailable, remainingNewToday) !== 1 ? "s" : ""}`}
                 </p>
               </div>
               <ArrowRight className="w-7 h-7 text-white shrink-0 group-hover:translate-x-1 transition-transform" />
