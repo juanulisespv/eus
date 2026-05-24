@@ -8,9 +8,12 @@ export async function createClient(request: NextRequest) {
     },
   });
 
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    supabaseUrl!,
+    supabaseAnonKey!,
     {
       cookies: {
         getAll() {
@@ -43,6 +46,8 @@ export async function createClient(request: NextRequest) {
   response.headers.set("x-debug-session", session ? "exists" : "null");
   response.headers.set("x-debug-cookies-count", String(cookiesList.length));
   response.headers.set("x-debug-cookies-names", cookiesList.map(c => c.name).join(", "));
+  response.headers.set("x-debug-env-url", supabaseUrl || "undefined");
+  response.headers.set("x-debug-env-anon-len", String(supabaseAnonKey?.length || 0));
 
   return { supabase, user, response };
 }
