@@ -148,18 +148,30 @@ export default async function DashboardPage() {
                 <p className="text-sm text-zinc-400">Vuelve mañana para nuevas tarjetas.</p>
               </div>
             </div>
-            {/* Botón: seguir practicando (práctica libre) */}
-            <Link href="/study" className="block">
-              <div className="relative overflow-hidden flex items-center justify-between p-5 rounded-2xl bg-violet-600/70 hover:bg-violet-600 active:scale-[0.98] transition-all cursor-pointer group">
-                <div className="absolute right-0 top-0 w-40 h-full bg-gradient-to-l from-violet-400/10 to-transparent pointer-events-none" />
-                <div>
-                  <p className="text-xs text-violet-200 font-semibold uppercase tracking-wider mb-1">Práctica extra</p>
-                  <p className="text-xl font-extrabold text-white leading-tight">Seguir practicando</p>
-                  <p className="text-sm text-violet-200 mt-1">Repasa palabras ya aprendidas</p>
-                </div>
-                <ArrowRight className="w-6 h-6 text-white shrink-0 group-hover:translate-x-1 transition-transform" />
+            {/* Práctica libre por categorías */}
+            <div className="bg-zinc-800/40 border border-white/[0.06] rounded-2xl p-5 space-y-4">
+              <div>
+                <p className="text-zinc-100 font-semibold">Práctica libre</p>
+                <p className="text-zinc-400 text-sm">Elige una categoría para repasar</p>
               </div>
-            </Link>
+              <div className="flex flex-wrap gap-2">
+                <Link 
+                  href="/study?category=all" 
+                  className="px-4 py-2 rounded-xl bg-violet-600/20 text-violet-300 hover:bg-violet-600/40 font-medium text-sm transition-colors border border-violet-500/20"
+                >
+                  Todo mezclado
+                </Link>
+                {Array.from(new Set(allProgress.map(p => p.words?.category))).filter(Boolean).map(c => (
+                  <Link 
+                    key={c} 
+                    href={`/study?category=${c}`} 
+                    className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-medium text-sm transition-colors border border-white/[0.06] capitalize"
+                  >
+                    {c}
+                  </Link>
+                ))}
+              </div>
+            </div>
             {/* Botón: vocabulario */}
             <Link href="/vocabulary" className="block">
               <div className="flex items-center justify-between p-4 rounded-2xl bg-zinc-800/60 border border-white/[0.06] hover:bg-zinc-800/90 hover:border-white/[0.12] active:scale-[0.98] transition-all cursor-pointer group">

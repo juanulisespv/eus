@@ -130,7 +130,16 @@ export default function StudyPage() {
       // No hay tarjetas pendientes según SRS. En lugar de mostrar "vacío",
       // ofrecemos todas las palabras del usuario en orden aleatorio para
       // seguir practicando sin afectar el algoritmo SRS.
-      const shuffled = [...progress].sort(() => Math.random() - 0.5).slice(0, 20);
+      
+      const searchParams = new URLSearchParams(window.location.search);
+      const categoryFilter = searchParams.get("category");
+      
+      let practicePool = progress;
+      if (categoryFilter && categoryFilter !== "all") {
+        practicePool = progress.filter(p => p.words?.category === categoryFilter);
+      }
+      
+      const shuffled = [...practicePool].sort(() => Math.random() - 0.5).slice(0, 20);
       if (shuffled.length === 0) { setState("empty"); return; }
       orderedQueue = shuffled as ProgressWithWord[];
     } else {
