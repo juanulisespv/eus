@@ -1,38 +1,260 @@
+"use client";
+
+import { useEffect, useState, useRef, useCallback } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
+import { FlashCard } from "@/components/flashcard/FlashCard";
+import { Button } from "@/components/ui/Button";
+import { calculateSM2, getStudyQueue } from "@/lib/srs/engine";
+import type { UserWordProgress, ReviewResult, SM2Result } from "@/lib/srs/types";
+import type { WordData } from "@/components/flashcard/FlashCard";
+import { CheckCircle2, RotateCcw, Home, Zap, Target, Clock } from "lucide-react";
+
+interface ProgressWithWord extends UserWordProgress {
+  words: WordData;
+}
+
+// Estado de la sesión de estudio
+type StudyState = "loading" | "studying" | "finished" | "empty";
+
 export default function StudyPage() {
-  return (
-    <main className="min-h-screen flex flex-col items-center justify-between p-6 max-w-2xl mx-auto">
-      <header className="w-full flex justify-between items-center py-4 border-b border-border">
-        <span className="text-sm font-semibold text-text-secondary">Sesión de Estudio</span>
-        <div className="w-32 bg-border h-2 rounded-full overflow-hidden">
-          <div className="bg-brand h-full w-[25%]" />
-        </div>
-        <button className="text-text-secondary hover:text-text-primary text-sm font-medium">Salir</button>
-      </header>
+  const router = useRouter();
+  const supabase = createClient();
 
-      <section className="flex-1 w-full flex flex-col items-center justify-center py-12">
-        <div className="w-full max-w-md aspect-[4/3] glass-panel rounded-3xl p-8 flex flex-col items-center justify-between shadow-glass glow-border">
-          <span className="text-xs text-text-dim uppercase tracking-wider">Palabra</span>
-          <div className="text-center space-y-2">
-            <h2 className="text-4xl font-extrabold tracking-tightest">Kaixo</h2>
-            <p className="text-sm text-text-dim font-mono">[kai.ʃo]</p>
+  const [state, setState] = useState<StudyState>("loading");
+  const [queue, setQueue] = useState<ProgressWithWord[]>([]);
+  const [currentIdx, setCurrentIdx] = useState(0);
+  const [results, setResults] = useState<ReviewResult[]>([]);
+  const [sessionStats, setSessionStats] = useState<{ correct: number; total: number; accuracy: number } | null>(null);
+  const cardStartTime = useRef(Date.now());
+
+  const loadQueue = useCallback(async () => {
+    setState("loading");
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { router.push("/auth/login"); return; }
+
+    // Cargar progreso con datos de la palabra unida
+    const { data: progress, error } = await supabase
+      .from("user_word_progress")
+      .select(`
+        *,
+        words (
+          id, word_eu, translation_es, translation_en,
+          category, difficulty, pronunciation, definition_simple,
+          uso_habitual,
+          examples ( sentence_eu, sentence_es )
+        )
+      `)
+      .eq("user_id", user.id);
+
+    if (error || !progress) { setState("empty"); return; }
+
+    const now = new Date();
+    const due = progress.filter(p =>
+      p.next_review_at && new Date(p.next_review_at) <= now
+    ) as ProgressWithWord[];
+    const newWords = progress.filter(p => !p.next_review_at) as ProgressWithWord[];
+
+    const { cards } = getStudyQueue({
+      dueWords: due as UserWordProgress[],
+      newWords: newWords as UserWordProgress[],
+      maxNew: 10,
+      limit: 20,
+    });
+
+    if (cards.length === 0) { setState("empty"); return; }
+
+    // Reordenar la queue manteniendo los datos de la palabra
+    const ordered = cards.map(c =>
+      progress.find(p => p.word_id === c.progress.word_id)
+    ).filter(Boolean) as ProgressWithWord[];
+
+    setQueue(ordered);
+    setCurrentIdx(0);
+    setResults([]);
+    cardStartTime.current = Date.now();
+    setState("studying");
+  }, [supabase, router]);
+
+  useEffect(() => { loadQueue(); }, [loadQueue]);
+
+  const handleQualitySelect = useCallback(async (quality: 0 | 1 | 2 | 3 | 4 | 5) => {
+    const current = queue[currentIdx];
+    if (!current) return;
+
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) return;
+
+    const responseTime = Math.round((Date.now() - cardStartTime.current) / 1000);
+    const sm2Result: SM2Result = calculateSM2(current as UserWordProgress, quality);
+
+    // Guardar en Supabase (upsert)
+    await supabase
+      .from("user_word_progress")
+      .upsert({
+        user_id: user.id,
+        word_id: current.word_id,
+        ...sm2Result,
+      }, { onConflict: "user_id,word_id" });
+
+    const result: ReviewResult = {
+      word_id: current.word_id,
+      quality,
+      response_time_seconds: responseTime,
+      reviewed_at: new Date().toISOString(),
+    };
+    const newResults = [...results, result];
+    setResults(newResults);
+
+    const nextIdx = currentIdx + 1;
+    if (nextIdx >= queue.length) {
+      // Sesión terminada — calcular stats
+      const correct = newResults.filter(r => r.quality >= 3).length;
+      setSessionStats({
+        correct,
+        total: newResults.length,
+        accuracy: Math.round((correct / newResults.length) * 100),
+      });
+      setState("finished");
+
+      // Guardar sesión
+      await supabase.from("sessions").insert({
+        user_id: user.id,
+        total_reviewed: newResults.length,
+        correct_count: correct,
+        accuracy_percentage: Math.round((correct / newResults.length) * 100),
+        session_duration_seconds: newResults.reduce((s, r) => s + r.response_time_seconds, 0),
+        reviewed_at: new Date().toISOString(),
+      });
+    } else {
+      setCurrentIdx(nextIdx);
+      cardStartTime.current = Date.now();
+    }
+  }, [queue, currentIdx, results, supabase]);
+
+  // ── ESTADOS DE PANTALLA ──────────────────────────────────────
+
+  if (state === "loading") {
+    return (
+      <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
+        <div className="text-center space-y-3">
+          <div className="w-8 h-8 border-2 border-violet-500 border-t-transparent rounded-full animate-spin mx-auto" />
+          <p className="text-sm text-zinc-500">Preparando tu sesión...</p>
+        </div>
+      </main>
+    );
+  }
+
+  if (state === "empty") {
+    return (
+      <main className="min-h-screen bg-zinc-950 flex items-center justify-center p-4">
+        <div className="text-center max-w-sm space-y-5">
+          <div className="w-16 h-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center mx-auto">
+            <CheckCircle2 className="w-8 h-8 text-emerald-400" />
           </div>
-          <button className="px-6 py-2 bg-text-primary text-background text-sm font-semibold rounded-xl hover:bg-white transition-colors">
-            Mostrar Respuesta
-          </button>
+          <div>
+            <h2 className="text-2xl font-bold text-zinc-100">¡Todo al día!</h2>
+            <p className="text-zinc-500 text-sm mt-2">No hay palabras pendientes ahora mismo. Vuelve más tarde.</p>
+          </div>
+          <Button onClick={() => router.push("/dashboard")} variant="secondary" className="w-full">
+            Volver al Dashboard
+          </Button>
         </div>
-      </section>
+      </main>
+    );
+  }
 
-      <footer className="w-full py-4 border-t border-border flex justify-between gap-4">
-        <button className="flex-1 py-3 text-sm font-semibold text-text-secondary bg-background-subtle border border-border rounded-xl hover:border-active transition-all">
-          No la sé (0)
+  if (state === "finished" && sessionStats) {
+    return (
+      <main className="min-h-screen bg-zinc-950 flex items-center justify-center p-4">
+        <div className="w-full max-w-sm space-y-6">
+          <div className="text-center">
+            <div className="w-16 h-16 rounded-2xl bg-violet-500/10 border border-violet-500/20 flex items-center justify-center mx-auto mb-4">
+              <Zap className="w-8 h-8 text-violet-400" />
+            </div>
+            <h2 className="text-2xl font-bold text-zinc-100">¡Sesión completada!</h2>
+            <p className="text-zinc-500 text-sm mt-1">Aquí tienes tu resumen</p>
+          </div>
+
+          {/* Stats card */}
+          <div className="bg-zinc-900/60 border border-white/[0.06] rounded-2xl p-5 space-y-4">
+            <div className="grid grid-cols-3 gap-4 text-center">
+              <div>
+                <p className="text-2xl font-bold text-zinc-100">{sessionStats.total}</p>
+                <p className="text-xs text-zinc-500 mt-0.5">Revisadas</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-emerald-400">{sessionStats.correct}</p>
+                <p className="text-xs text-zinc-500 mt-0.5">Correctas</p>
+              </div>
+              <div>
+                <p className="text-2xl font-bold text-violet-400">{sessionStats.accuracy}%</p>
+                <p className="text-xs text-zinc-500 mt-0.5">Precisión</p>
+              </div>
+            </div>
+
+            <div className="h-2 bg-zinc-800 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-gradient-to-r from-violet-500 to-emerald-500 rounded-full transition-all duration-1000"
+                style={{ width: `${sessionStats.accuracy}%` }}
+              />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-3">
+            <Button onClick={loadQueue} variant="secondary" className="flex items-center gap-2 justify-center">
+              <RotateCcw className="w-4 h-4" /> Otra sesión
+            </Button>
+            <Button onClick={() => router.push("/dashboard")} className="flex items-center gap-2 justify-center">
+              <Home className="w-4 h-4" /> Dashboard
+            </Button>
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  // ── PANTALLA DE ESTUDIO PRINCIPAL ────────────────────────────
+  const currentCard = queue[currentIdx];
+  if (!currentCard?.words) return null;
+
+  const progress = currentIdx + 1;
+  const total = queue.length;
+
+  return (
+    <main className="min-h-screen bg-zinc-950 flex flex-col">
+      {/* Header */}
+      <div className="border-b border-white/[0.06] px-4 py-3 flex items-center justify-between max-w-2xl mx-auto w-full">
+        <button
+          onClick={() => router.push("/dashboard")}
+          className="text-sm text-zinc-500 hover:text-zinc-300 transition-colors"
+        >
+          ← Salir
         </button>
-        <button className="flex-1 py-3 text-sm font-semibold text-text-primary bg-background-subtle border border-border rounded-xl hover:border-active transition-all">
-          Dudoso (3)
-        </button>
-        <button className="flex-1 py-3 text-sm font-semibold text-background bg-brand rounded-xl hover:bg-brand-hover transition-colors shadow-glow">
-          Fácil (5)
-        </button>
-      </footer>
+        <span className="text-sm font-medium text-zinc-400">
+          {progress} de {total}
+        </span>
+        <div className="flex items-center gap-1.5 text-zinc-500">
+          <Target className="w-3.5 h-3.5" />
+          <span className="text-xs">{results.filter(r => r.quality >= 3).length} correctas</span>
+        </div>
+      </div>
+
+      {/* Progress bar */}
+      <div className="h-1 bg-zinc-900">
+        <div
+          className="h-full bg-violet-500 transition-all duration-500"
+          style={{ width: `${((currentIdx) / total) * 100}%` }}
+        />
+      </div>
+
+      {/* Card */}
+      <div className="flex-1 flex items-center justify-center p-4">
+        <FlashCard
+          word={currentCard.words}
+          onQualitySelect={handleQualitySelect}
+        />
+      </div>
     </main>
   );
 }
