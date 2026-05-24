@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js'
-import { readFileSync } from 'fs'
+import { readFileSync, readdirSync } from 'fs'
+import path from 'path'
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://okoqgrrspwxaonbyfkxf.supabase.co'
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -11,7 +12,22 @@ if (!SUPABASE_KEY) {
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY)
-const words = JSON.parse(readFileSync('./data/words_seed.json', 'utf8'))
+
+// Leer todos los archivos JSON de la carpeta data
+const dataDir = './data'
+const files = readdirSync(dataDir).filter(file => file.endsWith('.json'))
+
+let words = []
+for (const file of files) {
+  const filePath = path.join(dataDir, file)
+  try {
+    const fileData = JSON.parse(readFileSync(filePath, 'utf8'))
+    words = words.concat(fileData)
+    console.log(`📄 Leído: ${file} (${fileData.length} palabras)`)
+  } catch (e) {
+    console.error(`❌ Error leyendo ${file}:`, e.message)
+  }
+}
 
 const categoryMap = {
     'saludos': 'saludo',
@@ -57,10 +73,17 @@ const cleaned = words.map(w => ({
     is_active: w.is_active ?? true,
 }))
 
-console.log(`Upserting ${cleaned.length} words to 'words' table...`)
+// Deduplicar palabras por word_eu (manteniendo la última aparición)
+const uniqueCleanedMap = new Map()
+for (const w of cleaned) {
+    uniqueCleanedMap.set(w.word_eu, w)
+}
+const uniqueCleaned = Array.from(uniqueCleanedMap.values())
+
+console.log(`Upserting ${uniqueCleaned.length} words to 'words' table...`)
 const { data: insertedWords, error: wordsError } = await supabase
     .from('words')
-    .upsert(cleaned, { onConflict: 'word_eu' })
+    .upsert(uniqueCleaned, { onConflict: 'word_eu' })
     .select('id, word_eu')
 
 if (wordsError) {
