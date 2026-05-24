@@ -153,7 +153,7 @@ export default function StudyPage() {
       if (categoryFilter && categoryFilter !== "all") {
         const selectedCategories = categoryFilter.split(',').map(c => c.trim());
         practicePool = progress.filter(p => 
-          p.words?.tags?.some(tag => selectedCategories.includes(tag))
+          p.words?.tags?.some((tag: string) => selectedCategories.includes(tag))
         );
       }
       

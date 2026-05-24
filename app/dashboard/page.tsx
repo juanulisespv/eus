@@ -179,7 +179,7 @@ export default async function DashboardPage() {
                 ];
                 const learnedThemes = Array.from(
                   new Set(allProgress.flatMap(p => p.words?.tags ?? []))
-                ).filter(tag => tag && !GRAMMAR_TAGS.includes(tag));
+                ).filter((tag: string) => tag && !GRAMMAR_TAGS.includes(tag));
                 
                 return <CategorySelector categories={learnedThemes} />;
               })()}
