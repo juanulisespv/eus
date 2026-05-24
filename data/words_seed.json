@@ -2163,5 +2163,219 @@
       "joan"
     ],
     "is_active": true
+  },
+  {
+    "word_eu": "nahi",
+    "translation_es": "querer",
+    "is_active": true,
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 113,
+    "pronunciation": "nai",
+    "definition_simple": "Expresa deseo o voluntad.",
+    "uso_habitual": "Generalmente va seguido de 'dut/du'. Ej: nahi dut (quiero).",
+    "frase_1_eu": "Ura nahi dut",
+    "frase_1_es": "Quiero agua",
+    "frase_2_eu": "Zer nahi duzu?",
+    "frase_2_es": "¿Qué quieres?",
+    "tags": [
+      "verbo",
+      "deseo",
+      "nor-nork"
+    ]
+  },
+  {
+    "word_eu": "behar",
+    "translation_es": "necesitar / deber",
+    "is_active": true,
+    "category": "verbos",
+    "difficulty": 1,
+    "frequency_rank": 114,
+    "pronunciation": "bear",
+    "definition_simple": "Expresa necesidad u obligación.",
+    "uso_habitual": "Como 'nahi', va con 'dut/du'. Ej: behar dut (necesito).",
+    "frase_1_eu": "Laguntza behar dut",
+    "frase_1_es": "Necesito ayuda",
+    "frase_2_eu": "Joan behar dut",
+    "frase_2_es": "Me tengo que ir",
+    "tags": [
+      "verbo",
+      "necesidad",
+      "nor-nork"
+    ]
+  },
+  {
+    "word_eu": "jakin",
+    "translation_es": "saber",
+    "is_active": true,
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 115,
+    "pronunciation": "yakin",
+    "definition_simple": "Tener conocimiento de algo.",
+    "uso_habitual": "Conjugación sintética común: badakit (ya lo sé), ez dakit (no lo sé).",
+    "frase_1_eu": "Ez dakit ezer",
+    "frase_1_es": "No sé nada",
+    "frase_2_eu": "Euskaraz badakizu?",
+    "frase_2_es": "¿Sabes euskera?",
+    "tags": [
+      "verbo",
+      "conocimiento",
+      "nor-nork"
+    ]
+  },
+  {
+    "word_eu": "dakit",
+    "translation_es": "sé (de jakin)",
+    "is_active": true,
+    "category": "verbos",
+    "difficulty": 2,
+    "frequency_rank": 116,
+    "pronunciation": "dakit",
+    "definition_simple": "Primera persona (ni) presente sintético de jakin.",
+    "uso_habitual": "Suele usarse con 'ba-' afirmativo: badakit (lo sé).",
+    "frase_1_eu": "Badakit hori",
+    "frase_1_es": "Ya sé eso",
+    "frase_2_eu": "Ez dakit non dagoen",
+    "frase_2_es": "No sé dónde está",
+    "tags": [
+      "verbo",
+      "conjugado",
+      "nor-nork"
+    ]
+  },
+  {
+    "word_eu": "hemen",
+    "translation_es": "aquí",
+    "is_active": true,
+    "category": "lugares",
+    "difficulty": 1,
+    "frequency_rank": 117,
+    "pronunciation": "emen",
+    "definition_simple": "Indica un lugar cercano al hablante.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Hemen nago",
+    "frase_1_es": "Estoy aquí",
+    "frase_2_eu": "Zatoz hona!",
+    "frase_2_es": "¡Ven aquí! (hona = a aquí)",
+    "tags": [
+      "lugar",
+      "adverbio",
+      "basico"
+    ]
+  },
+  {
+    "word_eu": "hor",
+    "translation_es": "ahí",
+    "is_active": true,
+    "category": "lugares",
+    "difficulty": 1,
+    "frequency_rank": 118,
+    "pronunciation": "or",
+    "definition_simple": "Lugar a media distancia.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Hor dago",
+    "frase_1_es": "Está ahí",
+    "frase_2_eu": "Utzi hor",
+    "frase_2_es": "Déjalo ahí",
+    "tags": [
+      "lugar",
+      "adverbio"
+    ]
+  },
+  {
+    "word_eu": "han",
+    "translation_es": "allí",
+    "is_active": true,
+    "category": "lugares",
+    "difficulty": 1,
+    "frequency_rank": 119,
+    "pronunciation": "an",
+    "definition_simple": "Lugar lejano.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Han bizi naiz",
+    "frase_1_es": "Vivo allí",
+    "frase_2_eu": "Ikusten duzu han?",
+    "frase_2_es": "¿Lo ves allí?",
+    "tags": [
+      "lugar",
+      "adverbio"
+    ]
+  },
+  {
+    "word_eu": "orain",
+    "translation_es": "ahora",
+    "is_active": true,
+    "category": "tiempo",
+    "difficulty": 1,
+    "frequency_rank": 120,
+    "pronunciation": "orain",
+    "definition_simple": "En este momento.",
+    "uso_habitual": "Adverbio de tiempo.",
+    "frase_1_eu": "Orain lan egiten dut",
+    "frase_1_es": "Ahora trabajo",
+    "frase_2_eu": "Oraintxe bertan!",
+    "frase_2_es": "¡Ahora mismo!",
+    "tags": [
+      "tiempo",
+      "adverbio"
+    ]
+  },
+  {
+    "word_eu": "gero",
+    "translation_es": "luego / después",
+    "is_active": true,
+    "category": "tiempo",
+    "difficulty": 1,
+    "frequency_rank": 121,
+    "pronunciation": "guero",
+    "definition_simple": "En un momento posterior.",
+    "uso_habitual": "Adverbio de tiempo.",
+    "frase_1_eu": "Gero arte!",
+    "frase_1_es": "¡Hasta luego!",
+    "frase_2_eu": "Gero egingo dut",
+    "frase_2_es": "Lo haré luego",
+    "tags": [
+      "tiempo",
+      "adverbio"
+    ]
+  },
+  {
+    "word_eu": "beti",
+    "translation_es": "siempre",
+    "is_active": true,
+    "category": "tiempo",
+    "difficulty": 1,
+    "frequency_rank": 122,
+    "pronunciation": "beti",
+    "definition_simple": "En todo momento.",
+    "uso_habitual": "Adverbio de frecuencia.",
+    "frase_1_eu": "Beti berandu zabiltza",
+    "frase_1_es": "Siempre andas tarde",
+    "frase_2_eu": "Betiko lagunak",
+    "frase_2_es": "Amigos de siempre",
+    "tags": [
+      "tiempo",
+      "frecuencia"
+    ]
+  },
+  {
+    "word_eu": "inoiz",
+    "translation_es": "alguna vez / nunca",
+    "is_active": true,
+    "category": "tiempo",
+    "difficulty": 2,
+    "frequency_rank": 123,
+    "pronunciation": "inois",
+    "definition_simple": "En algún momento (o ninguno si va con negativa).",
+    "uso_habitual": "Con 'ez' significa nunca (Inoiz ez).",
+    "frase_1_eu": "Inoiz izan zara han?",
+    "frase_1_es": "¿Has estado allí alguna vez?",
+    "frase_2_eu": "Inoiz ez dut esan hori",
+    "frase_2_es": "Nunca he dicho eso",
+    "tags": [
+      "tiempo",
+      "frecuencia"
+    ]
   }
 ]
