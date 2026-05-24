@@ -333,6 +333,7 @@ export default function StudyPage() {
       {/* Card */}
       <div className="flex-1 flex items-center justify-center p-4">
         <FlashCard
+          key={currentCard.word_id}
           word={currentCard.words}
           onQualitySelect={handleQualitySelect}
         />

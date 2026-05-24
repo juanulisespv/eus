@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence, useMotionValue, useTransform, PanInfo } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
@@ -40,6 +40,32 @@ export function FlashCard({
 }: FlashCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  // ─── Atajos de Teclado ────────────────────────────────────────────────────────
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Ignorar si se está escribiendo en un input
+      if (document.activeElement?.tagName === "INPUT" || document.activeElement?.tagName === "TEXTAREA") {
+        return;
+      }
+
+      if (!isFlipped) {
+        if (e.code === "Space" || e.code === "Enter") {
+          e.preventDefault();
+          setIsFlipped(true);
+        }
+      } else {
+        // Mapeo numérico para calificar (del 1 al 4)
+        if (e.key === "1") { e.preventDefault(); onQualitySelect(0); }
+        if (e.key === "2") { e.preventDefault(); onQualitySelect(2); }
+        if (e.key === "3") { e.preventDefault(); onQualitySelect(4); }
+        if (e.key === "4") { e.preventDefault(); onQualitySelect(5); }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isFlipped, onQualitySelect]);
+
   // Valores de movimiento para tracking en tiempo real (sin re-renders)
   const x = useMotionValue(0);
 
@@ -77,14 +103,30 @@ export function FlashCard({
     }
   };
 
-  // Reproducir audio si está disponible
-  const playAudio = (e: React.MouseEvent) => {
-    e.stopPropagation();
+  // Reproducir audio si está disponible o usar Web Speech API
+  const playAudio = useCallback((e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    
+    // Evitar que TTS se acumule si el usuario pulsa rápido
+    if (typeof window !== "undefined" && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
+
     if (word.audio_url) {
       const audio = new Audio(word.audio_url);
       audio.play().catch((err) => console.log("Audio play failed", err));
+    } else if (typeof window !== "undefined" && window.speechSynthesis) {
+      // Fallback a Text-To-Speech nativo (Voz Sintética)
+      const utterance = new SpeechSynthesisUtterance(word.word_eu);
+      utterance.lang = "eu-ES"; // Código de Euskera
+      utterance.rate = 0.85; // Ligeramente más lento para aprender la pronunciación
+      window.speechSynthesis.speak(utterance);
     }
-  };
+  }, [word]);
+
+  // Auto-pronunciar al girar la tarjeta o al aparecer (opcional, pero mejora la retención)
+  // Descomentar si se quiere que suene al girar la tarjeta:
+  // useEffect(() => { if (isFlipped) playAudio(); }, [isFlipped, playAudio]);
 
   const currentExample = word.examples?.[0];
 
@@ -147,15 +189,14 @@ export function FlashCard({
                   [{word.pronunciation}]
                 </span>
               )}
-              {word.audio_url && (
-                <button
-                  onClick={playAudio}
-                  aria-label="Escuchar pronunciación"
-                  className="p-3 bg-zinc-800/80 rounded-full hover:bg-zinc-700 text-zinc-300 hover:text-violet-400 transition-colors mt-2"
-                >
-                  <Volume2 className="h-5 w-5" />
-                </button>
-              )}
+              
+              <button
+                onClick={playAudio}
+                aria-label="Escuchar pronunciación"
+                className="p-3 bg-zinc-800/80 rounded-full hover:bg-zinc-700 text-zinc-300 hover:text-violet-400 transition-colors mt-2"
+              >
+                <Volume2 className="h-5 w-5" />
+              </button>
             </div>
 
             {/* Pista de interacción */}
