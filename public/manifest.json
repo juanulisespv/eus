@@ -1,11 +1,11 @@
 {
-  "name": "Euskara SRS Learning",
-  "short_name": "EuskaraSRS",
-  "description": "Aprende vocabulario en euskera de manera eficiente usando el algoritmo de repetición espaciada SM-2.",
+  "name": "Euskara SRS — Aprendizaje de Euskera",
+  "short_name": "Euskara SRS",
+  "description": "Aprende vocabulario en euskera de manera eficiente usando repetición espaciada (algoritmo SM-2).",
   "start_url": "/dashboard",
   "display": "standalone",
-  "background_color": "#08090a",
-  "theme_color": "#08090a",
+  "background_color": "#09090b",
+  "theme_color": "#8b5cf6",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -19,6 +19,32 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Sesión de Estudio",
+      "short_name": "Estudiar",
+      "description": "Inicia tu sesión diaria de repaso de vocabulario",
+      "url": "/study",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ver Vocabulario",
+      "short_name": "Vocabulario",
+      "description": "Explora tu mazo de palabras y términos en euskera",
+      "url": "/vocabulary",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "db:seed": "node --env-file=.env.local import_seed.mjs",
+    "db:reset": "node --env-file=.env.local reset_progress.mjs"
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.2.7",
