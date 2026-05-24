@@ -3,14 +3,31 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { cn } from "@/lib/utils";
-import { LucideIcon, TrendingUp, TrendingDown, Minus } from "lucide-react";
+import { 
+  TrendingUp, 
+  TrendingDown, 
+  Minus,
+  BookOpen,
+  Target,
+  CheckCircle,
+  Brain,
+  HelpCircle
+} from "lucide-react";
 import { Card } from "@/components/ui/Card";
+
+// Mapa de iconos para evitar serializar funciones desde componentes de servidor
+const iconMap = {
+  book: BookOpen,
+  target: Target,
+  check: CheckCircle,
+  brain: Brain,
+};
 
 interface StatsCardProps {
   title: string;
   value: string | number;
   subtitle: string;
-  icon: LucideIcon;
+  icon: keyof typeof iconMap;
   trend?: "up" | "down" | "neutral";
   className?: string;
 }
@@ -19,7 +36,7 @@ export function StatsCard({
   title,
   value,
   subtitle,
-  icon: Icon,
+  icon,
   trend = "neutral",
   className = "",
 }: StatsCardProps) {
@@ -66,13 +83,14 @@ export function StatsCard({
   };
 
   const TrendIcon = trends[trend].icon;
+  const IconComponent = iconMap[icon] || HelpCircle;
 
   return (
     <Card interactive padding="md" className={cn("flex flex-col justify-between min-h-[140px]", className)}>
       <div className="flex justify-between items-start">
         <span className="text-xs font-semibold text-zinc-400 uppercase tracking-wider">{title}</span>
         <div className="p-2 bg-zinc-800/60 border border-white/5 rounded-xl text-brand">
-          <Icon className="h-4 w-4" />
+          <IconComponent className="h-4 w-4 text-violet-400" />
         </div>
       </div>
 

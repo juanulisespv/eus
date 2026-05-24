@@ -136,28 +136,28 @@ export default async function DashboardPage() {
             title="Pendientes"
             value={pendingTotal}
             subtitle="para hoy"
-            icon={BookOpen}
+            icon="book"
             trend={pendingTotal > 0 ? "down" : "neutral"}
           />
           <StatsCard
             title="Aprendidas"
             value={learned}
-            subtitle="de {allProgress.length} totales"
-            icon={CheckCircle}
+            subtitle={`de ${allProgress.length} totales`}
+            icon="check"
             trend="up"
           />
           <StatsCard
             title="Precisión"
             value={`${accuracy}%`}
             subtitle="aciertos históricos"
-            icon={Target}
+            icon="target"
             trend={accuracy >= 70 ? "up" : accuracy >= 50 ? "neutral" : "down"}
           />
           <StatsCard
             title="Vocabulario"
             value={allProgress.length}
             subtitle="palabras en progreso"
-            icon={Brain}
+            icon="brain"
             trend="neutral"
           />
         </div>
