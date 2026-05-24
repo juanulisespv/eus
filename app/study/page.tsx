@@ -33,6 +33,14 @@ export default function StudyPage() {
     const { data: { user } } = await supabase.auth.getUser();
     if (!user) { router.push("/auth/login"); return; }
 
+    // ── Leer objetivo diario del usuario ────────────────────────
+    const { data: prefs } = await supabase
+      .from("user_preferences")
+      .select("daily_goal")
+      .eq("user_id", user.id)
+      .maybeSingle();
+    const dailyGoal = prefs?.daily_goal ?? 10;
+
     // Cargar progreso con datos de la palabra unida
     let { data: progress, error } = await supabase
       .from("user_word_progress")
@@ -50,16 +58,13 @@ export default function StudyPage() {
     if (error) { setState("empty"); return; }
 
     // ── AUTO-ENROLL: usuario nuevo sin palabras asignadas ────────
-    // Si no tiene ningún progreso, le asignamos las primeras 10 palabras
-    // activas del catálogo ordenadas por frecuencia para que pueda empezar
-    // a estudiar de inmediato sin esperar al día siguiente.
     if (!progress || progress.length === 0) {
       const { data: seedWords } = await supabase
         .from("words")
         .select("id")
         .eq("is_active", true)
         .order("frequency_rank", { ascending: true })
-        .limit(10);
+        .limit(dailyGoal);
 
       if (seedWords && seedWords.length > 0) {
         const newRows = seedWords.map(w => ({
@@ -71,11 +76,10 @@ export default function StudyPage() {
           mastery_score: 0,
           total_reviews: 0,
           correct_reviews: 0,
-          next_review_at: null, // null = palabra nueva, se muestra esta sesión
+          next_review_at: null,
         }));
         await supabase.from("user_word_progress").insert(newRows);
 
-        // Recargar progreso tras insertar
         const reloaded = await supabase
           .from("user_word_progress")
           .select(`
@@ -103,8 +107,8 @@ export default function StudyPage() {
     const { cards } = getStudyQueue({
       dueWords: due as UserWordProgress[],
       newWords: newWords as UserWordProgress[],
-      maxNew: 10,
-      limit: 20,
+      maxNew: dailyGoal,
+      limit: dailyGoal + 20, // repasos vencidos + nuevas del objetivo
     });
 
     let orderedQueue: ProgressWithWord[];

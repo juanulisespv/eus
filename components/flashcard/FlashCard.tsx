@@ -47,11 +47,11 @@ export function FlashCard({
   const rightOpacity = useTransform(x, [0, SWIPE_THRESHOLD], [0, 1]);
   const leftOpacity = useTransform(x, [-SWIPE_THRESHOLD, 0], [1, 0]);
 
-  // Color de fondo sutil según dirección del arrastre
+  // Color de fondo según dirección del arrastre (más intenso)
   const bgColor = useTransform(
     x,
-    [-SWIPE_THRESHOLD * 1.5, 0, SWIPE_THRESHOLD * 1.5],
-    ["rgba(239,68,68,0.08)", "rgba(0,0,0,0)", "rgba(34,197,94,0.08)"]
+    [-SWIPE_THRESHOLD * 1.2, 0, SWIPE_THRESHOLD * 1.2],
+    ["rgba(239,68,68,0.25)", "rgba(0,0,0,0)", "rgba(34,197,94,0.25)"]
   );
 
   // Rotación de la tarjeta al arrastrar
@@ -96,17 +96,19 @@ export function FlashCard({
         {/* Indicador izquierdo: Mal */}
         <motion.div
           style={{ opacity: leftOpacity }}
-          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 flex items-center gap-2 bg-red-500/20 border border-red-500/40 text-red-400 font-bold text-lg px-4 py-2 rounded-2xl pointer-events-none"
+          className="absolute left-3 top-1/2 -translate-y-1/2 z-10 flex flex-col items-center gap-1 bg-red-600 text-white font-black text-xl px-5 py-4 rounded-2xl shadow-lg pointer-events-none"
         >
-          <ThumbsDown className="w-5 h-5" /> Mal
+          <ThumbsDown className="w-7 h-7" />
+          <span>MAL</span>
         </motion.div>
 
         {/* Indicador derecho: Bien */}
         <motion.div
           style={{ opacity: rightOpacity }}
-          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 flex items-center gap-2 bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 font-bold text-lg px-4 py-2 rounded-2xl pointer-events-none"
+          className="absolute right-3 top-1/2 -translate-y-1/2 z-10 flex flex-col items-center gap-1 bg-emerald-600 text-white font-black text-xl px-5 py-4 rounded-2xl shadow-lg pointer-events-none"
         >
-          Bien <ThumbsUp className="w-5 h-5" />
+          <ThumbsUp className="w-7 h-7" />
+          <span>BIEN</span>
         </motion.div>
 
         {/* Tarjeta arrastrable */}
@@ -136,12 +138,12 @@ export function FlashCard({
             </div>
 
             {/* Palabra central */}
-            <div className="flex-1 flex flex-col justify-center items-center text-center space-y-3 py-4">
-              <h2 className="text-5xl font-extrabold text-zinc-100 tracking-tighter">
+            <div className="flex-1 flex flex-col justify-center items-center text-center space-y-4 py-4">
+              <h2 className="text-6xl font-black text-zinc-100 tracking-tighter leading-none">
                 {word.word_eu}
               </h2>
               {word.pronunciation && (
-                <span className="text-zinc-500 font-mono text-sm">
+                <span className="text-zinc-400 font-mono text-base">
                   [{word.pronunciation}]
                 </span>
               )}
@@ -157,14 +159,14 @@ export function FlashCard({
             </div>
 
             {/* Pista de interacción */}
-            <div className="text-center space-y-1">
-              <p className="text-xs text-zinc-600 font-medium">
+            <div className="text-center space-y-1.5">
+              <p className="text-sm text-zinc-500 font-medium">
                 Toca para ver la respuesta
               </p>
-              <div className="flex items-center justify-center gap-3 text-[11px] text-zinc-700">
-                <span>← Desliza si fallaste</span>
-                <span>·</span>
-                <span>Desliza si acertaste →</span>
+              <div className="flex items-center justify-center gap-2 text-xs text-zinc-600">
+                <span>← Mal</span>
+                <span className="text-zinc-700">·</span>
+                <span>Bien →</span>
               </div>
             </div>
           </div>
@@ -181,7 +183,7 @@ export function FlashCard({
             <div className="space-y-4 overflow-y-auto flex-1 pr-1">
               <div className="border-b border-white/[0.06] pb-3">
                 <span className="text-xs text-zinc-500 font-semibold uppercase tracking-wider">Traducción</span>
-                <h3 className="text-3xl font-bold text-zinc-100 mt-1">{word.translation_es}</h3>
+                <h3 className="text-4xl font-black text-zinc-100 mt-1 leading-tight">{word.translation_es}</h3>
               </div>
 
               {word.definition_simple && (
