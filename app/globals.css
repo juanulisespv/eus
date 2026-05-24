@@ -15,13 +15,15 @@
   @media (max-width: 640px) {
     html {
       /* Base 17px en móvil para mejor legibilidad sin romper layouts */
-      font-size: 17px;
+      font-size: 18px;
     }
   }
 
   body {
-    background-color: #08090a; /* background.DEFAULT de Tailwind config */
-    color: #f3f4f6;            /* text.primary de Tailwind config */
+    background-color: #08090a;
+    /* background.DEFAULT de Tailwind config */
+    color: #f3f4f6;
+    /* text.primary de Tailwind config */
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -54,6 +56,7 @@
     mask-composite: exclude;
     pointer-events: none;
   }
+
   .perspective-1000 {
     perspective: 1000px;
   }
