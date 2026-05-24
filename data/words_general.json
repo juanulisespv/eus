@@ -1,0 +1,482 @@
+[
+  {
+    "word_eu": "egun",
+    "translation_es": "día",
+    "translation_en": "day",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 62,
+    "pronunciation": "egun",
+    "definition_simple": "Período de 24 horas o tiempo con luz solar",
+    "uso_habitual": "Eguna (el día), egunero (todos los días), gaur egun (hoy en día).",
+    "frase_1_eu": "Egun ederra da gaurkoa",
+    "frase_1_es": "El día de hoy es hermoso",
+    "frase_2_eu": "Hiru egun barru etorriko da",
+    "frase_2_es": "Vendrá dentro de tres días",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gaur",
+    "translation_es": "hoy",
+    "translation_en": "today",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 63,
+    "pronunciation": "gaur",
+    "definition_simple": "En el día presente",
+    "uso_habitual": "Gaur gauean (hoy por la noche/esta noche), gaur goizean (hoy por la mañana).",
+    "frase_1_eu": "Gaur hotz egiten du",
+    "frase_1_es": "Hoy hace frío",
+    "frase_2_eu": "Gaur ez daukat lanik",
+    "frase_2_es": "Hoy no tengo trabajo",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bihar",
+    "translation_es": "mañana",
+    "translation_en": "tomorrow",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 64,
+    "pronunciation": "biar",
+    "definition_simple": "En el día posterior al de hoy",
+    "uso_habitual": "Bihar arte (hasta mañana), bihar goizean (mañana por la mañana).",
+    "frase_1_eu": "Bihar zinera joango naiz",
+    "frase_1_es": "Mañana iré al cine",
+    "frase_2_eu": "Bihar lan handia daukagu",
+    "frase_2_es": "Mañana tenemos mucho trabajo",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "atzo",
+    "translation_es": "ayer",
+    "translation_en": "yesterday",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 65,
+    "pronunciation": "atso",
+    "definition_simple": "En el día inmediatamente anterior al de hoy",
+    "uso_habitual": "Atzo gauean (ayer por la noche).",
+    "frase_1_eu": "Atzo Bilbon izan nintzen",
+    "frase_1_es": "Ayer estuve en Bilbao",
+    "frase_2_eu": "Atzo ez nuen ezer jan",
+    "frase_2_es": "Ayer no comí nada",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ordu",
+    "translation_es": "hora / tiempo",
+    "translation_en": "hour / time",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 66,
+    "pronunciation": "ordu",
+    "definition_simple": "Cada una de las 24 partes del día",
+    "uso_habitual": "Ordua (la hora), orduan (entonces/en aquella hora), zer ordu da? (¿qué hora es?).",
+    "frase_1_eu": "Zer ordu da, mesedez?",
+    "frase_1_es": "¿Qué hora es, por favor?",
+    "frase_2_eu": "Ordu bat ikasten egon naiz",
+    "frase_2_es": "He estado estudiando una hora",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "aste",
+    "translation_es": "semana",
+    "translation_en": "week",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 67,
+    "pronunciation": "aste",
+    "definition_simple": "Serie de siete días consecutivos",
+    "uso_habitual": "Astea (la semana), asteburua (el fin de semana), asteazkena (miércoles).",
+    "frase_1_eu": "Aste honetan oporrak ditut",
+    "frase_1_es": "Esta semana tengo vacaciones",
+    "frase_2_eu": "Datorren astean etorriko da",
+    "frase_2_es": "Vendrá la semana que viene",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hilabete",
+    "translation_es": "mes",
+    "translation_en": "month",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 68,
+    "pronunciation": "ilabete",
+    "definition_simple": "Período aproximado de 30 días",
+    "uso_habitual": "Significa literalmente 'mes entero' o 'luna llena'. hilabetean behin (una vez al mes).",
+    "frase_1_eu": "Hilabete honetan euria egin du",
+    "frase_1_es": "Este mes ha llovido",
+    "frase_2_eu": "Duela hilabete bat hasi nintzen",
+    "frase_2_es": "Empecé hace un mes",
+    "tags": [
+      "tiempo",
+      "calendario"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "urte",
+    "translation_es": "año",
+    "translation_en": "year",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 69,
+    "pronunciation": "urte",
+    "definition_simple": "Tiempo de 365 días en dar la vuelta a la Tierra",
+    "uso_habitual": "Urtea (el año), urtero (todos los años), urte berri (año nuevo). Se usa para decir la edad con 'eduki' o sin verbo.",
+    "frase_1_eu": "Hogeitamar urte ditut",
+    "frase_1_es": "Tengo treinta años",
+    "frase_2_eu": "Urte berri on guztioi!",
+    "frase_2_es": "¡Feliz año nuevo a todos!",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "goiz",
+    "translation_es": "mañana / temprano",
+    "translation_en": "morning / early",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 70,
+    "pronunciation": "gois",
+    "definition_simple": "Primeras horas del día antes del mediodía",
+    "uso_habitual": "Goizean (por la mañana), oso goiz da (es muy temprano).",
+    "frase_1_eu": "Goizeko zazpietan jaikitzen naiz",
+    "frase_1_es": "Me levanto a las siete de la mañana",
+    "frase_2_eu": "Gaur goizean lanean egon naiz",
+    "frase_2_es": "Esta mañana he estado en el trabajo",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gaua",
+    "translation_es": "noche",
+    "translation_en": "night",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 71,
+    "pronunciation": "gaua",
+    "definition_simple": "Tiempo transcurrido desde que se pone el sol hasta que sale",
+    "uso_habitual": "Gauean (por la noche), gauerdia (medianoche).",
+    "frase_1_eu": "Gaueko hamarrak dira",
+    "frase_1_es": "Son las diez de la noche",
+    "frase_2_eu": "Mendira gauean joatea arriskutsua da",
+    "frase_2_es": "Ir al monte de noche es peligroso",
+    "tags": [
+      "tiempo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eta",
+    "translation_es": "y",
+    "translation_en": "and",
+    "category": "conjuncion",
+    "difficulty": 1,
+    "frequency_rank": 91,
+    "pronunciation": "eta",
+    "definition_simple": "Conjunción copulativa para unir elementos",
+    "uso_habitual": "Abreviado comúnmente en la escritura informal como 'ta'.",
+    "frase_1_eu": "Aita eta ama etxean daude",
+    "frase_1_es": "Padre y madre están en casa",
+    "frase_2_eu": "Ogia eta ura nahi dut",
+    "frase_2_es": "Quiero pan y agua",
+    "tags": [
+      "conectores",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "baina",
+    "translation_es": "pero",
+    "translation_en": "but",
+    "category": "conjuncion",
+    "difficulty": 1,
+    "frequency_rank": 92,
+    "pronunciation": "baina",
+    "definition_simple": "Conjunción adversativa para contraponer ideas",
+    "uso_habitual": "Se usa igual que en español para introducir una contraposición.",
+    "frase_1_eu": "Ikasi dut, baina ez dut gogoratzen",
+    "frase_1_es": "He estudiado, pero no me acuerdo",
+    "frase_2_eu": "Mendira noa, baina euria ari du",
+    "frase_2_es": "Voy al monte, pero está lloviendo",
+    "tags": [
+      "conectores",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zer",
+    "translation_es": "qué",
+    "translation_en": "what",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 93,
+    "pronunciation": "ser",
+    "definition_simple": "Partícula interrogativa para preguntar por cosas",
+    "uso_habitual": "Zer da hau? (¿Qué es esto?). Se declina: zertarako (para qué), zergatik (por qué).",
+    "frase_1_eu": "Zer nahi duzu bazkaltzeko?",
+    "frase_1_es": "¿Qué quieres para comer?",
+    "frase_2_eu": "Zer ordu da?",
+    "frase_2_es": "¿Qué hora es?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "nor",
+    "translation_es": "quién",
+    "translation_en": "who",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 94,
+    "pronunciation": "nor",
+    "definition_simple": "Partícula interrogativa para preguntar por personas",
+    "uso_habitual": "Nork (quién - activo transitivo), norekin (con quién), norentzat (para quién).",
+    "frase_1_eu": "Nor zara zu?",
+    "frase_1_es": "¿Quién eres tú?",
+    "frase_2_eu": "Nor etorri da atean?",
+    "frase_2_es": "¿Quién ha venido a la puerta?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "non",
+    "translation_es": "dónde",
+    "translation_en": "where",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 95,
+    "pronunciation": "non",
+    "definition_simple": "Partícula interrogativa para preguntar por lugares",
+    "uso_habitual": "Nora (a dónde), nondik (de dónde). Muy útil en la declinación locativa (caso inesivo).",
+    "frase_1_eu": "Non dago nire txakurra?",
+    "frase_1_es": "¿Dónde está mi perro?",
+    "frase_2_eu": "Non bizi zara zu?",
+    "frase_2_es": "¿Dónde vives tú?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "noiz",
+    "translation_es": "cuándo",
+    "translation_en": "when",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 96,
+    "pronunciation": "nois",
+    "definition_simple": "Partícula interrogativa para preguntar por el momento temporal",
+    "uso_habitual": "Noiztik (desde cuándo), noiz arte (hasta cuándo).",
+    "frase_1_eu": "Noiz hasiko da pelikula?",
+    "frase_1_es": "¿Cuándo empezará la película?",
+    "frase_2_eu": "Noiz etorriko da tren hau?",
+    "frase_2_es": "¿Cuándo vendrá este tren?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "nola",
+    "translation_es": "cómo",
+    "translation_en": "how",
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 97,
+    "pronunciation": "nola",
+    "definition_simple": "Partícula interrogativa para preguntar por el modo o estado",
+    "uso_habitual": "Nola zaude? (¿Cómo estás?).",
+    "frase_1_eu": "Nola egiten da hau?",
+    "frase_1_es": "¿Cómo se hace esto?",
+    "frase_2_eu": "Nola joan da eguna?",
+    "frase_2_es": "¿Cómo ha ido el día?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zergatik",
+    "translation_es": "por qué",
+    "translation_en": "why",
+    "category": "adverbio",
+    "difficulty": 2,
+    "frequency_rank": 98,
+    "pronunciation": "sergatik",
+    "definition_simple": "Partícula interrogativa para preguntar por la causa o motivo",
+    "uso_habitual": "Se responde usando '...-elako' (porque...) al final del verbo subordinado o con la partícula 'zeren' (porque).",
+    "frase_1_eu": "Zergatik zaude triste gaur?",
+    "frase_1_es": "¿Por qué estás triste hoy?",
+    "frase_2_eu": "Zergatik ez zara etorri?",
+    "frase_2_es": "¿Por qué no has venido?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zenbat",
+    "translation_es": "cuánto / cuántos",
+    "translation_en": "how much / how many",
+    "category": "adverbio",
+    "difficulty": 2,
+    "frequency_rank": 99,
+    "pronunciation": "senbat",
+    "definition_simple": "Partícula interrogativa para preguntar por cantidad",
+    "uso_habitual": "Va delante del sustantivo: zenbat euro (cuántos euros).",
+    "frase_1_eu": "Zenbat katu dituzu etxean?",
+    "frase_1_es": "¿Cuántos gatos tienes en casa?",
+    "frase_2_eu": "Zenbat balio du liburu honek?",
+    "frase_2_es": "¿Cuánto vale este libro?",
+    "tags": [
+      "conectores",
+      "pregunta"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "datorren",
+    "translation_es": "próximo / que viene",
+    "translation_en": "next",
+    "category": "adjetivo",
+    "difficulty": 2,
+    "frequency_rank": 100,
+    "pronunciation": "datorren",
+    "definition_simple": "Que sigue inmediatamente en el tiempo",
+    "uso_habitual": "Deriva del verbo etorri (que viene). Se usa delante de sustantivos temporales: datorren astean (la semana que viene).",
+    "frase_1_eu": "Datorren urtean joango naiz",
+    "frase_1_es": "Iré el año que viene",
+    "frase_2_eu": "Datorren astean Bilbon egongo gara",
+    "frase_2_es": "La semana que viene estaremos en Bilbao",
+    "tags": [
+      "conectores",
+      "tiempo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "orain",
+    "translation_es": "ahora",
+    "translation_en": null,
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 120,
+    "pronunciation": "orain",
+    "definition_simple": "En este momento.",
+    "uso_habitual": "Adverbio de tiempo.",
+    "frase_1_eu": "Orain lan egiten dut",
+    "frase_1_es": "Ahora trabajo",
+    "frase_2_eu": "Oraintxe bertan!",
+    "frase_2_es": "¡Ahora mismo!",
+    "tags": [
+      "tiempo",
+      "adverbio"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gero",
+    "translation_es": "luego / después",
+    "translation_en": null,
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 121,
+    "pronunciation": "guero",
+    "definition_simple": "En un momento posterior.",
+    "uso_habitual": "Adverbio de tiempo.",
+    "frase_1_eu": "Gero arte!",
+    "frase_1_es": "¡Hasta luego!",
+    "frase_2_eu": "Gero egingo dut",
+    "frase_2_es": "Lo haré luego",
+    "tags": [
+      "tiempo",
+      "adverbio"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "beti",
+    "translation_es": "siempre",
+    "translation_en": null,
+    "category": "adverbio",
+    "difficulty": 1,
+    "frequency_rank": 122,
+    "pronunciation": "beti",
+    "definition_simple": "En todo momento.",
+    "uso_habitual": "Adverbio de frecuencia.",
+    "frase_1_eu": "Beti berandu zabiltza",
+    "frase_1_es": "Siempre andas tarde",
+    "frase_2_eu": "Betiko lagunak",
+    "frase_2_es": "Amigos de siempre",
+    "tags": [
+      "tiempo",
+      "frecuencia"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "inoiz",
+    "translation_es": "alguna vez / nunca",
+    "translation_en": null,
+    "category": "adverbio",
+    "difficulty": 2,
+    "frequency_rank": 123,
+    "pronunciation": "inois",
+    "definition_simple": "En algún momento (o ninguno si va con negativa).",
+    "uso_habitual": "Con 'ez' significa nunca (Inoiz ez).",
+    "frase_1_eu": "Inoiz izan zara han?",
+    "frase_1_es": "¿Has estado allí alguna vez?",
+    "frase_2_eu": "Inoiz ez dut esan hori",
+    "frase_2_es": "Nunca he dicho eso",
+    "tags": [
+      "tiempo",
+      "frecuencia"
+    ],
+    "is_active": true
+  }
+]

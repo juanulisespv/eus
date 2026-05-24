@@ -1,0 +1,202 @@
+[
+  {
+    "word_eu": "bat",
+    "translation_es": "uno",
+    "translation_en": "one",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 11,
+    "pronunciation": "bat",
+    "definition_simple": "El primer número natural",
+    "uso_habitual": "También se usa frecuentemente como artículo indefinido: etxe bat (una casa). Se sitúa detrás del sustantivo.",
+    "frase_1_eu": "Sagar bat nahi dut",
+    "frase_1_es": "Quiero una manzana",
+    "frase_2_eu": "Bat eta bat bi dira",
+    "frase_2_es": "Uno y uno son dos",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bi",
+    "translation_es": "dos",
+    "translation_en": "two",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 12,
+    "pronunciation": "bi",
+    "definition_simple": "Número que sigue al uno",
+    "uso_habitual": "En euskera va detrás del sustantivo: lagun bi (dos amigos). En euskera batua se acepta también antes, pero es muy común después.",
+    "frase_1_eu": "Bi katu ditut",
+    "frase_1_es": "Tengo dos gatos",
+    "frase_2_eu": "Bi aste barru",
+    "frase_2_es": "Dentro de dos semanas",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hiru",
+    "translation_es": "tres",
+    "translation_en": "three",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 13,
+    "pronunciation": "iru",
+    "definition_simple": "Número que sigue al dos",
+    "uso_habitual": "Va delante del sustantivo: hiru liburu (tres libros).",
+    "frase_1_eu": "Hiru anai-arreba ditut",
+    "frase_1_es": "Tengo tres hermanos y hermanas",
+    "frase_2_eu": "Hiru euro balio du",
+    "frase_2_es": "Vale tres euros",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lau",
+    "translation_es": "cuatro",
+    "translation_en": "four",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 14,
+    "pronunciation": "lau",
+    "definition_simple": "Número que sigue al tres",
+    "uso_habitual": "Va delante del sustantivo: lau auto (cuatro coches).",
+    "frase_1_eu": "Lau urte ditut",
+    "frase_1_es": "Tengo cuatro años",
+    "frase_2_eu": "Mahai honek lau oin ditu",
+    "frase_2_es": "Esta mesa tiene cuatro patas",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bost",
+    "translation_es": "cinco",
+    "translation_en": "five",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 15,
+    "pronunciation": "bost",
+    "definition_simple": "Número que sigue al cuatro",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Bost minutu itxaron, mesedez",
+    "frase_1_es": "Espera cinco minutos, por favor",
+    "frase_2_eu": "Bost euroko txanpona",
+    "frase_2_es": "La moneda de cinco euros",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sei",
+    "translation_es": "seis",
+    "translation_en": "six",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 16,
+    "pronunciation": "sei",
+    "definition_simple": "Número que sigue al cinco",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Sei arrautza erosi ditut",
+    "frase_1_es": "He comprado seis huevos",
+    "frase_2_eu": "Sei hilabete pasa dira",
+    "frase_2_es": "Han pasado seis meses",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zazpi",
+    "translation_es": "siete",
+    "translation_en": "seven",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 17,
+    "pronunciation": "saspi",
+    "definition_simple": "Número que sigue al seis",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Zazpi egun ditu asteak",
+    "frase_1_es": "La semana tiene siete días",
+    "frase_2_eu": "Zazpi orduan lo egin dut",
+    "frase_2_es": "He dormido durante siete horas",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zortzi",
+    "translation_es": "ocho",
+    "translation_en": "eight",
+    "category": "numero",
+    "difficulty": 2,
+    "frequency_rank": 18,
+    "pronunciation": "sortsi",
+    "definition_simple": "Número que sigue al siete",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Zortzi orrialde irakurri ditut",
+    "frase_1_es": "He leído ocho páginas",
+    "frase_2_eu": "Zortziak dira",
+    "frase_2_es": "Son las ocho",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bederatzi",
+    "translation_es": "nueve",
+    "translation_en": "nine",
+    "category": "numero",
+    "difficulty": 2,
+    "frequency_rank": 19,
+    "pronunciation": "bederatsi",
+    "definition_simple": "Número que sigue al ocho",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Bederatzi pertsona etorri dira",
+    "frase_1_es": "Han venido nueve personas",
+    "frase_2_eu": "Bederatzi gradu daude",
+    "frase_2_es": "Hay nueve grados",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hamar",
+    "translation_es": "diez",
+    "translation_en": "ten",
+    "category": "numero",
+    "difficulty": 1,
+    "frequency_rank": 20,
+    "pronunciation": "amar",
+    "definition_simple": "Número que equivale a dos manos completas de dedos",
+    "uso_habitual": "Va delante del sustantivo.",
+    "frase_1_eu": "Hamar lagun gaude hemen",
+    "frase_1_es": "Somos diez amigos aquí",
+    "frase_2_eu": "Hamar minutu barru hasiko da",
+    "frase_2_es": "Empezará dentro de diez minutos",
+    "tags": [
+      "numeros",
+      "básico"
+    ],
+    "is_active": true
+  }
+]

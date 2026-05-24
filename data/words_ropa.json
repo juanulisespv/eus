@@ -1,0 +1,244 @@
+[
+  {
+    "word_eu": "soineko",
+    "translation_es": "vestido",
+    "translation_en": "dress",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 136,
+    "pronunciation": "soineco",
+    "definition_simple": "Prenda de vestir femenina de una sola pieza",
+    "uso_habitual": "Absolutivo singular: soinekoa.",
+    "frase_1_eu": "Soineko gorri bat jantzi du festarako",
+    "frase_1_es": "Se ha puesto un vestido rojo para la fiesta",
+    "frase_2_eu": "Nire arrebak soineko asko ditu",
+    "frase_2_es": "Mi hermana tiene muchos vestidos",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "kamiseta",
+    "translation_es": "camiseta",
+    "translation_en": "t-shirt",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 137,
+    "pronunciation": "camiseta",
+    "definition_simple": "Prenda interior o deportiva de manga corta o sin ellas",
+    "uso_habitual": "Absolutivo singular: kamiseta.",
+    "frase_1_eu": "Udako kamiseta zuri bat erosi dut",
+    "frase_1_es": "He comprado una camiseta blanca de verano",
+    "frase_2_eu": "Kamiseta honek marrak ditu",
+    "frase_2_es": "Esta camiseta tiene rayas",
+    "tags": [
+      "ropa",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "alkandora",
+    "translation_es": "camisa",
+    "translation_en": "shirt",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 138,
+    "pronunciation": "alcandora",
+    "definition_simple": "Prenda de vestir con cuello, botones y mangas",
+    "uso_habitual": "Absolutivo singular: alkandora.",
+    "frase_1_eu": "Lanerako alkandora urdina jantzi dut",
+    "frase_1_es": "Me he puesto la camisa azul para trabajar",
+    "frase_2_eu": "Alkandorak plantxatu behar ditut",
+    "frase_2_es": "Tengo que planchar las camisas",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "galtzak",
+    "translation_es": "pantalones",
+    "translation_en": "trousers / pants",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 139,
+    "pronunciation": "galtsac",
+    "definition_simple": "Prenda de vestir que cubre las piernas por separado",
+    "uso_habitual": "Normalmente en plural (galtzak). Singular: galtza.",
+    "frase_1_eu": "Galtza bakeroak janzten ditut ia egunero",
+    "frase_1_es": "Llevo pantalones vaqueros casi todos los días",
+    "frase_2_eu": "Galtza hauek handiegiak dira niretzat",
+    "frase_2_es": "Estos pantalones son demasiado grandes para mí",
+    "tags": [
+      "ropa",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "jertse",
+    "translation_es": "jersey / suéter",
+    "translation_en": "sweater / jumper",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 140,
+    "pronunciation": "yertse",
+    "definition_simple": "Prenda de punto que cubre desde el cuello hasta la cintura",
+    "uso_habitual": "Absolutivo singular: jertsea.",
+    "frase_1_eu": "Nire ama jertse bat puntuz egiten ari da",
+    "frase_1_es": "Mi madre está haciendo un jersey de punto",
+    "frase_2_eu": "Jertse berdea oso epela da",
+    "frase_2_es": "El jersey verde es muy abrigado",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "oinetakoak",
+    "translation_es": "zapatos / calzado",
+    "translation_en": "shoes",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 141,
+    "pronunciation": "oinetacoac",
+    "definition_simple": "Calzado para cubrir y proteger el pie",
+    "uso_habitual": "Generalmente en plural. Singular: oinetako.",
+    "frase_1_eu": "Oinetakoak kendu ditut etxean sartzean",
+    "frase_1_es": "Me he quitado los zapatos al entrar a casa",
+    "frase_2_eu": "Oinetako beltzak garestiak dira",
+    "frase_2_es": "Los zapatos negros son caros",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "galtzerdiak",
+    "translation_es": "calcetines",
+    "translation_en": "socks",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 142,
+    "pronunciation": "galtserdiac",
+    "definition_simple": "Prenda para cubrir el pie y parte de la pierna bajo el calzado",
+    "uso_habitual": "Generalmente en plural. Singular: galtzerdi.",
+    "frase_1_eu": "Galtzerdiak bustita ditut euriagatik",
+    "frase_1_es": "Tengo los calcetines mojados por la lluvia",
+    "frase_2_eu": "Nire galtzerdi bat galdu da",
+    "frase_2_es": "Se ha perdido uno de mis calcetines",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txano",
+    "translation_es": "gorro / gorra",
+    "translation_en": "hat / cap",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 143,
+    "pronunciation": "chano",
+    "definition_simple": "Prenda para cubrir la cabeza, comúnmente de lana",
+    "uso_habitual": "Absolutivo singular: txanoa.",
+    "frase_1_eu": "Txano bat darama buruan hotza duelako",
+    "frase_1_es": "Lleva un gorro en la cabeza porque tiene frío",
+    "frase_2_eu": "Nire lehengusuak txano urdina oparitu dit",
+    "frase_2_es": "Mi primo me ha regalo un gorro azul",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "jaka",
+    "translation_es": "chaqueta / cazadora",
+    "translation_en": "jacket / coat",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 144,
+    "pronunciation": "yaca",
+    "definition_simple": "Prenda de vestir abierta por delante que se pone sobre otras",
+    "uso_habitual": "Absolutivo singular: jaka.",
+    "frase_1_eu": "Eraman jaka bat, gauean hotz egingo du",
+    "frase_1_es": "Lleva una chaqueta, por la noche hará frío",
+    "frase_2_eu": "Jaka beltza nire aitarena da",
+    "frase_2_es": "La chaqueta negra es de mi padre",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bufanda",
+    "translation_es": "bufanda",
+    "translation_en": "scarf",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 145,
+    "pronunciation": "bufanda",
+    "definition_simple": "Prenda larga y estrecha de lana para abrigar el cuello",
+    "uso_habitual": "Absolutivo singular: bufanda.",
+    "frase_1_eu": "Nire amonak bufanda gorri bat egin dit",
+    "frase_1_es": "Mi abuela me ha hecho una bufanda roja",
+    "frase_2_eu": "Ezin dut nire bufanda aurkitu",
+    "frase_2_es": "No encuentro mi bufanda",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eskularruak",
+    "translation_es": "guantes",
+    "translation_en": "gloves",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 146,
+    "pronunciation": "escularruac",
+    "definition_simple": "Prenda para cubrir y proteger las manos",
+    "uso_habitual": "Generalmente en plural. Singular: eskularru.",
+    "frase_1_eu": "Eskularruak behar ditut elurrarekin jolasteko",
+    "frase_1_es": "Necesito guantes para jugar con la nieve",
+    "frase_2_eu": "Eskularru hauek larruzkoak dira",
+    "frase_2_es": "Estos guantes son de cuero",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gerriko",
+    "translation_es": "cinturón",
+    "translation_en": "belt",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 147,
+    "pronunciation": "guerrico",
+    "definition_simple": "Tira de cuero u otra materia para sujetar los pantalones",
+    "uso_habitual": "Absolutivo singular: gerrikoa.",
+    "frase_1_eu": "Gerrikoa estutu dut galtzak ez erortzeko",
+    "frase_1_es": "Me he apretado el cinturón para que no se caigan los pantalones",
+    "frase_2_eu": "Nire aitak larruzko gerrikoa dauka",
+    "frase_2_es": "Mi padre tiene un cinturón de cuero",
+    "tags": [
+      "ropa",
+      "sustantivo"
+    ],
+    "is_active": true
+  }
+]

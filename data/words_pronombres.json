@@ -1,0 +1,166 @@
+[
+  {
+    "word_eu": "ni",
+    "translation_es": "yo",
+    "translation_en": "I",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 21,
+    "pronunciation": "ni",
+    "definition_simple": "Pronombre de primera persona del singular",
+    "uso_habitual": "Se declina según el caso. Nire (mi/mío), niri (a mí), nirekin (conmigo).",
+    "frase_1_eu": "Ni ikaslea naiz",
+    "frase_1_es": "Yo soy estudiante",
+    "frase_2_eu": "Hau nire liburua da",
+    "frase_2_es": "Este es mi libro",
+    "tags": [
+      "pronombres",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zu",
+    "translation_es": "tú / usted",
+    "translation_en": "you (singular)",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 22,
+    "pronunciation": "su",
+    "definition_simple": "Pronombre de segunda persona del singular",
+    "uso_habitual": "Se usa tanto para tú como para usted en un tono medio-formal. Zure (tu/tuyo), zuri (a ti), zurekin (contigo).",
+    "frase_1_eu": "Nor zara zu?",
+    "frase_1_es": "¿Quién eres tú?",
+    "frase_2_eu": "Hau zure etxea da",
+    "frase_2_es": "Esta es tu casa",
+    "tags": [
+      "pronombres",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hura",
+    "translation_es": "él / ella / aquello",
+    "translation_en": "he / she / it",
+    "category": "pronombre",
+    "difficulty": 2,
+    "frequency_rank": 23,
+    "pronunciation": "ura",
+    "definition_simple": "Pronombre de tercera persona singular o demostrativo lejano",
+    "uso_habitual": "Funciona tanto de pronombre personal como de demostrativo de lejanía.",
+    "frase_1_eu": "Hura nire laguna da",
+    "frase_1_es": "Él/Ella es mi amigo/a",
+    "frase_2_eu": "Hura etxe handi bat da",
+    "frase_2_es": "Aquello es una casa grande",
+    "tags": [
+      "pronombres",
+      "demostrativos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gu",
+    "translation_es": "nosotros",
+    "translation_en": "we",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 24,
+    "pronunciation": "gu",
+    "definition_simple": "Pronombre de primera persona del plural",
+    "uso_habitual": "Gure (nuestro), guri (a nosotros), gurekin (con nosotros).",
+    "frase_1_eu": "Gu Bilbokoak gara",
+    "frase_1_es": "Nosotros somos de Bilbao",
+    "frase_2_eu": "Hau gure herria da",
+    "frase_2_es": "Este es nuestro pueblo",
+    "tags": [
+      "pronombres",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zuek",
+    "translation_es": "vosotros",
+    "translation_en": "you (plural)",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 25,
+    "pronunciation": "suek",
+    "definition_simple": "Pronombre de segunda persona del plural",
+    "uso_habitual": "Zuen (vuestro), zuei (a vosotros), zuekin (con vosotros).",
+    "frase_1_eu": "Zuek oso azkarrak zarete",
+    "frase_1_es": "Vosotros sois muy listos",
+    "frase_2_eu": "Non bizi zarete zuek?",
+    "frase_2_es": "¿Dónde vivís vosotros?",
+    "tags": [
+      "pronombres",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "haiek",
+    "translation_es": "ellos / ellas",
+    "translation_en": "they",
+    "category": "pronombre",
+    "difficulty": 2,
+    "frequency_rank": 26,
+    "pronunciation": "aiek",
+    "definition_simple": "Pronombre de tercera persona del plural",
+    "uso_habitual": "Se usa para referirse a un grupo de personas o cosas alejadas.",
+    "frase_1_eu": "Haiek mendian daude",
+    "frase_1_es": "Ellos están en el monte",
+    "frase_2_eu": "Haiek nire gurasoak dira",
+    "frase_2_es": "Ellos son mi padres",
+    "tags": [
+      "pronombres",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hau",
+    "translation_es": "este / esta / esto",
+    "translation_en": "this",
+    "category": "pronombre",
+    "difficulty": 1,
+    "frequency_rank": 27,
+    "pronunciation": "au",
+    "definition_simple": "Demostrativo de cercanía singular",
+    "uso_habitual": "Suele colocarse detrás del nombre: liburu hau (este libro).",
+    "frase_1_eu": "Hau nire gela da",
+    "frase_1_es": "Esta es mi habitación",
+    "frase_2_eu": "Nork nahi du hau?",
+    "frase_2_es": "¿Quién quiere esto?",
+    "tags": [
+      "pronombres",
+      "demostrativos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hori",
+    "translation_es": "amarillo",
+    "translation_en": "yellow",
+    "category": "adjetivo",
+    "difficulty": 1,
+    "frequency_rank": 293,
+    "pronunciation": "hori",
+    "definition_simple": "Color del oro o del limón maduro",
+    "uso_habitual": "Se coloca tras el sustantivo. Ojo: coincide con el demostrativo 'hori' (ese/eso).",
+    "frase_1_eu": "Lore hori bat loreontzian daukagu",
+    "frase_1_es": "Tenemos una flor amarilla en el jarrón",
+    "frase_2_eu": "Kamiseta horia jantzi dut gaur",
+    "frase_2_es": "Me he puesto la camiseta amarilla hoy",
+    "tags": [
+      "pronombres",
+      "demostrativos",
+      "descripciones",
+      "colores",
+      "adjetivos",
+      "básico"
+    ],
+    "is_active": true
+  }
+]

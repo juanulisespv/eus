@@ -1,0 +1,343 @@
+[
+  {
+    "word_eu": "irakurri",
+    "translation_es": "leer",
+    "translation_en": "to read",
+    "category": "verbo",
+    "difficulty": 1,
+    "frequency_rank": 102,
+    "pronunciation": "iracurri",
+    "definition_simple": "Comprender el sentido de cualquier tipo de representación gráfica",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK (dut, du...).",
+    "frase_1_eu": "Liburu bat irakurtzen ari naiz",
+    "frase_1_es": "Estoy leyendo un libro",
+    "frase_2_eu": "Irakurri duzu gaurko egunkaria?",
+    "frase_2_es": "¿Has leído el periódico de hoy?",
+    "tags": [
+      "verbos",
+      "cultura",
+      "ocio"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "euskaldun",
+    "translation_es": "vascoparlante / vasco",
+    "translation_en": "Basque speaker / Basque",
+    "category": "adjetivo",
+    "difficulty": 1,
+    "frequency_rank": 368,
+    "pronunciation": "euskaldun",
+    "definition_simple": "Persona que habla la lengua vasca (euskera)",
+    "uso_habitual": "Literalmente significa 'el que posee euskera'. Funciona como sustantivo y adjetivo.",
+    "frase_1_eu": "Mirenen gurasoak euskaldunak dira",
+    "frase_1_es": "Los padres de Miren son vascoparlantes",
+    "frase_2_eu": "Herri honetan jende gehiena euskalduna da",
+    "frase_2_es": "En este pueblo la mayoría de la gente habla euskera",
+    "tags": [
+      "cultura",
+      "adjetivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bertso",
+    "translation_es": "verso improvisado en euskera",
+    "translation_en": "improvised verse (Bertso)",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 369,
+    "pronunciation": "bertso",
+    "definition_simple": "Estrofa cantada e improvisada en euskera con rima y métrica",
+    "uso_habitual": "Absolutivo singular: bertsoa. Parte clave de la tradición oral vasca.",
+    "frase_1_eu": "Egun horretan bertso polit bat abestu zuen",
+    "frase_1_es": "Ese día cantó un verso muy bonito",
+    "frase_2_eu": "Bertsoak entzutea asko gustatzen zait",
+    "frase_2_es": "Me gusta mucho escuchar los versos improvisados",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bertsolari",
+    "translation_es": "improvisador de versos (bertsolari)",
+    "translation_en": "verse improviser (Bertsolari)",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 370,
+    "pronunciation": "bertsolari",
+    "definition_simple": "Persona que canta e improvisa versos en euskera",
+    "uso_habitual": "Absolutivo singular: bertsolaria.",
+    "frase_1_eu": "Jon txapelduna izan den bertsolaria da",
+    "frase_1_es": "Jon es el bertsolari que ha sido campeón",
+    "frase_2_eu": "Lau bertsolari igoko dira oholtzara gaur gauean",
+    "frase_2_es": "Cuatro bertsolaris subirán al escenario esta noche",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txoko",
+    "translation_es": "sociedad gastronómica / rincón",
+    "translation_en": "gastronomic society / corner",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 371,
+    "pronunciation": "txoko",
+    "definition_simple": "Rincón de la casa o club privado de cocina vasco",
+    "uso_habitual": "Absolutivo singular: txokoa. Usado para sociedades populares culinarias.",
+    "frase_1_eu": "Lagunekin afaldu dugu herriko txokoan",
+    "frase_1_es": "Hemos cenado con los amigos en la sociedad (txoko) del pueblo",
+    "frase_2_eu": "Nire etxean liburuak irakurtzeko txoko bat daukat",
+    "frase_2_es": "En mi casa tengo un rincón para leer libros",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "baserri",
+    "translation_es": "caserío vasco / granja",
+    "translation_en": "traditional Basque farmhouse",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 376,
+    "pronunciation": "baserri",
+    "definition_simple": "Casa de campo de piedra tradicional del País Vasco",
+    "uso_habitual": "Absolutivo singular: baserria. Proviene de 'baso' (bosque/campo) y 'herri' (pueblo).",
+    "frase_1_eu": "Nire aiton-amonak baserri batean bizi dira",
+    "frase_1_es": "Mis abuelos viven en un caserío",
+    "frase_2_eu": "Baserrian oiloak eta behiak daude larrean",
+    "frase_2_es": "En el caserío hay gallinas y vacas en el prado",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "pilota",
+    "translation_es": "pelota vasca / pelota",
+    "translation_en": "Basque pelota / ball",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 377,
+    "pronunciation": "pilota",
+    "definition_simple": "Deporte tradicional que consiste en golpear una pelota contra una pared (frontón)",
+    "uso_habitual": "Absolutivo singular: pilota.",
+    "frase_1_eu": "Igandean pilota partida ikusiko dugu frontoian",
+    "frase_1_es": "El domingo veremos el partido de pelota vasca en el frontón",
+    "frase_2_eu": "Larruzko pilota oso gogorra da",
+    "frase_2_es": "La pelota de cuero es muy dura",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ikurriña",
+    "translation_es": "bandera vasca",
+    "translation_en": "Basque flag",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 378,
+    "pronunciation": "ikurriña",
+    "definition_simple": "Bandera nacional o regional vasca con cruz blanca y aspa verde sobre fondo rojo",
+    "uso_habitual": "Absolutivo singular: ikurriña. (La ñ se conserva en euskera batua).",
+    "frase_1_eu": "Ikurriña udaletxeko balkoian zintzilik dago",
+    "frase_1_es": "La bandera vasca está colgada en el balcón del ayuntamiento",
+    "frase_2_eu": "Zaleek ikurriña astindu dute mendi kaskoan",
+    "frase_2_es": "Los aficionados han ondeado la bandera vasca en la cima del monte",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "dantzari",
+    "translation_es": "bailarín / bailarina vasca",
+    "translation_en": "Basque dancer",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 379,
+    "pronunciation": "dantzari",
+    "definition_simple": "Persona que baila danzas folclóricas tradicionales vascas",
+    "uso_habitual": "Absolutivo singular: dantzaria. Proviene de 'dantza' (danza).",
+    "frase_1_eu": "Dantzariek oso dantza ikusgarria egin dute plazan",
+    "frase_1_es": "Los bailarines han hecho un baile muy vistoso en la plaza",
+    "frase_2_eu": "Dantzaria izateko asko entrenatu behar da",
+    "frase_2_es": "Para ser bailarín de danza vasca hay que entrenar mucho",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txistu",
+    "translation_es": "flauta vasca / txistu / silbido",
+    "translation_en": "traditional Basque flute (Txistu)",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 380,
+    "pronunciation": "txistu",
+    "definition_simple": "Flauta de tres agujeros tradicional de Euskal Herria que se toca con una sola mano",
+    "uso_habitual": "Absolutivo singular: txistua. Quien lo toca es 'txistulari'.",
+    "frase_1_eu": "Txistulariak txistua jotzen hasi dira dantzaldian",
+    "frase_1_es": "Los txistularis han empezado a tocar la flauta vasca en el baile",
+    "frase_2_eu": "Txistu hotsa urrunetik entzuten da",
+    "frase_2_es": "El sonido del txistu se oye desde lejos",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txalaparta",
+    "translation_es": "txalaparta (instrumento)",
+    "translation_en": "Txalaparta percussion instrument",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 381,
+    "pronunciation": "txalaparta",
+    "definition_simple": "Instrumento musical de percusión de madera tocado por dos personas con maza",
+    "uso_habitual": "Absolutivo singular: txalaparta.",
+    "frase_1_eu": "Bi lagunek txalaparta jotzen dute erritmo bizian",
+    "frase_1_es": "Dos personas tocan la txalaparta a ritmo vivo",
+    "frase_2_eu": "Txalapartak egurrezko hots sakona dauka",
+    "frase_2_es": "La txalaparta tiene un sonido de madera profundo",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "trikitixa",
+    "translation_es": "acordeón diatónico vasco",
+    "translation_en": "diatonic accordion (Trikitixa)",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 382,
+    "pronunciation": "trikitixa",
+    "definition_simple": "Acordeón diatónico de botones tradicional vasco o la música tocada con él",
+    "uso_habitual": "Absolutivo singular: trikitixa. Suele tocarse junto al pandero.",
+    "frase_1_eu": "Trikitixa eta pandero hotsak herria girotzen dute",
+    "frase_1_es": "Los sonidos del acordeón vasco y el pandero animan el pueblo",
+    "frase_2_eu": "Trikitixa jotzen ikasi nahi dut",
+    "frase_2_es": "Quiero aprender a tocar el acordeón diatónico vasco",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "olentzero",
+    "translation_es": "Olentzero (carbonero navideño)",
+    "translation_en": "Olentzero (Basque Santa Claus)",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 383,
+    "pronunciation": "olentzero",
+    "definition_simple": "Personaje mitológico carbonero vasco que trae regalos en Navidad",
+    "uso_habitual": "Absolutivo singular: Olentzeroa. Se celebra la noche del 24 de diciembre.",
+    "frase_1_eu": "Olentzerok opari asko utzi ditu tximinia ondoan",
+    "frase_1_es": "El Olentzero ha dejado muchos regalos al lado de la chimenea",
+    "frase_2_eu": "Umeek Olentzeroren abestia abesten dute kalean",
+    "frase_2_es": "Los niños cantan la canción del Olentzero en la calle",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eguzkilore",
+    "translation_es": "flor del cardo silvestre (Eguzkilore)",
+    "translation_en": "Eguzkilore (protective flower)",
+    "category": "otro",
+    "difficulty": 3,
+    "frequency_rank": 384,
+    "pronunciation": "eguzkilore",
+    "definition_simple": "Flor de cardo silvestre que simboliza el sol y protege los caseríos de malos espíritus",
+    "uso_habitual": "Absolutivo singular: eguzkilorea. Colocada tradicionalmente en la puerta de los caseríos.",
+    "frase_1_eu": "Eguzkilore lehor bat zintzilikatzen da baserriko atean",
+    "frase_1_es": "Se cuelga una flor de cardo seca en la puerta del caserío",
+    "frase_2_eu": "Eguzkiloreak etxea izpiritu txarretatik babesten du",
+    "frase_2_es": "La flor del cardo protege la casa de los malos espíritus",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "akelarre",
+    "translation_es": "reunión de brujas / aquelarre",
+    "translation_en": "coven / witches' meeting",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 385,
+    "pronunciation": "akelarre",
+    "definition_simple": "Lugar o reunión nocturna de brujos y brujas",
+    "uso_habitual": "Absolutivo singular: akelarrea. Deriva de 'aker' (macho cabrío) y 'larre' (prado).",
+    "frase_1_eu": "Zugarramurdiko kobazuloan egiten ziren akelarreak",
+    "frase_1_es": "En las cuevas de Zugarramurdi se hacían los aquelarres",
+    "frase_2_eu": "Kondairak dio sorginek gauez akelarrea ospatzen zutela",
+    "frase_2_es": "La leyenda dice que las brujas celebraban el aquelarre de noche",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "estropada",
+    "translation_es": "regata de traineras",
+    "translation_en": "rowing boat regatta",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 386,
+    "pronunciation": "estropada",
+    "definition_simple": "Competición náutica de embarcaciones de remo tradicionales (traineras)",
+    "uso_habitual": "Absolutivo singular: estropada. Muy popular en septiembre en la costa vasca.",
+    "frase_1_eu": "Igandean Kontxako estropadak ikustera joango gara",
+    "frase_1_es": "El domingo iremos a ver las regatas de la Concha",
+    "frase_2_eu": "Estropadan traineru urdinak irabazi du",
+    "frase_2_es": "En la regata ha ganado la trainera azul",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "kupela",
+    "translation_es": "barrica / cuba de sidra",
+    "translation_en": "cider barrel / cask",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 387,
+    "pronunciation": "kupela",
+    "definition_simple": "Gran barrica de madera donde madura la sidra o el vino",
+    "uso_habitual": "Absolutivo singular: kupela. Relacionado con el grito de 'Txotx!'.",
+    "frase_1_eu": "Sagardotegian kupelatik zuzenean edaten dugu sagardoa",
+    "frase_1_es": "En la sidrería bebemos la sidra directamente de la barrica",
+    "frase_2_eu": "Egurrezko kupel handi bat dago sotoan",
+    "frase_2_es": "Hay una gran barrica de madera en el sótano",
+    "tags": [
+      "cultura",
+      "sustantivo"
+    ],
+    "is_active": true
+  }
+]

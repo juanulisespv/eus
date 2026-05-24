@@ -1,0 +1,235 @@
+[
+  {
+    "word_eu": "txakur",
+    "translation_es": "perro",
+    "translation_en": "dog",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 279,
+    "pronunciation": "txakur",
+    "definition_simple": "Animal doméstico de la familia de los cánidos",
+    "uso_habitual": "Absolutivo singular: txakurra.",
+    "frase_1_eu": "Nire txakurra oso azkarra da",
+    "frase_1_es": "Mi perro es muy inteligente",
+    "frase_2_eu": "Gizon horrek bi txakur ditu etxean",
+    "frase_2_es": "Ese hombre tiene dos perros en casa",
+    "tags": [
+      "animales",
+      "mascotas",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "katu",
+    "translation_es": "gato",
+    "translation_en": "cat",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 280,
+    "pronunciation": "katu",
+    "definition_simple": "Animal doméstico felino pequeño",
+    "uso_habitual": "Absolutivo singular: katua.",
+    "frase_1_eu": "Katua ohe gainean dago lo egiten",
+    "frase_1_es": "El gato está en la cama durmiendo",
+    "frase_2_eu": "Gure katuak begi berde politak ditu",
+    "frase_2_es": "Nuestro gato tiene ojos verdes bonitos",
+    "tags": [
+      "animales",
+      "mascotas",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txori",
+    "translation_es": "pájaro / ave",
+    "translation_en": "bird",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 281,
+    "pronunciation": "txori",
+    "definition_simple": "Animal vertebrado de pluma y vuelo de tamaño reducido",
+    "uso_habitual": "Absolutivo singular: txoria.",
+    "frase_1_eu": "Txori batek abesten du goizetan leihoan",
+    "frase_1_es": "Un pájaro canta por las mañanas en mi ventana",
+    "frase_2_eu": "Txoriak hegan joan dira zuhaitzetik",
+    "frase_2_es": "Los pájaros se han ido volando del árbol",
+    "tags": [
+      "animales",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zaldi",
+    "translation_es": "caballo",
+    "translation_en": "horse",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 282,
+    "pronunciation": "saldi",
+    "definition_simple": "Mamífero perisodáctilo de gran tamaño domesticado",
+    "uso_habitual": "Absolutivo singular: zaldia.",
+    "frase_1_eu": "Mendian zaldi basatiak ikusi ditugu",
+    "frase_1_es": "Hemos visto caballos salvajes en el monte",
+    "frase_2_eu": "Zaldian ibiltzea oso polita da",
+    "frase_2_es": "Montar a caballo es muy bonito",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "behi",
+    "translation_es": "vaca",
+    "translation_en": "cow",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 283,
+    "pronunciation": "behi",
+    "definition_simple": "Mamífero rumiante hembra que da leche",
+    "uso_habitual": "Absolutivo singular: behia.",
+    "frase_1_eu": "Behiak belarra jaten ari dira larrean",
+    "frase_1_es": "Las vacas están comiendo hierba en el prado",
+    "frase_2_eu": "Baserritarrak bost behi esne-emaile ditu",
+    "frase_2_es": "El casero tiene cinco vacas lecheras",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ardi",
+    "translation_es": "oveja",
+    "translation_en": "sheep",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 284,
+    "pronunciation": "ardi",
+    "definition_simple": "Mamífero rumiante con lana blanca o negra",
+    "uso_habitual": "Absolutivo singular: ardia.",
+    "frase_1_eu": "Ardiak mendian gora doaz artzainarekin",
+    "frase_1_es": "Las ovejas van monte arriba con el pastor",
+    "frase_2_eu": "Ardiaren esnearekin gazta egiten duku",
+    "frase_2_es": "Hacemos queso con la leche de la oveja",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txerri",
+    "translation_es": "cerdo",
+    "translation_en": "pig",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 285,
+    "pronunciation": "txerri",
+    "definition_simple": "Mamífero paquidermo domesticado para consumo",
+    "uso_habitual": "Absolutivo singular: txerria. (También usado como insulto).",
+    "frase_1_eu": "Baserrian txerri handi bat daukate",
+    "frase_1_es": "En el caserío tienen un cerdo grande",
+    "frase_2_eu": "Gela zikin dago, txerriki baten moduan!",
+    "frase_2_es": "¡La habitación está sucia, como una pocilga de cerdos!",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "oilo",
+    "translation_es": "gallina",
+    "translation_en": "hen",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 286,
+    "pronunciation": "oilo",
+    "definition_simple": "Ave doméstica hembra que pone huevos",
+    "uso_habitual": "Absolutivo singular: oiloa. Macho: oilar (gallo).",
+    "frase_1_eu": "Oiloak arrautzak jarri ditu gaur goizean",
+    "frase_1_es": "La gallina ha puesto huevos esta mañana",
+    "frase_2_eu": "Hiru oilo daude baserriko patioan",
+    "frase_2_es": "Hay tres gallinas en el patio del caserío",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sagu",
+    "translation_es": "ratón",
+    "translation_en": "mouse",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 287,
+    "pronunciation": "sagu",
+    "definition_simple": "Pequeño roedor",
+    "uso_habitual": "Absolutivo singular: sagua. Ojo: sagu-zaharra = murciélago.",
+    "frase_1_eu": "Katua sagu baten atzetik korrika doa",
+    "frase_1_es": "El gato va corriendo detrás de un ratón",
+    "frase_2_eu": "Zulo txiki batetik sagua sartu da",
+    "frase_2_es": "Ha entrado el ratón por un agujero pequeño",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "erle",
+    "translation_es": "abeja",
+    "translation_en": "bee",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 288,
+    "pronunciation": "erle",
+    "definition_simple": "Insecto himenóptero que produce miel",
+    "uso_habitual": "Absolutivo singular: erlea.",
+    "frase_1_eu": "Erleak eztia egiten du loretik lora ibiliz",
+    "frase_1_es": "La abeja hace miel yendo de flor en flor",
+    "frase_2_eu": "Erle batek ziztada eman dit besoan",
+    "frase_2_es": "Una abeja me ha picado en el brazo",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "armiarma",
+    "translation_es": "araña",
+    "translation_en": "spider",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 289,
+    "pronunciation": "armiarma",
+    "definition_simple": "Arácnido que teje telas para cazar insectos",
+    "uso_habitual": "Absolutivo singular: armiarma.",
+    "frase_1_eu": "Armiarma batek sarea egin du izkinan",
+    "frase_1_es": "Una araña ha hecho una telaraña en la esquina",
+    "frase_2_eu": "Beldur handia diet armiarmei",
+    "frase_2_es": "Les tengo mucho miedo a las arañas",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "otso",
+    "translation_es": "lobo",
+    "translation_en": "wolf",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 290,
+    "pronunciation": "otso",
+    "definition_simple": "Mamífero carnívoro de la familia de los cánidos de hábitos sociales",
+    "uso_habitual": "Absolutivo singular: otsoa.",
+    "frase_1_eu": "Otsoak mendian uluka ari dira",
+    "frase_1_es": "Los lobos están aullando en el monte",
+    "frase_2_eu": "Otsoa ikusi dute baserri inguruan",
+    "frase_2_es": "Han visto al lobo cerca del caserío",
+    "tags": [
+      "animales"
+    ],
+    "is_active": true
+  }
+]

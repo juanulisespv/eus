@@ -1,0 +1,283 @@
+[
+  {
+    "word_eu": "sukalde",
+    "translation_es": "cocina",
+    "translation_en": "kitchen",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 122,
+    "pronunciation": "sucalde",
+    "definition_simple": "Pieza de la casa destinada a cocinar alimentos",
+    "uso_habitual": "Absolutivo singular: sukaldea.",
+    "frase_1_eu": "Afaria prestatzen ari naiz sukaldean",
+    "frase_1_es": "Estoy preparando la cena en la cocina",
+    "frase_2_eu": "Sukalde berri bat jarri dugu etxean",
+    "frase_2_es": "Hemos puesto una cocina nueva en casa",
+    "tags": [
+      "hogar",
+      "habitaciones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "logela",
+    "translation_es": "dormitorio / habitación",
+    "translation_en": "bedroom",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 123,
+    "pronunciation": "loguela",
+    "definition_simple": "Habitación destinada a dormir",
+    "uso_habitual": "Absolutivo singular: logela.",
+    "frase_1_eu": "Nire logelan ohe bat eta mahaia daude",
+    "frase_1_es": "En mi dormitorio hay una cama y una mesa",
+    "frase_2_eu": "Logela margotuko dut asteburu honetan",
+    "frase_2_es": "Voy a pintar la habitación este fin de semana",
+    "tags": [
+      "hogar",
+      "habitaciones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "komun",
+    "translation_es": "baño / aseo",
+    "translation_en": "bathroom / toilet",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 124,
+    "pronunciation": "comun",
+    "definition_simple": "Habitación con sanitario y lavabo",
+    "uso_habitual": "Absolutivo singular: komuna.",
+    "frase_1_eu": "Non dago komuna, mesedez?",
+    "frase_1_es": "¿Dónde está el baño, por favor?",
+    "frase_2_eu": "Komuna garbitu behar dut",
+    "frase_2_es": "Tengo que limpiar el baño",
+    "tags": [
+      "hogar",
+      "habitaciones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "egongela",
+    "translation_es": "salón / sala de estar",
+    "translation_en": "living room",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 125,
+    "pronunciation": "egonguela",
+    "definition_simple": "Habitación espaciosa destinada a estar y recibir visitas",
+    "uso_habitual": "Absolutivo singular: egongela.",
+    "frase_1_eu": "Familia osoa egongelan dago telebista ikusten",
+    "frase_1_es": "Toda la familia está en el salón viendo la televisión",
+    "frase_2_eu": "Egongela nahiko argia da",
+    "frase_2_es": "El salón es bastante luminoso",
+    "tags": [
+      "hogar",
+      "habitaciones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ate",
+    "translation_es": "puerta",
+    "translation_en": "door",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 126,
+    "pronunciation": "ate",
+    "definition_simple": "Abertura que permite entrar y salir de un lugar",
+    "uso_habitual": "Absolutivo singular: atea.",
+    "frase_1_eu": "Atea itxita dago",
+    "frase_1_es": "La puerta está cerrada",
+    "frase_2_eu": "Nork jotzen du atea?",
+    "frase_2_es": "¿Quién llama a la puerta?",
+    "tags": [
+      "hogar",
+      "muebles",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "leiho",
+    "translation_es": "ventana",
+    "translation_en": "window",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 127,
+    "pronunciation": "leiho",
+    "definition_simple": "Abertura en la pared para dar luz y ventilación",
+    "uso_habitual": "Absolutivo singular: leihoa.",
+    "frase_1_eu": "Irekiko duzu leihoa, mesedez?",
+    "frase_1_es": "¿Abres la ventana, por favor?",
+    "frase_2_eu": "Leihoak oso zikinak daude",
+    "frase_2_es": "Las ventanas están muy sucias",
+    "tags": [
+      "hogar",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ohe",
+    "translation_es": "cama",
+    "translation_en": "bed",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 128,
+    "pronunciation": "ohe",
+    "definition_simple": "Mueble para dormir en él",
+    "uso_habitual": "Absolutivo singular: ohea.",
+    "frase_1_eu": "Ohea egin dut esnatu ondoren",
+    "frase_1_es": "He hecho la cama después de despertarme",
+    "frase_2_eu": "Ohe hau oso erosoa da",
+    "frase_2_es": "Esta cama es muy cómoda",
+    "tags": [
+      "hogar",
+      "muebles"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "mahai",
+    "translation_es": "mesa",
+    "translation_en": "table",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 129,
+    "pronunciation": "mahai",
+    "definition_simple": "Mueble compuesto por una tabla lisa sostenida por patas",
+    "uso_habitual": "Absolutivo singular: mahaia.",
+    "frase_1_eu": "Jarri platerak mahai gainean",
+    "frase_1_es": "Pon los platos sobre la mesa",
+    "frase_2_eu": "Mahaia garbitu dut bazkaldu eta gero",
+    "frase_2_es": "He limpiado la mesa después de comer",
+    "tags": [
+      "hogar",
+      "muebles"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "aulki",
+    "translation_es": "silla",
+    "translation_en": "chair",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 130,
+    "pronunciation": "aulqui",
+    "definition_simple": "Asiento con respaldo para una persona",
+    "uso_habitual": "Absolutivo singular: aulkia.",
+    "frase_1_eu": "Eseri aulki horretan",
+    "frase_1_es": "Siéntate en esa silla",
+    "frase_2_eu": "Hiru aulki falta dira sukaldean",
+    "frase_2_es": "Faltan tres sillas en la cocina",
+    "tags": [
+      "hogar",
+      "muebles"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hozkailu",
+    "translation_es": "nevera / refrigerador",
+    "translation_en": "fridge / refrigerator",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 131,
+    "pronunciation": "ozcailu",
+    "definition_simple": "Electrodoméstico para mantener fríos los alimentos",
+    "uso_habitual": "Absolutivo singular: hozkailua.",
+    "frase_1_eu": "Esnea hozkailuan dago",
+    "frase_1_es": "La leche está en la nevera",
+    "frase_2_eu": "Hozkailua hutsik dago",
+    "frase_2_es": "La nevera está vacía",
+    "tags": [
+      "hogar",
+      "electrodomésticos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "labe",
+    "translation_es": "horno",
+    "translation_en": "oven",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 132,
+    "pronunciation": "labe",
+    "definition_simple": "Dispositivo para asar o calentar comida por calor cerrado",
+    "uso_habitual": "Absolutivo singular: labea.",
+    "frase_1_eu": "Pizza labean dago sartuta",
+    "frase_1_es": "La pizza está metida en el horno",
+    "frase_2_eu": "Labea oso bero dago",
+    "frase_2_es": "El horno está muy caliente",
+    "tags": [
+      "hogar",
+      "electrodomésticos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "argi",
+    "translation_es": "luz / lámpara",
+    "translation_en": "light / lamp",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 133,
+    "pronunciation": "argui",
+    "definition_simple": "Agente físico que hace visibles los objetos",
+    "uso_habitual": "Absolutivo singular: argia.",
+    "frase_1_eu": "Itzali argia lo egin baino lehen",
+    "frase_1_es": "Apaga la luz antes de dormir",
+    "frase_2_eu": "Gela honek ez du argi handirik",
+    "frase_2_es": "Esta habitación no tiene mucha luz",
+    "tags": [
+      "hogar",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ispilu",
+    "translation_es": "espejo",
+    "translation_en": "mirror",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 134,
+    "pronunciation": "ispilu",
+    "definition_simple": "Tabla de cristal azogado que refleja la imagen",
+    "uso_habitual": "Absolutivo singular: ispilua.",
+    "frase_1_eu": "Ispilura begiratu naiz orrazteko",
+    "frase_1_es": "Me he mirado al espejo para peinarme",
+    "frase_2_eu": "Komuneko ispilua apurtu da",
+    "frase_2_es": "El espejo del baño se ha roto",
+    "tags": [
+      "hogar",
+      "muebles"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "armairu",
+    "translation_es": "armario",
+    "translation_en": "closet / wardrobe",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 135,
+    "pronunciation": "armairu",
+    "definition_simple": "Mueble con puertas y estantes para guardar ropa u objetos",
+    "uso_habitual": "Absolutivo singular: armairua.",
+    "frase_1_eu": "Nire arropa guztia armairuan dago",
+    "frase_1_es": "Toda mi ropa está en el armario",
+    "frase_2_eu": "Armairu handi bat erosi dugu logelarako",
+    "frase_2_es": "Hemos comprado un armario grande para el dormitorio",
+    "tags": [
+      "hogar",
+      "muebles"
+    ],
+    "is_active": true
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "word_eu": "diru",
+    "translation_es": "dinero",
+    "translation_en": "money",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 163,
+    "pronunciation": "diru",
+    "definition_simple": "Moneda corriente que tiene valor legal",
+    "uso_habitual": "Sustantivo muy común. Absolutivo singular: dirua.",
+    "frase_1_eu": "Ez dut dirurik poltsikoan",
+    "frase_1_es": "No tengo dinero en el bolsillo",
+    "frase_2_eu": "Diru asko kostatzen du bidaia honek",
+    "frase_2_es": "Este viaje cuesta mucho dinero",
+    "tags": [
+      "compras",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "erosketa",
+    "translation_es": "compra",
+    "translation_en": "purchase / shopping",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 164,
+    "pronunciation": "erosceta",
+    "definition_simple": "Acción de adquirir algo por dinero",
+    "uso_habitual": "Absolutivo singular: erosketa.",
+    "frase_1_eu": "Larunbatean asteko erosketak egiten ditugu",
+    "frase_1_es": "El sábado hacemos las compras de la semana",
+    "frase_2_eu": "Erosketa orria etxean ahaztu zait",
+    "frase_2_es": "Se me ha olvidado la lista de la compra en casa",
+    "tags": [
+      "compras",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "prezio",
+    "translation_es": "precio",
+    "translation_en": "price",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 166,
+    "pronunciation": "pretsio",
+    "definition_simple": "Valor pecuniario en que se estima algo",
+    "uso_habitual": "Absolutivo singular: prezioa.",
+    "frase_1_eu": "Zein da liburu honen prezioa?",
+    "frase_1_es": "¿Cuál es el precio de este libro?",
+    "frase_2_eu": "Prezioak asko igo dira aurten",
+    "frase_2_es": "Los precios han subido mucho este año",
+    "tags": [
+      "compras",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "txartel",
+    "translation_es": "tarjeta / billete",
+    "translation_en": "card / ticket",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 167,
+    "pronunciation": "txartel",
+    "definition_simple": "Pieza rectangular de plástico o cartón que sirve para pagar o viajar",
+    "uso_habitual": "Absolutivo singular: txartela. Ej: banku-txartela (tarjeta bancaria).",
+    "frase_1_eu": "Kreditu-txartelarekin ordaindu dut supermerkatuan",
+    "frase_1_es": "He pagado con tarjeta de crédito en el supermercado",
+    "frase_2_eu": "Autobuserako txartela erosi behar dut",
+    "frase_2_es": "Tengo que comprar el billete para el autobús",
+    "tags": [
+      "compras",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ordaindu",
+    "translation_es": "pagar",
+    "translation_en": "to pay",
+    "category": "verbo",
+    "difficulty": 1,
+    "frequency_rank": 168,
+    "pronunciation": "ordaindu",
+    "definition_simple": "Dar dinero a cambio de una cosa o servicio",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK.",
+    "frase_1_eu": "Nork ordainduko du afaria?",
+    "frase_1_es": "¿Quién va a pagar la cena?",
+    "frase_2_eu": "Dagoeneko ordaindu dut faktura",
+    "frase_2_es": "Ya he pagado la factura",
+    "tags": [
+      "compras",
+      "verbos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "saldu",
+    "translation_es": "vender",
+    "translation_en": "to sell",
+    "category": "verbo",
+    "difficulty": 1,
+    "frequency_rank": 169,
+    "pronunciation": "saldu",
+    "definition_simple": "Traspasar a alguien una cosa por un precio convenido",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK.",
+    "frase_1_eu": "Autoa saldu dut trenez bidaiatzen dudalako",
+    "frase_1_es": "He vendido el coche porque viajo en tren",
+    "frase_2_eu": "Etxea saldu nahi dute kostaldera joateko",
+    "frase_2_es": "Quieren vender la casa para irse a la costa",
+    "tags": [
+      "compras",
+      "verbos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "erosi",
+    "translation_es": "comprar",
+    "translation_en": "to buy",
+    "category": "verbo",
+    "difficulty": 1,
+    "frequency_rank": 170,
+    "pronunciation": "erosi",
+    "definition_simple": "Obtener la propiedad de algo por un precio",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK.",
+    "frase_1_eu": "Ogia eta ura erosi ditut",
+    "frase_1_es": "He comprado pan y agua",
+    "frase_2_eu": "Non erosi duzu alkandora hori?",
+    "frase_2_es": "¿Dónde has comprado esa camisa?",
+    "tags": [
+      "compras",
+      "verbos",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "poltsa",
+    "translation_es": "bolsa / bolso",
+    "translation_en": "bag",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 171,
+    "pronunciation": "poltsa",
+    "definition_simple": "Recipiente flexible para guardar o llevar cosas",
+    "uso_habitual": "Absolutivo singular: poltsa.",
+    "frase_1_eu": "Erosketetarako oihalezko poltsa erabiltzen dut",
+    "frase_1_es": "Utilizo una bolsa de tela para las compras",
+    "frase_2_eu": "Poltsa astunegia da niretzat",
+    "frase_2_es": "La bolsa es demasiado pesada para mí",
+    "tags": [
+      "compras",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "faktura",
+    "translation_es": "factura",
+    "translation_en": "invoice / bill",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 172,
+    "pronunciation": "factura",
+    "definition_simple": "Cuenta detallada de las mercancías vendidas o servicios prestados",
+    "uso_habitual": "Absolutivo singular: faktura.",
+    "frase_1_eu": "Argiaren faktura oso garestia da hilabete honetan",
+    "frase_1_es": "La factura de la luz es muy cara este mes",
+    "frase_2_eu": "Eman faktura mesedez kontabilitaterako",
+    "frase_2_es": "Déme la factura por favor para la contabilidad",
+    "tags": [
+      "compras",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "supermerkatu",
+    "translation_es": "supermercado",
+    "translation_en": "supermarket",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 173,
+    "pronunciation": "supermercatu",
+    "definition_simple": "Establecimiento de venta al por menor de autoservicio de comida y hogar",
+    "uso_habitual": "Absolutivo singular: supermerkatua.",
+    "frase_1_eu": "Supermerkatu berri bat ireki dute gertu",
+    "frase_1_es": "Han abierto un supermercado nuevo cerca",
+    "frase_2_eu": "Supermerkatura joango naiz fruituak erostera",
+    "frase_2_es": "Iré al supermercado a comprar frutas",
+    "tags": [
+      "compras",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "deskontu",
+    "translation_es": "descuento / rebaja",
+    "translation_en": "discount / sale",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 174,
+    "pronunciation": "descontu",
+    "definition_simple": "Reducción del precio de un objeto",
+    "uso_habitual": "Absolutivo singular: deskontua.",
+    "frase_1_eu": "Jaka honek ehuneko hogei deskontua du",
+    "frase_1_es": "Esta chaqueta tiene un veinte por ciento de descuento",
+    "frase_2_eu": "Deskontu handiak daude neguan",
+    "frase_2_es": "Hay grandes descuentos en invierno",
+    "tags": [
+      "compras"
+    ],
+    "is_active": true
+  }
+]

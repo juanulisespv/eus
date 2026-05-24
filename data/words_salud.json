@@ -1,0 +1,274 @@
+[
+  {
+    "word_eu": "osasun",
+    "translation_es": "salud",
+    "translation_en": "health",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 249,
+    "pronunciation": "osasun",
+    "definition_simple": "Estado en que el organismo ejerce sus funciones normales",
+    "uso_habitual": "Absolutivo singular: osasuna.",
+    "frase_1_eu": "Osasuna da munduko gauzarik garrantzitsuena",
+    "frase_1_es": "La salud es la cosa más importante del mundo",
+    "frase_2_eu": "Osasun arazoak ditu aitonak",
+    "frase_2_es": "El abuelo tiene problemas de salud",
+    "tags": [
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gaixotasun",
+    "translation_es": "enfermedad",
+    "translation_en": "illness / disease",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 250,
+    "pronunciation": "gaixotasun",
+    "definition_simple": "Alteración de la salud",
+    "uso_habitual": "Absolutivo singular: gaixotasuna. Proviene de 'gaixo' (enfermo).",
+    "frase_1_eu": "Gaixotasun berri bat aurkitu dute zientzialariek",
+    "frase_1_es": "Los científicos han descubierto una enfermedad nueva",
+    "frase_2_eu": "Ez dago sendabiderik gaixotasun honentzat",
+    "frase_2_es": "No hay cura para esta enfermedad",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "min",
+    "translation_es": "dolor / picante",
+    "translation_en": "pain / spicy",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 251,
+    "pronunciation": "min",
+    "definition_simple": "Sensación molesta en el cuerpo",
+    "uso_habitual": "Se usa como: min dut (tengo dolor), min eman (hacer daño).",
+    "frase_1_eu": "Belaunean min handia daukat",
+    "frase_1_es": "Tengo mucho dolor en la rodilla",
+    "frase_2_eu": "Gozoki honek min ematen du hortzetan",
+    "frase_2_es": "Este dulce hace daño en los dientes",
+    "tags": [
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sukar",
+    "translation_es": "fiebre",
+    "translation_en": "fever",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 252,
+    "pronunciation": "sucar",
+    "definition_simple": "Aumento de la temperatura corporal por enfermedad",
+    "uso_habitual": "Absolutivo singular: sukarra.",
+    "frase_1_eu": "Umeak sukarra dauka eta ohean dago",
+    "frase_1_es": "El niño tiene fiebre y está en la cama",
+    "frase_2_eu": "Termometroak sukarra dagoela dio",
+    "frase_2_es": "El termómetro dice que hay fiebre",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eztul",
+    "translation_es": "tos",
+    "translation_en": "cough",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 253,
+    "pronunciation": "estul",
+    "definition_simple": "Expulsión ruidosa de aire de los pulmones",
+    "uso_habitual": "Se usa como: eztul egin (toser). Absolutivo singular: eztula.",
+    "frase_1_eu": "Gau osoan eztul handia egin dut katarroagatik",
+    "frase_1_es": "He tenido mucha tos (hecho mucha tos) toda la noche por el catarro",
+    "frase_2_eu": "Eztul eztia egiteko jarabea hartu dut",
+    "frase_2_es": "He tomado jarabe para calmar la tos",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "botika",
+    "translation_es": "medicamento / medicina",
+    "translation_en": "medicine / drug",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 254,
+    "pronunciation": "botica",
+    "definition_simple": "Sustancia que se administra con fines curativos",
+    "uso_habitual": "Absolutivo singular: botika. También se llama 'medikamentu'.",
+    "frase_1_eu": "Botika hau hartu behar dut otorduen ostean",
+    "frase_1_es": "Tengo que tomar esta medicina después de las comidas",
+    "frase_2_eu": "Ez ahaztu botikak hartzeaz",
+    "frase_2_es": "No te olvides de tomar las medicinas",
+    "tags": [
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ambulatorio",
+    "translation_es": "ambulatorio / centro de salud",
+    "translation_en": "clinic / health center",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 256,
+    "pronunciation": "anbulatorio",
+    "definition_simple": "Lugar de asistencia médica primaria fuera del hospital",
+    "uso_habitual": "Absolutivo singular: anbulatorioa.",
+    "frase_1_eu": "Goizean anbulatoriora joan naiz txertoa jartzera",
+    "frase_1_es": "Por la mañana he ido al ambulatorio a ponerme la vacuna",
+    "frase_2_eu": "Gure herriko anbulatorioa txikia da",
+    "frase_2_es": "El ambulatorio de nuestro pueblo es pequeño",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zauri",
+    "translation_es": "herida",
+    "translation_en": "wound / cut",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 257,
+    "pronunciation": "sauri",
+    "definition_simple": "Rotura de la piel por un golpe o corte",
+    "uso_habitual": "Absolutivo singular: zauria.",
+    "frase_1_eu": "Zauria garbitu dut urarekin eta xaboiarekin",
+    "frase_1_es": "He limpiado la herida con agua y jabón",
+    "frase_2_eu": "Zauri sakona dauka hankan",
+    "frase_2_es": "Tiene una herida profunda en la pierna",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sendatu",
+    "translation_es": "curar / sanar",
+    "translation_en": "to cure / to heal / to get well",
+    "category": "verbo",
+    "difficulty": 2,
+    "frequency_rank": 258,
+    "pronunciation": "sendatu",
+    "definition_simple": "Restablecer la salud de alguien o recuperarse",
+    "uso_habitual": "Si es 'curar a alguien' va con NORK; si es 'ponerse bien' va con NOR (sendatu naiz).",
+    "frase_1_eu": "Dagoeneko sendatu naiz, ez daukat minik",
+    "frase_1_es": "Ya me he curado, no tengo dolor",
+    "frase_2_eu": "Medikuak gaixoa sendatu du botikekin",
+    "frase_2_es": "El médico ha curado al enfermo con medicinas",
+    "tags": [
+      "salud",
+      "verbos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gaixo",
+    "translation_es": "enfermo / enferma",
+    "translation_en": "sick / ill",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 259,
+    "pronunciation": "gaixo",
+    "definition_simple": "Persona que sufre una enfermedad o no está sana",
+    "uso_habitual": "Absolutivo singular: gaixoa. (En euskera vizcaíno se usa 'gaixorik' como estado).",
+    "frase_1_eu": "Nire arreba gaixo dago eta ezin da lanera joan",
+    "frase_1_es": "Mi hermana está enferma y no puede ir a trabajar",
+    "frase_2_eu": "Gaixo asko daude gaur ospitalean",
+    "frase_2_es": "Hay muchos enfermos hoy en el hospital",
+    "tags": [
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "osasuntsu",
+    "translation_es": "saludable / sano / sana",
+    "translation_en": "healthy",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 260,
+    "pronunciation": "osasuntsu",
+    "definition_simple": "Que goza de buena salud o es bueno para ella",
+    "uso_habitual": "Va tras el sustantivo. Deriva de 'osasun'.",
+    "frase_1_eu": "Fruta jatea oso osasuntsua da",
+    "frase_1_es": "Comer fruta es muy saludable",
+    "frase_2_eu": "Bizimodu osasuntsua eraman nahi dut",
+    "frase_2_es": "Quiero llevar un estilo de vida saludable",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "farmazia",
+    "translation_es": "farmacia",
+    "translation_en": "pharmacy / drugstore",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 261,
+    "pronunciation": "farmazia",
+    "definition_simple": "Establecimiento donde se venden medicamentos",
+    "uso_habitual": "Absolutivo singular: farmazia.",
+    "frase_1_eu": "Farmaziara joan naiz jarabea erostera",
+    "frase_1_es": "He ido a la farmacia a comprar jarabe",
+    "frase_2_eu": "Gure kalean farmazia berri bat ireki dute",
+    "frase_2_es": "Han abierto una farmacia nueva en nuestra calle",
+    "tags": [
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tiritak",
+    "translation_es": "tiritas",
+    "translation_en": "band-aids / plasters",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 262,
+    "pronunciation": "tiritac",
+    "definition_simple": "Tiras adhesivas para cubrir pequeñas heridas",
+    "uso_habitual": "Generalmente en plural. Singular: tirita.",
+    "frase_1_eu": "Tiritak behar ditut orpoan dudan zaurirako",
+    "frase_1_es": "Necesito tiritas para la herida que tengo en el talón",
+    "frase_2_eu": "Kutxan badaude tiritak eta bendak",
+    "frase_2_es": "En la caja hay tiritas y vendas",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "errezeta",
+    "translation_es": "receta",
+    "translation_en": "prescription / recipe",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 263,
+    "pronunciation": "erretseta",
+    "definition_simple": "Nota escrita por un médico con las medicinas que debe tomar el paciente",
+    "uso_habitual": "Absolutivo singular: errezeta.",
+    "frase_1_eu": "Medikuak errezeta eman dit botikak erosteko",
+    "frase_1_es": "El médico me ha dado la receta para comprar las medicinas",
+    "frase_2_eu": "Sukaldeko errezeta hau oso erraza da",
+    "frase_2_es": "Esta receta de cocina es muy fácil",
+    "tags": [
+      "salud"
+    ],
+    "is_active": true
+  }
+]

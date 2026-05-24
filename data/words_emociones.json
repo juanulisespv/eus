@@ -1,0 +1,291 @@
+[
+  {
+    "word_eu": "poz",
+    "translation_es": "alegría / satisfacción",
+    "translation_en": "joy / happiness",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 264,
+    "pronunciation": "pos",
+    "definition_simple": "Sentimiento grato de viva satisfacción",
+    "uso_habitual": "Absolutivo singular: poza. Ej: poz handia eman dit (me ha dado gran alegría).",
+    "frase_1_eu": "Pozez zoratzen nago berri onarekin",
+    "frase_1_es": "Estoy loco de alegría con la buena noticia",
+    "frase_2_eu": "Zure bisitak poz handia eman dit",
+    "frase_2_es": "Tu visita me ha dado una gran alegría",
+    "tags": [
+      "emociones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tristura",
+    "translation_es": "tristeza",
+    "translation_en": "sadness / sorrow",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 265,
+    "pronunciation": "tristura",
+    "definition_simple": "Sentimiento de dolor y melancolía que lleva a la desgana",
+    "uso_habitual": "Absolutivo singular: tristura.",
+    "frase_1_eu": "Pelikula horrek tristura handia eman dit",
+    "frase_1_es": "Esa película me ha dado mucha tristeza",
+    "frase_2_eu": "Ez dut tristurarik nahi nire bizitzan",
+    "frase_2_es": "No quiero tristeza en mi vida",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "beldur",
+    "translation_es": "miedo",
+    "translation_en": "fear",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 266,
+    "pronunciation": "beldur",
+    "definition_simple": "Angustia por un riesgo o daño real o imaginario",
+    "uso_habitual": "Se usa como: beldur naiz (tengo miedo), beldur izan (tener miedo).",
+    "frase_1_eu": "Beldur naiz gauez basoan ibiltzean",
+    "frase_1_es": "Tengo miedo al andar por el bosque de noche",
+    "frase_2_eu": "Txakur handi horrek ez dit beldurrik ematen",
+    "frase_2_es": "Ese perro grande no me da miedo",
+    "tags": [
+      "emociones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "amorru",
+    "translation_es": "rabia / enfado / ira",
+    "translation_en": "rage / anger / fury",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 267,
+    "pronunciation": "amorru",
+    "definition_simple": "Sentimiento de gran enfado u hostilidad",
+    "uso_habitual": "Absolutivo singular: amorrua.",
+    "frase_1_eu": "Amorrua sentitzen dut bidegabekeria ikustean",
+    "frase_1_es": "Siento rabia al ver la injusticia",
+    "frase_2_eu": "Zure jarrerak amorru handia ematen dit",
+    "frase_2_es": "Tu actitud me da mucha rabia",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lasaitasun",
+    "translation_es": "tranquilidad / calma",
+    "translation_en": "calm / peace / tranquility",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 268,
+    "pronunciation": "lasaitasun",
+    "definition_simple": "Estado de ausencia de agitación o estrés",
+    "uso_habitual": "Absolutivo singular: lasaitasuna.",
+    "frase_1_eu": "Mendian lasaitasun handia dago gaur",
+    "frase_1_es": "En el monte hay mucha tranquilidad hoy",
+    "frase_2_eu": "Nire bizitzan lasaitasuna behar dut",
+    "frase_2_es": "Necesito tranquilidad en mi vida",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "maitasun",
+    "translation_es": "amor / cariño",
+    "translation_en": "love / affection",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 269,
+    "pronunciation": "maitasun",
+    "definition_simple": "Sentimiento afectuoso y de entrega hacia otra persona o cosa",
+    "uso_habitual": "Absolutivo singular: maitasuna.",
+    "frase_1_eu": "Nire amari maitasun handiz idatzi diot",
+    "frase_1_es": "Le he escrito a mi madre con mucho cariño",
+    "frase_2_eu": "Maitasuna da bizitzako indarrik handiena",
+    "frase_2_es": "El amor es la fuerza más grande de la vida",
+    "tags": [
+      "emociones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gorroto",
+    "translation_es": "odio",
+    "translation_en": "hate / hatred",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 270,
+    "pronunciation": "gorroto",
+    "definition_simple": "Sentimiento de profunda antipatía y rechazo",
+    "uso_habitual": "Sustantivo o verbo (gorroto dut = lo odio). Absolutivo singular: gorrotoa.",
+    "frase_1_eu": "Gorrotoak ez du ezer onik ekartzen",
+    "frase_1_es": "El odio no trae nada bueno",
+    "frase_2_eu": "Gorroto dut goiz jaikitzea neguan",
+    "frase_2_es": "Odio levantarme temprano en invierno",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lotsa",
+    "translation_es": "vergüenza",
+    "translation_en": "shame / embarrassment",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 271,
+    "pronunciation": "lotsa",
+    "definition_simple": "Turbación ante el temor a la burla o el juicio ajeno",
+    "uso_habitual": "Se usa como: lotsa naiz (tengo vergüenza), lotsa eman (dar vergüenza).",
+    "frase_1_eu": "Lotsa ematen dit jendaurrean hitz egiteak",
+    "frase_1_es": "Me da vergüenza hablar en público",
+    "frase_2_eu": "Lotsa naiz euskara oker hitz egiteaz",
+    "frase_2_es": "Tengo vergüenza de hablar mal el euskera",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "urduritasun",
+    "translation_es": "nerviosismo / nervios",
+    "translation_en": "nervousness",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 272,
+    "pronunciation": "urduritasun",
+    "definition_simple": "Estado de alteración del sistema nervioso",
+    "uso_habitual": "Absolutivo singular: urduritasuna. Adjetivo: urduri (nervioso).",
+    "frase_1_eu": "Urduritasun handia daukat azterketa hasi aurretik",
+    "frase_1_es": "Tengo mucho nerviosismo antes de empezar el examen",
+    "frase_2_eu": "Ezin dut nire urduritasuna ezkutatu",
+    "frase_2_es": "No puedo ocultar mis nervios",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "irribarre",
+    "translation_es": "sonrisa",
+    "translation_en": "smile",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 273,
+    "pronunciation": "irribarre",
+    "definition_simple": "Gesto de alegría sin emisión de sonido",
+    "uso_habitual": "Absolutivo singular: irribarrea. Verbo: irribarre egin (sonreír).",
+    "frase_1_eu": "Irribarre eder bat marraztu da bere aurpegian",
+    "frase_1_es": "Se ha dibujado una sonrisa hermosa en su cara",
+    "frase_2_eu": "Beti irribarrez hartzen nau atean",
+    "frase_2_es": "Siempre me recibe sonriendo en la puerta",
+    "tags": [
+      "emociones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "negar",
+    "translation_es": "llanto / llorar",
+    "translation_en": "cry / crying",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 274,
+    "pronunciation": "negar",
+    "definition_simple": "Efecto de llorar vertiendo lágrimas",
+    "uso_habitual": "Verbo: negar egin (llorar). Absolutivo singular: negara.",
+    "frase_1_eu": "Umeak negar egin du kolpea hartu duelako",
+    "frase_1_es": "El niño ha llorado porque se ha llevado un golpe",
+    "frase_2_eu": "Negarra entzuten da albo gela honetan",
+    "frase_2_es": "Se escucha llanto en esta habitación de al lado",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "barre",
+    "translation_es": "risa / reír",
+    "translation_en": "laughter / laugh",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 275,
+    "pronunciation": "barre",
+    "definition_simple": "Movimiento de la boca y ruido alegre",
+    "uso_habitual": "Verbo: barre egin (reírse). Absolutivo singular: barrea.",
+    "frase_1_eu": "Barre egin dugu zure txantxekin bulegoan",
+    "frase_1_es": "Nos hemos reído con tus chistes en la oficina",
+    "frase_2_eu": "Barrea oso osasuntsua da",
+    "frase_2_es": "La risa es muy saludable",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "itxaropen",
+    "translation_es": "esperanza",
+    "translation_en": "hope",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 276,
+    "pronunciation": "itxaropen",
+    "definition_simple": "Estado de ánimo optimista basado en la expectativa de resultados favorables",
+    "uso_habitual": "Absolutivo singular: itxaropena.",
+    "frase_1_eu": "Azken unera arte ez dut itxaropena galdu nahi",
+    "frase_1_es": "No quiero perder la esperanza hasta el último momento",
+    "frase_2_eu": "Itxaropen berria dugu etorkizunerako",
+    "frase_2_es": "Tenemos nueva esperanza para el futuro",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "harro",
+    "translation_es": "orgulloso / orgullosa",
+    "translation_en": "proud",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 277,
+    "pronunciation": "harro",
+    "definition_simple": "Que siente satisfacción o superioridad",
+    "uso_habitual": "Va tras el sustantivo o se usa como predicativo.",
+    "frase_1_eu": "Nire semeaz oso harro nago",
+    "frase_1_es": "Estoy muy orgulloso de mi hijo",
+    "frase_2_eu": "Harro hitg egin du bere herriari buruz",
+    "frase_2_es": "Ha hablado orgulloso sobre su pueblo",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "jeloskor",
+    "translation_es": "celoso / celosa",
+    "translation_en": "jealous",
+    "category": "sustantivo",
+    "difficulty": 3,
+    "frequency_rank": 278,
+    "pronunciation": "yeloscor",
+    "definition_simple": "Que siente celos de otra persona",
+    "uso_habitual": "Va tras el sustantivo o con verbos de estado.",
+    "frase_1_eu": "Miren jeloskor dago bere lagunarekin",
+    "frase_1_es": "Miren está celosa de su amiga",
+    "frase_2_eu": "Jarrera jeloskorra ez zait batere gustatzen",
+    "frase_2_es": "No me gusta nada la actitud celosa",
+    "tags": [
+      "emociones"
+    ],
+    "is_active": true
+  }
+]

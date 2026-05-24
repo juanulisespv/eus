@@ -1,0 +1,305 @@
+[
+  {
+    "word_eu": "lan",
+    "translation_es": "trabajo / tarea",
+    "translation_en": "work / job",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 148,
+    "pronunciation": "lan",
+    "definition_simple": "Acción o actividad de trabajar",
+    "uso_habitual": "Sustantivo muy común. Absolutivo singular: lana.",
+    "frase_1_eu": "Lana amaitu dut gaurkoz",
+    "frase_1_es": "He terminado el trabajo por hoy",
+    "frase_2_eu": "Lan handia daukagu bulegoan",
+    "frase_2_es": "Tenemos mucho trabajo en la oficina",
+    "tags": [
+      "trabajo",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "langile",
+    "translation_es": "trabajador / empleado",
+    "translation_en": "worker / employee",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 149,
+    "pronunciation": "languile",
+    "definition_simple": "Persona que trabaja a cambio de un salario",
+    "uso_habitual": "Absolutivo singular: langilea.",
+    "frase_1_eu": "Fabrika honek ehun langile ditu",
+    "frase_1_es": "Esta fábrica tiene cien trabajadores",
+    "frase_2_eu": "Langile oso langilea da",
+    "frase_2_es": "Es un empleado muy trabajador",
+    "tags": [
+      "trabajo",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "idazkari",
+    "translation_es": "secretario / secretaria",
+    "translation_en": "secretary",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 150,
+    "pronunciation": "idascari",
+    "definition_simple": "Persona encargada de escribir la correspondencia y actas de una oficina",
+    "uso_habitual": "Absolutivo singular: idazkaria.",
+    "frase_1_eu": "Idazkariak mezu bat bidali du",
+    "frase_1_es": "El secretario ha enviado un mensaje",
+    "frase_2_eu": "Nire lehengusua idazkaria da udaletxean",
+    "frase_2_es": "Mi primo es secretario en el ayuntamiento",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "irakasle",
+    "translation_es": "profesor / profesora / maestro",
+    "translation_en": "teacher / professor",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 151,
+    "pronunciation": "iracasle",
+    "definition_simple": "Persona que ejerce la enseñanza",
+    "uso_habitual": "Absolutivo singular: irakaslea.",
+    "frase_1_eu": "Irakasleak euskara irakasten digu",
+    "frase_1_es": "El profesor nos enseña euskera",
+    "frase_2_eu": "Miren matematikako irakaslea da",
+    "frase_2_es": "Miren es profesora de matemáticas",
+    "tags": [
+      "trabajo",
+      "profesiones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ikasle",
+    "translation_es": "estudiante / alumno",
+    "translation_en": "student / pupil",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 152,
+    "pronunciation": "icasle",
+    "definition_simple": "Persona que cursa estudios en un establecimiento de enseñanza",
+    "uso_habitual": "Absolutivo singular: ikaslea.",
+    "frase_1_eu": "Ni unibertsitateko ikaslea naiz",
+    "frase_1_es": "Yo soy estudiante universitario",
+    "frase_2_eu": "Gaur ikasle berri bat etorri da gelara",
+    "frase_2_es": "Hoy ha venido un nuevo alumno a la clase",
+    "tags": [
+      "trabajo",
+      "profesiones",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "mediku",
+    "translation_es": "médico / médica",
+    "translation_en": "doctor / physician",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 153,
+    "pronunciation": "medicu",
+    "definition_simple": "Persona legalmente autorizada para profesar y ejercer la medicina",
+    "uso_habitual": "Absolutivo singular: medikua.",
+    "frase_1_eu": "Medikuarenera joango naiz min dudalako",
+    "frase_1_es": "Iré al médico porque tengo dolor",
+    "frase_2_eu": "Nire osaba mediku ospetsua da",
+    "frase_2_es": "Mi tío es un médico famoso",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "erizain",
+    "translation_es": "enfermero / enfermera",
+    "translation_en": "nurse",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 154,
+    "pronunciation": "erisain",
+    "definition_simple": "Persona dedicada a la asistencia de enfermos y heridos bajo dirección médica",
+    "uso_habitual": "Absolutivo singular: erizaina.",
+    "frase_1_eu": "Erizainak txertoa jarri dit",
+    "frase_1_es": "La enfermera me ha puesto la vacuna",
+    "frase_2_eu": "Erizain lanetan hasi da ospitalean",
+    "frase_2_es": "Ha empezado a trabajar de enfermero en el hospital",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tabernari",
+    "translation_es": "camarero / tabernero",
+    "translation_en": "bartender / waiter",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 155,
+    "pronunciation": "tabernari",
+    "definition_simple": "Persona que sirve en una taberna o bar",
+    "uso_habitual": "Absolutivo singular: tabernaria.",
+    "frase_1_eu": "Tabernariak garagardo bat zerbitzatu du",
+    "frase_1_es": "El camarero ha servido una cerveza",
+    "frase_2_eu": "Nire anaia tabernaria da Donostian",
+    "frase_2_es": "Mi hermano es camarero en San Sebastián",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "suhiltzaile",
+    "translation_es": "bombero / bombera",
+    "translation_en": "firefighter",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 156,
+    "pronunciation": "suiltsaile",
+    "definition_simple": "Persona que tiene por oficio apagar incendios y prestar auxilio",
+    "uso_habitual": "Absolutivo singular: suhiltzailea.",
+    "frase_1_eu": "Suhiltzaileek sua itzali dute oso azkar",
+    "frase_1_es": "Los bomberos han apagado el fuego muy rápido",
+    "frase_2_eu": "Suhiltzailea izatea nire ametsa da",
+    "frase_2_es": "Ser bombero es mi sueño",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "poliziakide",
+    "translation_es": "policía / agente de policía",
+    "translation_en": "police officer",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 157,
+    "pronunciation": "politsiacuide",
+    "definition_simple": "Miembro del cuerpo encargado de velar por el orden público",
+    "uso_habitual": "Absolutivo singular: poliziakidea.",
+    "frase_1_eu": "Poliziakideak dokumentua eskatu dit",
+    "frase_1_es": "El policía me ha pedido el documento",
+    "frase_2_eu": "Bi poliziakide daude kale izkinan",
+    "frase_2_es": "Hay dos policías en la esquina de la calle",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ingeniari",
+    "translation_es": "ingeniero / ingeniera",
+    "translation_en": "engineer",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 158,
+    "pronunciation": "ingheniari",
+    "definition_simple": "Persona que profesa o ejerce la ingeniería",
+    "uso_habitual": "Absolutivo singular: ingeniaria.",
+    "frase_1_eu": "Nire arreba ingeniaria da lantegi batean",
+    "frase_1_es": "Mi hermana es ingeniera en una fábrica",
+    "frase_2_eu": "Aita ingeniaria da eta zubiak eraikitzen ditu",
+    "frase_2_es": "Mi padre es ingeniero y construye puentes",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "dendari",
+    "translation_es": "tendero / comerciante",
+    "translation_en": "shopkeeper / merchant",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 159,
+    "pronunciation": "dendari",
+    "definition_simple": "Persona que es dueña de una tienda o trabaja en ella",
+    "uso_habitual": "Absolutivo singular: dendaria.",
+    "frase_1_eu": "Dendariak fruta onena eman dit",
+    "frase_1_es": "El tendero me ha dado la mejor fruta",
+    "frase_2_eu": "Dendariak oso atseginak dira auzoan",
+    "frase_2_es": "Los comerciantes son muy amables en el barrio",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gidari",
+    "translation_es": "conductor / conductora",
+    "translation_en": "driver / pilot",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 160,
+    "pronunciation": "guidari",
+    "definition_simple": "Persona que conduce un automóvil o vehículo público",
+    "uso_habitual": "Absolutivo singular: gidaria.",
+    "frase_1_eu": "Autobus-gidariak agurtu nau sartzean",
+    "frase_1_es": "El conductor del autobús me ha saludado al entrar",
+    "frase_2_eu": "Gidari aditua da errepidean",
+    "frase_2_es": "Es un conductor experto en la carretera",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "abokatu",
+    "translation_es": "abogado / abogada",
+    "translation_en": "lawyer / attorney",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 161,
+    "pronunciation": "abocatu",
+    "definition_simple": "Persona legalmente autorizada para defender en juicio los derechos o intereses de los litigantes",
+    "uso_habitual": "Absolutivo singular: abokatua.",
+    "frase_1_eu": "Abokatu batekin hitz egin behar dut kontratuagatik",
+    "frase_1_es": "Tengo que hablar con un abogado por el contrato",
+    "frase_2_eu": "Nire laguna abokatua da eta epaitegian lan egiten du",
+    "frase_2_es": "Mi amigo es abogado y trabaja en el tribunal",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zuzendari",
+    "translation_es": "director / directora",
+    "translation_en": "director / manager",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 162,
+    "pronunciation": "susendari",
+    "definition_simple": "Persona que dirige una empresa, establecimiento, película o colectivo",
+    "uso_habitual": "Absolutivo singular: zuzendaria.",
+    "frase_1_eu": "Eskolako zuzendariak bilera deitu du",
+    "frase_1_es": "La directora de la escuela ha convocado una reunión",
+    "frase_2_eu": "Zuzendari berriak arauak aldatu ditu lantegian",
+    "frase_2_es": "El nuevo director ha cambiado las normas en la fábrica",
+    "tags": [
+      "trabajo",
+      "profesiones"
+    ],
+    "is_active": true
+  }
+]

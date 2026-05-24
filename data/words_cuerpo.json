@@ -1,0 +1,351 @@
+[
+  {
+    "word_eu": "buru",
+    "translation_es": "cabeza",
+    "translation_en": "head",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 231,
+    "pronunciation": "buru",
+    "definition_simple": "Parte superior del cuerpo humano",
+    "uso_habitual": "Absolutivo singular: burua. También significa 'extremo' o 'fin'.",
+    "frase_1_eu": "Buruak min ematen dit",
+    "frase_1_es": "Me duele la cabeza (la cabeza me da dolor)",
+    "frase_2_eu": "Burua gora begira jarri du",
+    "frase_2_es": "Ha puesto la cabeza mirando hacia arriba",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "esku",
+    "translation_es": "mano",
+    "translation_en": "hand",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 232,
+    "pronunciation": "escu",
+    "definition_simple": "Parte del cuerpo al final de los brazos",
+    "uso_habitual": "Absolutivo singular: eskua. Plural: eskuak.",
+    "frase_1_eu": "Eskua eman dit agurtzeko",
+    "frase_1_es": "Me ha dado la mano para saludar",
+    "frase_2_eu": "Garbitu eskuak bazkaldu baino lehen",
+    "frase_2_es": "Lávate las manos antes de comer",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bihotz",
+    "translation_es": "corazón",
+    "translation_en": "heart",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 233,
+    "pronunciation": "bihots",
+    "definition_simple": "Órgano muscular que bombea la sangre",
+    "uso_habitual": "Absolutivo singular: bihotza.",
+    "frase_1_eu": "Bihotzaren hotsa entzuten da",
+    "frase_1_es": "Se escucha el sonido del corazón",
+    "frase_2_eu": "Bihotzez eskertzen dizut laguntza",
+    "frase_2_es": "Te agradezco la ayuda de corazón",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "oin",
+    "translation_es": "pie",
+    "translation_en": "foot",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 234,
+    "pronunciation": "oin",
+    "definition_simple": "Parte de las extremidades inferiores sobre la que se apoya el cuerpo",
+    "uso_habitual": "Absolutivo singular: oina.",
+    "frase_1_eu": "Oinak nekatuta ditut hainbeste ibiltzeagatik",
+    "frase_1_es": "Tengo los pies cansados de tanto andar",
+    "frase_2_eu": "Oineko behatza kolpatu dut mahaiarekin",
+    "frase_2_es": "Me he golpeado el dedo del pie con la mesa",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "begi",
+    "translation_es": "ojo",
+    "translation_en": "eye",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 235,
+    "pronunciation": "begui",
+    "definition_simple": "Órgano de la visión",
+    "uso_habitual": "Absolutivo singular: begia. Plural: begiak.",
+    "frase_1_eu": "Mirenek begi urdinak ditu",
+    "frase_1_es": "Miren tiene ojos azules",
+    "frase_2_eu": "Itxi begiak eta egin lo",
+    "frase_2_es": "Cierra los ojos y duerme",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "aho",
+    "translation_es": "boca",
+    "translation_en": "mouth",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 236,
+    "pronunciation": "aho",
+    "definition_simple": "Cavidad en la cabeza para comer y hablar",
+    "uso_habitual": "Absolutivo singular: ahoa.",
+    "frase_1_eu": "Zabaldu ahoa medikuak begiratzeko",
+    "frase_1_es": "Abre la boca para que mire el médico",
+    "frase_2_eu": "Ahoa itxita jan behar da",
+    "frase_2_es": "Hay que comer con la boca cerrada",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sudur",
+    "translation_es": "nariz",
+    "translation_en": "nose",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 237,
+    "pronunciation": "sudur",
+    "definition_simple": "Órgano del olfato en la cara",
+    "uso_habitual": "Absolutivo singular: sudurra.",
+    "frase_1_eu": "Sudurretik odola dario Joni",
+    "frase_1_es": "A Jon le sale sangre de la nariz",
+    "frase_2_eu": "Sudur handia du gizon horrek",
+    "frase_2_es": "Ese hombre tiene nariz grande",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "belarri",
+    "translation_es": "oreja / oído",
+    "translation_en": "ear",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 238,
+    "pronunciation": "belarri",
+    "definition_simple": "Órgano externo de la audición",
+    "uso_habitual": "Absolutivo singular: belarria. Plural: belarriak.",
+    "frase_1_eu": "Belarrian sekretu bat esan dit",
+    "frase_1_es": "Me ha dicho un secreto al oído",
+    "frase_2_eu": "Entzungailuak jarri ditut belarrietan",
+    "frase_2_es": "Me he puesto los auriculares en las orejas",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ile",
+    "translation_es": "pelo / cabello",
+    "translation_en": "hair",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 239,
+    "pronunciation": "ile",
+    "definition_simple": "Filamento que crece en la piel",
+    "uso_habitual": "Absolutivo singular: ilea.",
+    "frase_1_eu": "Ilea moztu behar dut, luzeegi dago eta",
+    "frase_1_es": "Tengo que cortarme el pelo porque está demasiado largo",
+    "frase_2_eu": "Ile beltza eta begi ilunak ditu",
+    "frase_2_es": "Tiene pelo negro y ojos oscuros",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lepo",
+    "translation_es": "cuello / garganta / hombro",
+    "translation_en": "neck / throat / shoulder",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 240,
+    "pronunciation": "lepo",
+    "definition_simple": "Parte que une la cabeza con el tronco",
+    "uso_habitual": "Absolutivo singular: lepoa. (En Bizkaia significa hombro).",
+    "frase_1_eu": "Lepoa babestu dut bufandarekin",
+    "frase_1_es": "He protegido mi cuello con la bufanda",
+    "frase_2_eu": "Lepoan min daukat postura txarragatik",
+    "frase_2_es": "Tengo dolor en el cuello por una mala postura",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bizkar",
+    "translation_es": "espalda",
+    "translation_en": "back",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 241,
+    "pronunciation": "biscar",
+    "definition_simple": "Parte posterior del cuerpo humano desde los hombros hasta la cintura",
+    "uso_habitual": "Absolutivo singular: bizkarra.",
+    "frase_1_eu": "Bizkarreko mina daukat pisu handia hartzeagatik",
+    "frase_1_es": "Tengo dolor de espalda por coger mucho peso",
+    "frase_2_eu": "Bizkarra zuzen jarri behar da",
+    "frase_2_es": "Hay que poner la espalda recta",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bular",
+    "translation_es": "pecho / bular",
+    "translation_en": "chest / breast",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 242,
+    "pronunciation": "bular",
+    "definition_simple": "Parte anterior del tórax",
+    "uso_habitual": "Absolutivo singular: bularra.",
+    "frase_1_eu": "Medikuak bularra entzun dit estetoskopioarekin",
+    "frase_1_es": "El médico me ha escuchado el pecho con el estetoscopio",
+    "frase_2_eu": "Bularrean mina sentitu du korrika egitean",
+    "frase_2_es": "Ha sentido dolor en el pecho al correr",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sabel",
+    "translation_es": "barriga / vientre / estómago",
+    "translation_en": "belly / abdomen / stomach",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 243,
+    "pronunciation": "sabel",
+    "definition_simple": "Cavidad del cuerpo que contiene los órganos digestivos",
+    "uso_habitual": "Absolutivo singular: sabela. (Muy usado coloquialmente como tripa).",
+    "frase_1_eu": "Sabela beteta daukat bazkari handiaren ostean",
+    "frase_1_es": "Tengo la barriga llena después de la gran comida",
+    "frase_2_eu": "Sabelak min ematen dit zerbait gaizki eseri zait eta",
+    "frase_2_es": "Me duele el estómago porque algo me ha sentado mal",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hanka",
+    "translation_es": "pierna / pata",
+    "translation_en": "leg / foot (animals)",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 244,
+    "pronunciation": "hanca",
+    "definition_simple": "Extremidad inferior del cuerpo humano",
+    "uso_habitual": "Absolutivo singular: hanka. Plural: hankak.",
+    "frase_1_eu": "Hanka hautsi du futbolean jokatzen ari zela",
+    "frase_1_es": "Se ha roto la pierna mientras jugaba al fútbol",
+    "frase_2_eu": "Nire zakurrak hiru hanka bakarrik ditu",
+    "frase_2_es": "Mi perro solo tiene tres patas",
+    "tags": [
+      "cuerpo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "atzamar",
+    "translation_es": "dedo",
+    "translation_en": "finger",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 245,
+    "pronunciation": "atsamar",
+    "definition_simple": "Cada uno de los extremos de la mano",
+    "uso_habitual": "Absolutivo singular: atzamarra. (En algunas zonas se usa 'hatz').",
+    "frase_1_eu": "Atzamarrarekin seinalatu du mahaia",
+    "frase_1_es": "Ha señalado la mesa con el dedo",
+    "frase_2_eu": "Atzamarrean zauri bat egin dut labanarekin",
+    "frase_2_es": "Me he hecho una herida en el dedo con el cuchillo",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hezur",
+    "translation_es": "hueso",
+    "translation_en": "bone",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 246,
+    "pronunciation": "esur",
+    "definition_simple": "Parte dura del esqueleto animal",
+    "uso_habitual": "Absolutivo singular: hezurra.",
+    "frase_1_eu": "Arrainek hezur asko dituzte kontuz jateko",
+    "frase_1_es": "Los pescado tienen muchas espinas (huesos), cuidado al comer",
+    "frase_2_eu": "Zakurrak hezur bat dauka ahoan",
+    "frase_2_es": "El perro tiene un hueso en la boca",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "odol",
+    "translation_es": "sangre",
+    "translation_en": "blood",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 247,
+    "pronunciation": "odol",
+    "definition_simple": "Líquido rojo que circula por las arterias y venas",
+    "uso_habitual": "Absolutivo singular: odola.",
+    "frase_1_eu": "Odola eman dut gaur goizean ospitalean",
+    "frase_1_es": "He donado sangre esta mañana en el hospital",
+    "frase_2_eu": "Zauritik odola dario eta estali behar da",
+    "frase_2_es": "Le sale sangre de la herida y hay que cubrirla",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "azal",
+    "translation_es": "piel / corteza",
+    "translation_en": "skin / peel / bark",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 248,
+    "pronunciation": "asal",
+    "definition_simple": "Tegumento externo del cuerpo humano o cubierta exterior",
+    "uso_habitual": "Absolutivo singular: azala. También se aplica a frutas o árboles.",
+    "frase_1_eu": "Azal lehorra daukat hotzagatik",
+    "frase_1_es": "Tengo la piel seca por el frío",
+    "frase_2_eu": "Kendu sagarraren azala jan baino lehen",
+    "frase_2_es": "Quita la piel de la manzana antes de comer",
+    "tags": [
+      "cuerpo"
+    ],
+    "is_active": true
+  }
+]

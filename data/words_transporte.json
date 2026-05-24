@@ -1,0 +1,326 @@
+[
+  {
+    "word_eu": "etorri",
+    "translation_es": "venir",
+    "translation_en": "to come",
+    "category": "verbo",
+    "difficulty": 2,
+    "frequency_rank": 33,
+    "pronunciation": "etorri",
+    "definition_simple": "Movimiento en dirección hacia donde se encuentra la persona que habla",
+    "uso_habitual": "Su auxiliar es izan: etorri naiz (he venido).",
+    "frase_1_eu": "Nondik dator mutil hori?",
+    "frase_1_es": "¿De dónde viene ese chico?",
+    "frase_2_eu": "Bihar etorriko naiz",
+    "frase_2_es": "Vendré mañana",
+    "tags": [
+      "verbos",
+      "esencial",
+      "movimiento"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "joan",
+    "translation_es": "ir (intransitivo - NOR)",
+    "translation_en": "to go",
+    "category": "verbo",
+    "difficulty": 1,
+    "frequency_rank": 110,
+    "pronunciation": "joan",
+    "definition_simple": "Moverse hacia un lugar.",
+    "uso_habitual": "Verbo de movimiento (NOR). Formas sintéticas comunes: noa (voy), doa (va).",
+    "frase_1_eu": "Bihar hondartzara joango gara",
+    "frase_1_es": "Mañana iremos a la playa",
+    "frase_2_eu": "Mesedez, ez joan horrela!",
+    "frase_2_es": "¡Por favor, no te vayas así!",
+    "tags": [
+      "verbo",
+      "nor",
+      "movimiento",
+      "verbos"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ekarri",
+    "translation_es": "traer",
+    "translation_en": "to bring",
+    "category": "verbo",
+    "difficulty": 2,
+    "frequency_rank": 111,
+    "pronunciation": "ecarri",
+    "definition_simple": "Conducir o trasladar algo desde un lugar hacia donde está el que habla",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK. Tiene conjugación sintética (dakart, dakar...).",
+    "frase_1_eu": "Ekarri didazu liburua?",
+    "frase_1_es": "¿Me has traído el libro?",
+    "frase_2_eu": "Ura ekarriko dizut oraintxe",
+    "frase_2_es": "Te traeré agua ahora mismo",
+    "tags": [
+      "verbos",
+      "movimiento"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eraman",
+    "translation_es": "llevar",
+    "translation_en": "to carry / to take",
+    "category": "verbo",
+    "difficulty": 2,
+    "frequency_rank": 112,
+    "pronunciation": "eraman",
+    "definition_simple": "Conducir algo desde un lugar a otro diferente de donde está el que habla",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK. Tiene conjugación sintética (daramat, darama...).",
+    "frase_1_eu": "Eraman katu hau beste gela batera",
+    "frase_1_es": "Lleva este gato a otra habitación",
+    "frase_2_eu": "Autoak eraman nau lanera",
+    "frase_2_es": "El coche me ha llevado al trabajo",
+    "tags": [
+      "verbos",
+      "movimiento"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "auto",
+    "translation_es": "coche / automóvil",
+    "translation_en": "car",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 175,
+    "pronunciation": "auto",
+    "definition_simple": "Vehículo de cuatro ruedas para el transporte de personas",
+    "uso_habitual": "Absolutivo singular: autoa.",
+    "frase_1_eu": "Nire autoa zuria da",
+    "frase_1_es": "Mi coche es blanco",
+    "frase_2_eu": "Autoan etorri naiz lanera gaur",
+    "frase_2_es": "He venido en coche al trabajo hoy",
+    "tags": [
+      "transporte",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "autobus",
+    "translation_es": "autobús",
+    "translation_en": "bus",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 176,
+    "pronunciation": "autobus",
+    "definition_simple": "Vehículo de transporte público de pasajeros por carretera",
+    "uso_habitual": "Absolutivo singular: autobusa.",
+    "frase_1_eu": "Autobusa zazpietan ateratzen da geltokitik",
+    "frase_1_es": "El autobús sale a las siete de la estación",
+    "frase_2_eu": "Autobusean goaz Bilbora",
+    "frase_2_es": "Vamos en autobús a Bilbao",
+    "tags": [
+      "transporte",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tren",
+    "translation_es": "tren",
+    "translation_en": "train",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 177,
+    "pronunciation": "tren",
+    "definition_simple": "Vehículo compuesto por varios vagones arrastrados por una locomotora sobre raíles",
+    "uso_habitual": "Absolutivo singular: trena.",
+    "frase_1_eu": "Trena geltokira heldu da jada",
+    "frase_1_es": "El tren ya ha llegado a la estación",
+    "frase_2_eu": "Nahiago dut trenez bidaiatu autobusez baino",
+    "frase_2_es": "Prefiero viajar en tren que en autobús",
+    "tags": [
+      "transporte",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bizikleta",
+    "translation_es": "bicicleta",
+    "translation_en": "bicycle / bike",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 178,
+    "pronunciation": "bisicleta",
+    "definition_simple": "Vehículo de dos ruedas movido por pedales",
+    "uso_habitual": "Absolutivo singular: bizikleta.",
+    "frase_1_eu": "Bizikletaz ibiltzea asko gustatzen zait",
+    "frase_1_es": "Me gusta mucho andar en bicicleta",
+    "frase_2_eu": "Bizikleta gorria nire anaiarena da",
+    "frase_2_es": "La bicicleta roja es de mi hermano",
+    "tags": [
+      "transporte",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hegazkin",
+    "translation_es": "avión",
+    "translation_en": "airplane / plane",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 179,
+    "pronunciation": "egaskin",
+    "definition_simple": "Aeronave motorizada más pesada que el aire con alas fijas",
+    "uso_habitual": "Absolutivo singular: hegazkina.",
+    "frase_1_eu": "Hegazkinak laino artean hegan egiten du",
+    "frase_1_es": "El avión vuela entre las nubes",
+    "frase_2_eu": "Hegazkinez bidaiatuko dugu Madrilera",
+    "frase_2_es": "Viajaremos en avión a Madrid",
+    "tags": [
+      "transporte",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "itsasontzi",
+    "translation_es": "barco / embarcación",
+    "translation_en": "boat / ship",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 180,
+    "pronunciation": "itsasontsi",
+    "definition_simple": "Vehículo flotante para navegar por el agua",
+    "uso_habitual": "Absolutivo singular: itsasontzia.",
+    "frase_1_eu": "Itsasontzi handi bat ikusi dugu portuan",
+    "frase_1_es": "Hemos visto un barco grande en el puerto",
+    "frase_2_eu": "Itsasontziz zeharkatu dugu ibaia",
+    "frase_2_es": "Hemos cruzado el río en barco",
+    "tags": [
+      "transporte",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "geltoki",
+    "translation_es": "estación / parada",
+    "translation_en": "station / stop",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 181,
+    "pronunciation": "geltoki",
+    "definition_simple": "Lugar de parada o partida de trenes o autobuses",
+    "uso_habitual": "Absolutivo singular: geltokia.",
+    "frase_1_eu": "Autobus geltokian itxarongo zaitut",
+    "frase_1_es": "Te esperaré en la parada de autobús",
+    "frase_2_eu": "Tren geltokia herri erdian dago",
+    "frase_2_es": "La estación de tren está en el centro del pueblo",
+    "tags": [
+      "transporte",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bidaiari",
+    "translation_es": "viajero / pasajero",
+    "translation_en": "passenger / traveler",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 182,
+    "pronunciation": "bidaiari",
+    "definition_simple": "Persona que realiza un viaje en un transporte",
+    "uso_habitual": "Absolutivo singular: bidaiaria.",
+    "frase_1_eu": "Bidaiari asko daude trenean gaur",
+    "frase_1_es": "Hay muchos pasajeros en el tren hoy",
+    "frase_2_eu": "Bidaiariek zain egon behar dute",
+    "frase_2_es": "Los viajeros tienen que esperar",
+    "tags": [
+      "transporte"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bidaia",
+    "translation_es": "viaje",
+    "translation_en": "trip / journey",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 183,
+    "pronunciation": "bidaia",
+    "definition_simple": "Acción de trasladarse de un lugar a otro",
+    "uso_habitual": "Absolutivo singular: bidaia.",
+    "frase_1_eu": "Ondo joan da bidaia?",
+    "frase_1_es": "¿Ha ido bien el viaje?",
+    "frase_2_eu": "Nire ametsetako bidaia Japoniara da",
+    "frase_2_es": "El viaje de mis sueños es a Japón",
+    "tags": [
+      "transporte",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "errepide",
+    "translation_es": "carretera / calzada",
+    "translation_en": "road / highway",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 185,
+    "pronunciation": "errepide",
+    "definition_simple": "Camino público y ancho construido para transitar vehículos",
+    "uso_habitual": "Absolutivo singular: errepidea.",
+    "frase_1_eu": "Errepidea bustita dago eta kontuz gidatu behar da",
+    "frase_1_es": "La carretera está mojada y hay que conducir con cuidado",
+    "frase_2_eu": "Auto asko daude errepidean gaur",
+    "frase_2_es": "Hay muchos coches en la carretera hoy",
+    "tags": [
+      "transporte"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "metro",
+    "translation_es": "metro / ferrocarril subterráneo",
+    "translation_en": "metro / subway",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 186,
+    "pronunciation": "metro",
+    "definition_simple": "Ferrocarril metropolitano subterráneo",
+    "uso_habitual": "Absolutivo singular: metroa.",
+    "frase_1_eu": "Metroa bost minuturo pasatzen da Bilbon",
+    "frase_1_es": "El metro pasa cada cinco minutos en Bilbao",
+    "frase_2_eu": "Metroan joan naiz lanera oso azkar",
+    "frase_2_es": "He ido en metro a trabajar muy rápido",
+    "tags": [
+      "transporte",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "motorra",
+    "translation_es": "moto / motocicleta",
+    "translation_en": "motorbike / motorcycle",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 187,
+    "pronunciation": "motorra",
+    "definition_simple": "Vehículo de dos ruedas con motor",
+    "uso_habitual": "Absolutivo singular: motorra. También significa motor.",
+    "frase_1_eu": "Mirenek motor beltz bat erosi du",
+    "frase_1_es": "Miren ha comprado una moto negra",
+    "frase_2_eu": "Motorrez bidaiatzea arriskutsua izan daiteke",
+    "frase_2_es": "Viajar en moto puede ser peligroso",
+    "tags": [
+      "transporte"
+    ],
+    "is_active": true
+  }
+]

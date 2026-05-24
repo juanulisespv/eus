@@ -1,0 +1,197 @@
+[
+  {
+    "word_eu": "euri",
+    "translation_es": "lluvia",
+    "translation_en": "rain",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 219,
+    "pronunciation": "euri",
+    "definition_simple": "Agua que cae de las nubes",
+    "uso_habitual": "Absolutivo singular: euria.",
+    "frase_1_eu": "Euri asko egiten du gaur",
+    "frase_1_es": "Hoy llueve mucho (hace mucha lluvia)",
+    "frase_2_eu": "Euriari esker loreak hazten dira",
+    "frase_2_es": "Gracias a la lluvia crecen las flores",
+    "tags": [
+      "clima",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "elur",
+    "translation_es": "nieve",
+    "translation_en": "snow",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 220,
+    "pronunciation": "elur",
+    "definition_simple": "Agua helada que cae de las nubes en copos blancos",
+    "uso_habitual": "Absolutivo singular: elurra.",
+    "frase_1_eu": "Elurra ari du mendian",
+    "frase_1_es": "Está nevando en el monte",
+    "frase_2_eu": "Umeak elurrarekin jolasten ari dira",
+    "frase_2_es": "Los niños están jugando con la nieve",
+    "tags": [
+      "clima",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hodei",
+    "translation_es": "nube",
+    "translation_en": "cloud",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 221,
+    "pronunciation": "odei",
+    "definition_simple": "Masa de vapor de agua suspendida en la atmósfera",
+    "uso_habitual": "Absolutivo singular: hodeia.",
+    "frase_1_eu": "Hodei beltz bat dago zeruan",
+    "frase_1_es": "Hay una nube negra en el cielo",
+    "frase_2_eu": "Zeruak hodei asko ditu gaur",
+    "frase_2_es": "El cielo tiene muchas nubes hoy",
+    "tags": [
+      "clima",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eguzki",
+    "translation_es": "sol",
+    "translation_en": "sun",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 222,
+    "pronunciation": "eguski",
+    "definition_simple": "Estrella luminosa centro de nuestro sistema planetario",
+    "uso_habitual": "Absolutivo singular: eguzkia.",
+    "frase_1_eu": "Gaur eguzkiak asko berotzen du",
+    "frase_1_es": "Hoy el sol calienta mucho",
+    "frase_2_eu": "Eguzkia ateratzen denean joango gara",
+    "frase_2_es": "Iremos cuando salga el sol",
+    "tags": [
+      "clima",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "haize",
+    "translation_es": "viento",
+    "translation_en": "wind",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 223,
+    "pronunciation": "aise",
+    "definition_simple": "Corriente de aire producida en la atmósfera",
+    "uso_habitual": "Absolutivo singular: haizea. Ej: haize handia dago (hace mucho viento).",
+    "frase_1_eu": "Haize indartsuak zuhaitzak mugitzen ditu",
+    "frase_1_es": "El viento fuerte mueve los árboles",
+    "frase_2_eu": "Haize hotza dator itsasotik",
+    "frase_2_es": "Viento frío viene del mar",
+    "tags": [
+      "clima",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hezetasun",
+    "translation_es": "humedad",
+    "translation_en": "humidity",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 225,
+    "pronunciation": "esetasun",
+    "definition_simple": "Agua de que está impregnado un cuerpo o el aire",
+    "uso_habitual": "Absolutivo singular: hezetasuna.",
+    "frase_1_eu": "Kostaldean hezetasun handia dago",
+    "frase_1_es": "En la costa hay mucha humedad",
+    "frase_2_eu": "Hezetasunak hotz handiagoa ematen du",
+    "frase_2_es": "La humedad da sensación de más frío",
+    "tags": [
+      "clima"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ekaitz",
+    "translation_es": "tormenta / tempestad",
+    "translation_en": "storm / tempest",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 226,
+    "pronunciation": "ecaits",
+    "definition_simple": "Perturbación atmosférica violenta con viento y lluvia",
+    "uso_habitual": "Absolutivo singular: ekaitza.",
+    "frase_1_eu": "Gauean ekaitz indartsu bat izan dugu",
+    "frase_1_es": "Por la noche hemos tenido una tormenta fuerte",
+    "frase_2_eu": "Ekaitzak beldurra ematen dio zakurrari",
+    "frase_2_es": "La tormenta le da miedo al perro",
+    "tags": [
+      "clima"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tximista",
+    "translation_es": "rayo / relámpago",
+    "translation_en": "lightning / thunderbolt",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 227,
+    "pronunciation": "tshimista",
+    "definition_simple": "Chispa eléctrica producida en una tormenta",
+    "uso_habitual": "Absolutivo singular: tximista.",
+    "frase_1_eu": "Tximista batek zuhaitz bat jo du",
+    "frase_1_es": "Un rayo ha golpeado un árbol",
+    "frase_2_eu": "Tximistak zerua argitzen du",
+    "frase_2_es": "El relámpago ilumina el cielo",
+    "tags": [
+      "clima"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "izotz",
+    "translation_es": "hielo / escarcha",
+    "translation_en": "ice / frost",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 228,
+    "pronunciation": "isots",
+    "definition_simple": "Agua congelada",
+    "uso_habitual": "Absolutivo singular: izotza.",
+    "frase_1_eu": "Errepidean izotza dago, kontuz gidatu",
+    "frase_1_es": "Hay hielo en la carretera, conduce con cuidado",
+    "frase_2_eu": "Izotza jarri dut edarian hozteko",
+    "frase_2_es": "He puesto hielo en la bebida para enfriar",
+    "tags": [
+      "clima"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tenperatura",
+    "translation_es": "temperatura",
+    "translation_en": "temperature",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 229,
+    "pronunciation": "tenperatura",
+    "definition_simple": "Grado de calor o frío en la atmósfera",
+    "uso_habitual": "Absolutivo singular: tenperatura.",
+    "frase_1_eu": "Tenperatura asko jaitsi da gauean",
+    "frase_1_es": "La temperatura ha bajado mucho por la noche",
+    "frase_2_eu": "Zein da gaurko tenperatura?",
+    "frase_2_es": "¿Cuál es la temperatura de hoy?",
+    "tags": [
+      "clima"
+    ],
+    "is_active": true
+  }
+]

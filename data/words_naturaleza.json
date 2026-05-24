@@ -1,0 +1,365 @@
+[
+  {
+    "word_eu": "itsaso",
+    "translation_es": "mar",
+    "translation_en": "rose / sea",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 202,
+    "pronunciation": "itsaso",
+    "definition_simple": "Masa de agua salada que cubre la mayor parte de la Tierra",
+    "uso_habitual": "Absolutivo singular: itsasoa. Muy ligado a la costa vasca.",
+    "frase_1_eu": "Itsasoa oso zakar dago gaur",
+    "frase_1_es": "El mar está muy bravo hoy",
+    "frase_2_eu": "Itsasora begira nago leiho honetatik",
+    "frase_2_es": "Estoy mirando al mar desde esta ventana",
+    "tags": [
+      "naturaleza",
+      "paisaje",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ibai",
+    "translation_es": "río",
+    "translation_en": "river",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 203,
+    "pronunciation": "ibai",
+    "definition_simple": "Corriente de agua continua y más o menos caudalosa que desemboca en otra",
+    "uso_habitual": "Absolutivo singular: ibaia.",
+    "frase_1_eu": "Ibaia zeharkatu dugu zubitik",
+    "frase_1_es": "Hemos cruzado el río por el puente",
+    "frase_2_eu": "Ur garbia darama ibai honek menditik",
+    "frase_2_es": "Este río lleva agua limpia desde el monte",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zuhaitz",
+    "translation_es": "árbol",
+    "translation_en": "tree",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 204,
+    "pronunciation": "suhaits",
+    "definition_simple": "Planta de tronco leñoso que se ramifica a cierta altura del suelo",
+    "uso_habitual": "Absolutivo singular: zuhaitza.",
+    "frase_1_eu": "Zuhaitz handi baten azpian eseri gara",
+    "frase_1_es": "Nos hemos sentado debajo de un árbol grande",
+    "frase_2_eu": "Zuhaitzek hostoak galtzen dituzte udazkenean",
+    "frase_2_es": "Los árboles pierden las hojas en otoño",
+    "tags": [
+      "naturaleza",
+      "flora"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lore",
+    "translation_es": "flor",
+    "translation_en": "flower",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 205,
+    "pronunciation": "lore",
+    "definition_simple": "Parte de las plantas que contiene los órganos reproductores, vistosa y olorosa",
+    "uso_habitual": "Absolutivo singular: lorea.",
+    "frase_1_eu": "Lore gorri bat eman diot nire amari",
+    "frase_1_es": "Le he dado una flor roja a mi madre",
+    "frase_2_eu": "Loreak lorategian hazten ari dira",
+    "frase_2_es": "Las flores están creciendo en el jardín",
+    "tags": [
+      "naturaleza",
+      "flora",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "baso",
+    "translation_es": "bosque",
+    "translation_en": "forest / woods",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 207,
+    "pronunciation": "baso",
+    "definition_simple": "Sitio poblado de árboles y matas",
+    "uso_habitual": "Absolutivo singular: basoa. Ojo: no confundir con 'baso' (vaso de beber).",
+    "frase_1_eu": "Basoan perretxikoak bilatzen ibili gara",
+    "frase_1_es": "Hemos estado buscando setas en el bosque",
+    "frase_2_eu": "Basoa iluna da gauez",
+    "frase_2_es": "El bosque es oscuro de noche",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "harri",
+    "translation_es": "piedra",
+    "translation_en": "stone / rock",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 208,
+    "pronunciation": "harri",
+    "definition_simple": "Sustancia mineral dura y sólida, compacta",
+    "uso_habitual": "Absolutivo singular: harria.",
+    "frase_1_eu": "Umeak harriak botatzen ari dira errekan",
+    "frase_1_es": "Los niños están tirando piedras en el arroyo",
+    "frase_2_eu": "Harri hau oso astuna da niretzat",
+    "frase_2_es": "Esta piedra es muy pesada para mí",
+    "tags": [
+      "naturaleza",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zeru",
+    "translation_es": "cielo",
+    "translation_en": "sky",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 209,
+    "pronunciation": "seru",
+    "definition_simple": "Atmósfera que rodea la Tierra, de color azul de día",
+    "uso_habitual": "Absolutivo singular: zerua.",
+    "frase_1_eu": "Zeru urdina dago gaur, ez dago hodeirik",
+    "frase_1_es": "Hoy hay cielo azul, no hay nubes",
+    "frase_2_eu": "Izarrak zeruan ikusten dira gauez",
+    "frase_2_es": "Las estrellas se ven en el cielo de noche",
+    "tags": [
+      "naturaleza",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lur",
+    "translation_es": "tierra / suelo",
+    "translation_en": "earth / ground",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 210,
+    "pronunciation": "lur",
+    "definition_simple": "Materia desmenuzable que compone el suelo",
+    "uso_habitual": "Absolutivo singular: lurra.",
+    "frase_1_eu": "Loreak lur onean landatu behar dira",
+    "frase_1_es": "Las flores deben plantarse en buena tierra",
+    "frase_2_eu": "Lurrera erori da nire mugikorra",
+    "frase_2_es": "Mi móvil se ha caído al suelo",
+    "tags": [
+      "naturaleza",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "erreka",
+    "translation_es": "arroyo / riachuelo",
+    "translation_en": "stream / creek",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 211,
+    "pronunciation": "erreca",
+    "definition_simple": "Corriente pequeña de agua",
+    "uso_habitual": "Absolutivo singular: erreka. Muy usado en el paisaje rural vasco.",
+    "frase_1_eu": "Etxe ondoan erreka polit bat daukagu",
+    "frase_1_es": "Al lado de casa tenemos un arroyo bonito",
+    "frase_2_eu": "Errekako ura oso hotza da",
+    "frase_2_es": "El agua del riachuelo está muy fría",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hosto",
+    "translation_es": "hoja (de planta/árbol)",
+    "translation_en": "leaf",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 212,
+    "pronunciation": "osto",
+    "definition_simple": "Órgano verde de las plantas que nace del tallo o rama",
+    "uso_habitual": "Absolutivo singular: hostoa.",
+    "frase_1_eu": "Zuhaitzen hostoak berdeak dira udaberrian",
+    "frase_1_es": "Las hojas de los árboles son verdes en primavera",
+    "frase_2_eu": "Lurretik hosto lehorrak biltzen ari naiz",
+    "frase_2_es": "Estoy recogiendo hojas secas del suelo",
+    "tags": [
+      "naturaleza",
+      "flora"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "haitz",
+    "translation_es": "roca / peña",
+    "translation_en": "rock / cliff",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 213,
+    "pronunciation": "aits",
+    "definition_simple": "Masa de piedra grande y dura",
+    "uso_habitual": "Absolutivo singular: haitza.",
+    "frase_1_eu": "Haitz handi horretan hegaztiak bizi dira",
+    "frase_1_es": "En esa gran peña viven aves",
+    "frase_2_eu": "Haitzen artean bide zail bat dago",
+    "frase_2_es": "Entre las rocas hay un camino difícil",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "iturri",
+    "translation_es": "fuente",
+    "translation_en": "fountain / spring",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 214,
+    "pronunciation": "iturri",
+    "definition_simple": "Manantial de agua o caño para beber",
+    "uso_habitual": "Absolutivo singular: iturria.",
+    "frase_1_eu": "Iturrian ura edan dut egarri nintzelako",
+    "frase_1_es": "He debido agua en la fuente porque tenía sed",
+    "frase_2_eu": "Plazako iturria oso zaharra da",
+    "frase_2_es": "La fuente de la plaza es muy vieja",
+    "tags": [
+      "naturaleza",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "irla",
+    "translation_es": "isla",
+    "translation_en": "island",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 215,
+    "pronunciation": "irla",
+    "definition_simple": "Porción de tierra rodeada de agua por todas partes",
+    "uso_habitual": "Absolutivo singular: irla. (También se escribe 'uharte').",
+    "frase_1_eu": "Itsasontziz joan gara irla batera",
+    "frase_1_es": "Hemos ido en barco a una isla",
+    "frase_2_eu": "Santa Klara Donostiako irla da",
+    "frase_2_es": "Santa Clara es la isla de San Sebastián",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bide",
+    "translation_es": "camino / vía",
+    "translation_en": "path / way",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 216,
+    "pronunciation": "bide",
+    "definition_simple": "Franja de tierra por donde se transita",
+    "uso_habitual": "Absolutivo singular: bidea. Muy común.",
+    "frase_1_eu": "Bide hau basotik doa",
+    "frase_1_es": "Este camino va por el bosque",
+    "frase_2_eu": "Non dago mendirako bidea?",
+    "frase_2_es": "¿Dónde está el camino al monte?",
+    "tags": [
+      "naturaleza",
+      "paisaje",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "leze",
+    "translation_es": "cueva / gruta",
+    "translation_en": "cave / cavern",
+    "category": "sustantivo",
+    "difficulty": 3,
+    "frequency_rank": 217,
+    "pronunciation": "lese",
+    "definition_simple": "Cavidad subterránea profunda",
+    "uso_habitual": "Absolutivo singular: lezea.",
+    "frase_1_eu": "Zugarramurdiko lezeak oso ezagunak dira",
+    "frase_1_es": "Las cuevas de Zugarramurdi son muy conocidas",
+    "frase_2_eu": "Ilun dago leze barruan",
+    "frase_2_es": "Está oscuro dentro de la cueva",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "larre",
+    "translation_es": "prado / pastizal",
+    "translation_en": "meadow / pasture",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 218,
+    "pronunciation": "larre",
+    "definition_simple": "Terreno de hierba para pasto de ganado",
+    "uso_habitual": "Absolutivo singular: larrea.",
+    "frase_1_eu": "Ardiak larre berdean daude",
+    "frase_1_es": "Las ovejas están en el prado verde",
+    "frase_2_eu": "Mendiko larreak oso politak dira udaberrian",
+    "frase_2_es": "Los pastizales del monte son muy bonitos en primavera",
+    "tags": [
+      "naturaleza",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lanbro",
+    "translation_es": "bruma / niebla fina / calabobos",
+    "translation_en": "mist / drizzle",
+    "category": "sustantivo",
+    "difficulty": 3,
+    "frequency_rank": 224,
+    "pronunciation": "lanbro",
+    "definition_simple": "Niebla poco espesa y húmeda típica del País Vasco",
+    "uso_habitual": "Absolutivo singular: lanbroa. Muy característico del clima norteño.",
+    "frase_1_eu": "Gaur goizean lanbroa dago mendian",
+    "frase_1_es": "Esta mañana hay niebla fina en el monte",
+    "frase_2_eu": "Lanbroak paisaia estaltzen du",
+    "frase_2_es": "La bruma cubre el paisaje",
+    "tags": [
+      "clima",
+      "paisaje"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "itzal",
+    "translation_es": "sombra",
+    "translation_en": "shadow / shade",
+    "category": "sustantivo",
+    "difficulty": 2,
+    "frequency_rank": 230,
+    "pronunciation": "itsal",
+    "definition_simple": "Oscuridad por privación de luz",
+    "uso_habitual": "Absolutivo singular: itzala. Muy buscado bajo el calor.",
+    "frase_1_eu": "Eseri gaitezen zuhaitzaren itzalean",
+    "frase_1_es": "Sentémonos a la sombra del árbol",
+    "frase_2_eu": "Nire itzala ikusten dut lurrean",
+    "frase_2_es": "Veo mi sombra en el suelo",
+    "tags": [
+      "clima",
+      "naturaleza"
+    ],
+    "is_active": true
+  }
+]

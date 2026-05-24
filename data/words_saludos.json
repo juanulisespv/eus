@@ -1,0 +1,252 @@
+[
+  {
+    "word_eu": "kaixo",
+    "translation_es": "hola",
+    "translation_en": "hello",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 1,
+    "pronunciation": "kaisho",
+    "definition_simple": "Saludo informal que se usa para saludar a alguien",
+    "uso_habitual": "Es el saludo más habitual y universal, válido a cualquier hora del día.",
+    "frase_1_eu": "Kaixo, nola zaude?",
+    "frase_1_es": "Hola, ¿cómo estás?",
+    "frase_2_eu": "Kaixo lagunak!",
+    "frase_2_es": "¡Hola amigos!",
+    "tags": [
+      "saludos",
+      "básico",
+      "frecuente"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "egun on",
+    "translation_es": "buenos días",
+    "translation_en": "good morning",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 2,
+    "pronunciation": "egun on",
+    "definition_simple": "Saludo que se utiliza por la mañana",
+    "uso_habitual": "Se utiliza por las mañanas hasta la hora de comer.",
+    "frase_1_eu": "Egun on, ama!",
+    "frase_1_es": "¡Buenos días, mamá!",
+    "frase_2_eu": "Egun on guztioi",
+    "frase_2_es": "Buenos días a todos",
+    "tags": [
+      "saludos",
+      "básico",
+      "tiempo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "arratsalde on",
+    "translation_es": "buenas tardes",
+    "translation_en": "good afternoon",
+    "category": "saludo",
+    "difficulty": 2,
+    "frequency_rank": 3,
+    "pronunciation": "arratsalde on",
+    "definition_simple": "Saludo que se utiliza por la tarde",
+    "uso_habitual": "Se utiliza por las tardes, normalmente a partir de las 13:00-14:00.",
+    "frase_1_eu": "Arratsalde on, jaun-andreok",
+    "frase_1_es": "Buenas tardes, señoras y señores",
+    "frase_2_eu": "Arratsalde on, nola joan da eguna?",
+    "frase_2_es": "Buenas tardes, ¿cómo ha ido el día?",
+    "tags": [
+      "saludos",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gabon",
+    "translation_es": "buenas noches",
+    "translation_en": "good night",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 4,
+    "pronunciation": "gabon",
+    "definition_simple": "Saludo o despedida que se utiliza por la noche",
+    "uso_habitual": "Sirve tanto para saludar al llegar de noche como para despedirse antes de dormir.",
+    "frase_1_eu": "Gabon, ondo lo egin",
+    "frase_1_es": "Buenas noches, duerme bien",
+    "frase_2_eu": "Gabon guztioi, bihar arte",
+    "frase_2_es": "Buenas noches a todos, hasta mañana",
+    "tags": [
+      "saludos",
+      "despedida",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "agur",
+    "translation_es": "adiós",
+    "translation_en": "goodbye",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 5,
+    "pronunciation": "agur",
+    "definition_simple": "Palabra para despedirse",
+    "uso_habitual": "Es la forma de despedida más común. También puede usarse como saludo formal en literatura.",
+    "frase_1_eu": "Agur, lagun!",
+    "frase_1_es": "¡Adiós, amigo!",
+    "frase_2_eu": "Agur eta eskerrik asko",
+    "frase_2_es": "Adiós y muchas gracias",
+    "tags": [
+      "saludos",
+      "despedida",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eskerrik asko",
+    "translation_es": "muchas gracias",
+    "translation_en": "thank you very much",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 6,
+    "pronunciation": "eskerrik asko",
+    "definition_simple": "Expresión para dar las gracias",
+    "uso_habitual": "Se responde habitualmente con 'ez horregatik' (de nada).",
+    "frase_1_eu": "Eskerrik asko laguntza guztiagatik",
+    "frase_1_es": "Muchas gracias por toda la ayuda",
+    "frase_2_eu": "Eskerrik asko nire aldetik ere",
+    "frase_2_es": "Muchas gracias de mi parte también",
+    "tags": [
+      "saludos",
+      "cortesía",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "mesedez",
+    "translation_es": "por favor",
+    "translation_en": "please",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 7,
+    "pronunciation": "mesedes",
+    "definition_simple": "Expresión de cortesía para pedir algo",
+    "uso_habitual": "Se coloca al final o al principio de la petición.",
+    "frase_1_eu": "Ura, mesedez",
+    "frase_1_es": "Agua, por favor",
+    "frase_2_eu": "Mesedez, ireki atea",
+    "frase_2_es": "Por favor, abre la puerta",
+    "tags": [
+      "saludos",
+      "cortesía",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ez horregatik",
+    "translation_es": "de nada",
+    "translation_en": "you are welcome",
+    "category": "saludo",
+    "difficulty": 2,
+    "frequency_rank": 8,
+    "pronunciation": "es orregatik",
+    "definition_simple": "Respuesta cortés al recibir un agradecimiento",
+    "uso_habitual": "Equivale literalmente a 'no por ello'. Es la respuesta estándar a 'eskerrik asko'.",
+    "frase_1_eu": "Ez horregatik, nire plazera izan da",
+    "frase_1_es": "De nada, ha sido mi placer",
+    "frase_2_eu": "- Eskerrik asko! - Ez horregatik!",
+    "frase_2_es": "- ¡Muchas gracias! - ¡De nada!",
+    "tags": [
+      "saludos",
+      "cortesía",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "barkatu",
+    "translation_es": "perdón",
+    "translation_en": "sorry / excuse me",
+    "category": "saludo",
+    "difficulty": 1,
+    "frequency_rank": 9,
+    "pronunciation": "barkatu",
+    "definition_simple": "Palabra para pedir disculpas o llamar la atención de alguien",
+    "uso_habitual": "Funciona tanto para disculparse como para pedir paso o preguntar a un desconocido.",
+    "frase_1_eu": "Barkatu, berandu nator",
+    "frase_1_es": "Perdón, vengo tarde",
+    "frase_2_eu": "Barkatu, badakizu non dagoen komuna?",
+    "frase_2_es": "Disculpe, ¿sabe dónde está el baño?",
+    "tags": [
+      "saludos",
+      "cortesía",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ongi etorri",
+    "translation_es": "bienvenido",
+    "translation_en": "welcome",
+    "category": "saludo",
+    "difficulty": 2,
+    "frequency_rank": 10,
+    "pronunciation": "ongi etorri",
+    "definition_simple": "Expresión para dar la bienvenida a un lugar",
+    "uso_habitual": "Se escribe frecuentemente en las entradas de tiendas, casas y pueblos.",
+    "frase_1_eu": "Ongi etorri gure etxera!",
+    "frase_1_es": "¡Bienvenido a nuestra casa!",
+    "frase_2_eu": "Ongi etorri Euskal Herrira",
+    "frase_2_es": "Bienvenido al País Vasco",
+    "tags": [
+      "saludos",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zer moduz",
+    "translation_es": "¿qué tal? / ¿cómo estás?",
+    "translation_en": "how are you? / how is it going?",
+    "category": "frase_hecha",
+    "difficulty": 3,
+    "frequency_rank": 488,
+    "pronunciation": "ser moduz",
+    "definition_simple": "Pregunta habitual para interesarse por el estado de alguien",
+    "uso_habitual": "Equivale a ¿qué tal? Se responde con 'ondo' (bien) o 'bapo' (muy bien).",
+    "frase_1_eu": "Kaixo lagun! Zer moduz zaude gaur?",
+    "frase_1_es": "¡Hola amigo! ¿Qué tal estás hoy?",
+    "frase_2_eu": "Zer moduz joan da astea lan berrian?",
+    "frase_2_es": "¿Qué tal ha ido la semana en el nuevo trabajo?",
+    "tags": [
+      "expresiones",
+      "saludos",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zorionak",
+    "translation_es": "¡felicidades! / ¡enhorabuena!",
+    "translation_en": "congratulations! / happy birthday!",
+    "category": "frase_hecha",
+    "difficulty": 3,
+    "frequency_rank": 492,
+    "pronunciation": "sorionak",
+    "definition_simple": "Felicitar a alguien por su cumpleaños, éxito o buena fortuna",
+    "uso_habitual": "Se usa tanto para desear feliz cumpleaños como para felicitar por un logro.",
+    "frase_1_eu": "Zorionak zure urtebetetzean, lagun!",
+    "frase_1_es": "¡Felicidades en tu cumpleaños, amigo!",
+    "frase_2_eu": "Gidabaimena lortu duzu? Zorionak!",
+    "frase_2_es": "¡Enhorabuena por conseguir tu carné de conducir!",
+    "tags": [
+      "expresiones",
+      "saludos",
+      "frase_hecha"
+    ],
+    "is_active": true
+  }
+]

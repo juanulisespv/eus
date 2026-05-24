@@ -136,7 +136,7 @@ export default function StudyPage() {
       
       let practicePool = progress;
       if (categoryFilter && categoryFilter !== "all") {
-        practicePool = progress.filter(p => p.words?.category === categoryFilter);
+        practicePool = progress.filter(p => p.words?.tags?.includes(categoryFilter));
       }
       
       const shuffled = [...practicePool].sort(() => Math.random() - 0.5).slice(0, 20);

@@ -1,0 +1,859 @@
+[
+  {
+    "word_eu": "herri",
+    "translation_es": "pueblo / país",
+    "translation_en": "town / country",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 46,
+    "pronunciation": "erri",
+    "definition_simple": "Población pequeña o conjunto de personas de una nación",
+    "uso_habitual": "Tiene doble sentido: población pequeña (pueblo) o colectividad nacional (pueblo vasco). herrian (en el pueblo).",
+    "frase_1_eu": "Nire herria oso zaharra da",
+    "frase_1_es": "Mi pueblo es muy antiguo",
+    "frase_2_eu": "Euskal Herria oso polita da",
+    "frase_2_es": "El País Vasco es muy bonito",
+    "tags": [
+      "lugares",
+      "geografía"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hiri",
+    "translation_es": "ciudad",
+    "translation_en": "city",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 47,
+    "pronunciation": "iri",
+    "definition_simple": "Población grande donde se concentran actividades financieras y de servicios",
+    "uso_habitual": "Hiri handi bat (una gran ciudad).",
+    "frase_1_eu": "Donostia hiri ederra da",
+    "frase_1_es": "San Sebastián es una ciudad hermosa",
+    "frase_2_eu": "Hirian bizi naiz",
+    "frase_2_es": "Vivo en la ciudad",
+    "tags": [
+      "lugares",
+      "ciudad"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eskola",
+    "translation_es": "escuela / colegio",
+    "translation_en": "school",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 48,
+    "pronunciation": "eskola",
+    "definition_simple": "Establecimiento donde se da a los niños instrucción",
+    "uso_habitual": "Eskolan (en la escuela), eskolara (a la escuela). Préstamo del latín scholam.",
+    "frase_1_eu": "Haurrak eskolara doaz",
+    "frase_1_es": "Los niños van a la escuela",
+    "frase_2_eu": "Eskola gertu dago",
+    "frase_2_es": "La escuela está cerca",
+    "tags": [
+      "lugares",
+      "educación"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hemen",
+    "translation_es": "aquí",
+    "translation_en": null,
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 117,
+    "pronunciation": "emen",
+    "definition_simple": "Indica un lugar cercano al hablante.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Hemen nago",
+    "frase_1_es": "Estoy aquí",
+    "frase_2_eu": "Zatoz hona!",
+    "frase_2_es": "¡Ven aquí! (hona = a aquí)",
+    "tags": [
+      "lugar",
+      "adverbio",
+      "basico",
+      "lugares"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hor",
+    "translation_es": "ahí",
+    "translation_en": null,
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 118,
+    "pronunciation": "or",
+    "definition_simple": "Lugar a media distancia.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Hor dago",
+    "frase_1_es": "Está ahí",
+    "frase_2_eu": "Utzi hor",
+    "frase_2_es": "Déjalo ahí",
+    "tags": [
+      "lugar",
+      "adverbio",
+      "lugares"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "han",
+    "translation_es": "allí",
+    "translation_en": null,
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 119,
+    "pronunciation": "an",
+    "definition_simple": "Lugar lejano.",
+    "uso_habitual": "Adverbio de lugar.",
+    "frase_1_eu": "Han bizi naiz",
+    "frase_1_es": "Vivo allí",
+    "frase_2_eu": "Ikusten duzu han?",
+    "frase_2_es": "¿Lo ves allí?",
+    "tags": [
+      "lugar",
+      "adverbio",
+      "lugares"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "etxe",
+    "translation_es": "casa / hogar",
+    "translation_en": "house / home",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 121,
+    "pronunciation": "etxe",
+    "definition_simple": "Edificio para habitar",
+    "uso_habitual": "Sustantivo muy común. Absolutivo singular: etxea.",
+    "frase_1_eu": "Nire etxea nahiko handia da",
+    "frase_1_es": "Mi casa es bastante grande",
+    "frase_2_eu": "Etxera joango naiz nekatuta nagoelako",
+    "frase_2_es": "Iré a casa porque estoy cansado",
+    "tags": [
+      "lugares",
+      "vivienda",
+      "hogar",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "denda",
+    "translation_es": "tienda",
+    "translation_en": "shop / store",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 165,
+    "pronunciation": "denda",
+    "definition_simple": "Establecimiento donde se venden al público artículos de comercio",
+    "uso_habitual": "Absolutivo singular: denda.",
+    "frase_1_eu": "Denda zortzietan ixten da",
+    "frase_1_es": "La tienda cierra a las ocho",
+    "frase_2_eu": "Arropa denda berri bat ireki dute kalean",
+    "frase_2_es": "Han abierto una tienda de ropa nueva en la calle",
+    "tags": [
+      "lugares",
+      "comercio",
+      "compras",
+      "sustantivo",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "kale",
+    "translation_es": "calle",
+    "translation_en": "street",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 184,
+    "pronunciation": "kale",
+    "definition_simple": "Vía pública en una población",
+    "uso_habitual": "Absolutivo singular: kalea.",
+    "frase_1_eu": "Umeak kalean jolasten ari dira",
+    "frase_1_es": "Los niños están jugando en la calle",
+    "frase_2_eu": "Kale nagusia oso polita da",
+    "frase_2_es": "La calle principal es muy bonita",
+    "tags": [
+      "lugares",
+      "ciudad",
+      "transporte",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "mendi",
+    "translation_es": "monte / montaña",
+    "translation_en": "mountain / hill",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 201,
+    "pronunciation": "mendi",
+    "definition_simple": "Gran elevación natural del terreno",
+    "uso_habitual": "Absolutivo singular: mendia. Muy representativo de Euskal Herria.",
+    "frase_1_eu": "Asteburuan mendira joango gara lagunekin",
+    "frase_1_es": "El fin de semana iremos al monte con los amigos",
+    "frase_2_eu": "Mendi tontorrean elurra dago jada",
+    "frase_2_es": "En la cima del monte ya hay nieve",
+    "tags": [
+      "lugares",
+      "naturaleza",
+      "paisaje",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hondartza",
+    "translation_es": "playa",
+    "translation_en": "beach",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 206,
+    "pronunciation": "ondartsa",
+    "definition_simple": "Ribera del mar formada de arena",
+    "uso_habitual": "Absolutivo singular: hondartza.",
+    "frase_1_eu": "Udan egunero joaten gara hondartzara",
+    "frase_1_es": "En verano vamos todos los días a la playa",
+    "frase_2_eu": "Hondartza jendez beteta dago gaur",
+    "frase_2_es": "La playa está llena de gente hoy",
+    "tags": [
+      "lugares",
+      "naturaleza",
+      "ocio",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ospitale",
+    "translation_es": "hospital",
+    "translation_en": "hospital",
+    "category": "sustantivo",
+    "difficulty": 1,
+    "frequency_rank": 255,
+    "pronunciation": "ospitale",
+    "definition_simple": "Establecimiento para el tratamiento de enfermos",
+    "uso_habitual": "Absolutivo singular: ospitalea.",
+    "frase_1_eu": "Ospitalean egon naiz gaixorik dagoen laguna bisitatzen",
+    "frase_1_es": "He estado en el hospital visitando al amigo enfermo",
+    "frase_2_eu": "Bi mediku berri hasi dira ospitalean lanean",
+    "frase_2_es": "Dos médicos nuevos han empezado a trabajar en el hospital",
+    "tags": [
+      "lugares",
+      "salud",
+      "básico"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "plaza",
+    "translation_es": "plaza",
+    "translation_en": "square / plaza",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 338,
+    "pronunciation": "plaza",
+    "definition_simple": "Lugar ancho y espacioso en una población",
+    "uso_habitual": "Absolutivo singular: plaza. Ej: herriko plaza (la plaza del pueblo).",
+    "frase_1_eu": "Haurrak plazan jolasten ari dira",
+    "frase_1_es": "Los niños están jugando en la plaza",
+    "frase_2_eu": "Plazara joango gara kontzertua entzutera",
+    "frase_2_es": "Iremos a la plaza a escuchar el concierto",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zubi",
+    "translation_es": "puente",
+    "translation_en": "bridge",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 339,
+    "pronunciation": "subi",
+    "definition_simple": "Construcción que permite pasar sobre un río o foso",
+    "uso_habitual": "Absolutivo singular: zubia.",
+    "frase_1_eu": "Zubi zahar honek ibaia zeharkatzen du",
+    "frase_1_es": "Este puente viejo cruza el río",
+    "frase_2_eu": "Zubitik pasatu gara autoarekin",
+    "frase_2_es": "Hemos pasado por el puente con el coche",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eraikin",
+    "translation_es": "edificio / construcción",
+    "translation_en": "building",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 340,
+    "pronunciation": "eraikin",
+    "definition_simple": "Obra construida para habitación u otros usos",
+    "uso_habitual": "Absolutivo singular: eraikina.",
+    "frase_1_eu": "Eraikin hau oso altua eta modernoa da",
+    "frase_1_es": "Este edificio es muy alto y moderno",
+    "frase_2_eu": "Bulego berriak eraikin horretan daude",
+    "frase_2_es": "Las nuevas oficinas están en ese edificio",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "espaloi",
+    "translation_es": "acera",
+    "translation_en": "sidewalk / pavement",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 341,
+    "pronunciation": "espaloi",
+    "definition_simple": "Orilla de la calle reservada para los peatones",
+    "uso_habitual": "Absolutivo singular: espaloia.",
+    "frase_1_eu": "Espaloitik ibili behar da seguru egoteko",
+    "frase_1_es": "Hay que andar por la acera para estar seguro",
+    "frase_2_eu": "Espaloian utzi du bizikleta",
+    "frase_2_es": "Ha dejado la bicicleta en la acera",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "auzo",
+    "translation_es": "barrio / vecindario",
+    "translation_en": "neighborhood",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 342,
+    "pronunciation": "autso",
+    "definition_simple": "Cada una de las partes en que se divide un pueblo o ciudad",
+    "uso_habitual": "Absolutivo singular: auzoa. Vecino se dice 'auzokide'.",
+    "frase_1_eu": "Nire auzoa oso lasaia da bizitzeko",
+    "frase_1_es": "Mi barrio es muy tranquilo para vivir",
+    "frase_2_eu": "Auzoko jaiak asteburu honetan dira",
+    "frase_2_es": "Las fiestas del barrio son este fin de semana",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "parke",
+    "translation_es": "parque",
+    "translation_en": "park",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 343,
+    "pronunciation": "parque",
+    "definition_simple": "Terreno arbolado destinado a recreo público",
+    "uso_habitual": "Absolutivo singular: parkea.",
+    "frase_1_eu": "Arratsaldean parkera joango naiz zakurrarekin",
+    "frase_1_es": "A la tarde iré al parque con el perro",
+    "frase_2_eu": "Parkeak zuhaitz eta lore ederrak ditu",
+    "frase_2_es": "El parque tiene árboles y flores hermosas",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bidegurutze",
+    "translation_es": "cruce / intersección",
+    "translation_en": "crossroads / intersection",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 344,
+    "pronunciation": "bidegurutze",
+    "definition_simple": "Punto donde se cruzan dos o más caminos",
+    "uso_habitual": "Absolutivo singular: bidegurutzea.",
+    "frase_1_eu": "Bidegurutzean eskuinera jo behar duzu",
+    "frase_1_es": "En el cruce debes ir a la derecha",
+    "frase_2_eu": "Bidegurutze hori oso arriskutsua da",
+    "frase_2_es": "Ese cruce es muy peligroso",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "semaforo",
+    "translation_es": "semáforo",
+    "translation_en": "traffic light",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 345,
+    "pronunciation": "semaforo",
+    "definition_simple": "Aparato eléctrico con luces para regular el tráfico",
+    "uso_habitual": "Absolutivo singular: semaforoa.",
+    "frase_1_eu": "Semaforoa gorri dago, itxaron mesedez",
+    "frase_1_es": "El semáforo está en rojo, espera por favor",
+    "frase_2_eu": "Semaforo berdearekin pasa gaitezke",
+    "frase_2_es": "Con el semáforo en verde podemos pasar",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bidegorri",
+    "translation_es": "carril bici",
+    "translation_en": "bike lane / cycle path",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 346,
+    "pronunciation": "bidegorri",
+    "definition_simple": "Vía reservada exclusivamente para bicicletas",
+    "uso_habitual": "Absolutivo singular: bidegorria. Literalmente significa 'camino rojo'.",
+    "frase_1_eu": "Bidegorritik joango naiz bizikletaz lanera",
+    "frase_1_es": "Iré por el carril bici en bicicleta al trabajo",
+    "frase_2_eu": "Ez ibili oinez bidegorrian",
+    "frase_2_es": "No andes a pie en el carril bici",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "tunel",
+    "translation_es": "túnel",
+    "translation_en": "tunnel",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 347,
+    "pronunciation": "tunel",
+    "definition_simple": "Paso subterráneo abierto para una vía de comunicación",
+    "uso_habitual": "Absolutivo singular: tunela.",
+    "frase_1_eu": "Trena tunel luze batean sartu da",
+    "frase_1_es": "El tren ha entrado en un túnel largo",
+    "frase_2_eu": "Tunel barruan argiak piztu behar dira",
+    "frase_2_es": "Dentro del túnel hay que encender las luces",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "helbide",
+    "translation_es": "dirección / señas",
+    "translation_en": "address",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 348,
+    "pronunciation": "elbide",
+    "definition_simple": "Indicación del lugar donde vive alguien o está una entidad",
+    "uso_habitual": "Absolutivo singular: helbidea.",
+    "frase_1_eu": "Idatzi zure helbidea paper honetan",
+    "frase_1_es": "Escribe tu dirección en este papel",
+    "frase_2_eu": "Ez dut zure etxearen helbidea gogoratzen",
+    "frase_2_es": "No recuerdo la dirección de tu casa",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hilerri",
+    "translation_es": "cementerio",
+    "translation_en": "cemetery / graveyard",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 349,
+    "pronunciation": "ilerri",
+    "definition_simple": "Terreno destinado a enterrar cadáveres",
+    "uso_habitual": "Absolutivo singular: hilerria. Literalmente significa 'pueblo de muertos'.",
+    "frase_1_eu": "Hilerria herriaren kanpoaldean dago",
+    "frase_1_es": "El cementerio está en las afueras del pueblo",
+    "frase_2_eu": "Loreak eraman dituzte hilerrira",
+    "frase_2_es": "Han llevado flores al cementerio",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "lantegi",
+    "translation_es": "fábrica / taller / centro de trabajo",
+    "translation_en": "factory / workshop",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 350,
+    "pronunciation": "lantegui",
+    "definition_simple": "Establecimiento industrial donde se trabaja o fabrica algo",
+    "uso_habitual": "Absolutivo singular: lantegia.",
+    "frase_1_eu": "Aitak lantegi handi batean egiten du lan",
+    "frase_1_es": "Mi padre trabaja en una fábrica grande",
+    "frase_2_eu": "Lantegia zortzietan zabaltzen dute",
+    "frase_2_es": "Abren el taller a las ocho",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "sarbide",
+    "translation_es": "acceso / entrada",
+    "translation_en": "access / entry",
+    "category": "otro",
+    "difficulty": 3,
+    "frequency_rank": 351,
+    "pronunciation": "sarbide",
+    "definition_simple": "Lugar por donde se entra o tiene paso a otro sitio",
+    "uso_habitual": "Absolutivo singular: sarbidea.",
+    "frase_1_eu": "Hau da eraikinaren sarbide nagusia",
+    "frase_1_es": "Este es el acceso principal del edificio",
+    "frase_2_eu": "Ez dago sarbiderik autoentzat kale honetan",
+    "frase_2_es": "No hay acceso para coches en esta calle",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ibilbide",
+    "translation_es": "ruta / itinerario / recorrido",
+    "translation_en": "route / itinerary / path",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 352,
+    "pronunciation": "ibilbide",
+    "definition_simple": "Espacio que se recorre o camino que se sigue",
+    "uso_habitual": "Absolutivo singular: ibilbidea. Proviene de 'ibili' (andar).",
+    "frase_1_eu": "Mendiko ibilbidea oso luzea izan da",
+    "frase_1_es": "El recorrido del monte ha sido muy largo",
+    "frase_2_eu": "Zein da Bilbora joateko ibilbiderik onena?",
+    "frase_2_es": "¿Cuál es la mejor ruta para ir a Bilbao?",
+    "tags": [
+      "ciudad",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eliza",
+    "translation_es": "iglesia",
+    "translation_en": "church",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 353,
+    "pronunciation": "eliza",
+    "definition_simple": "Templo cristiano dedicado al culto",
+    "uso_habitual": "Absolutivo singular: eliza. Es el centro arquitectónico de muchos pueblos vascos.",
+    "frase_1_eu": "Elizako kanpaiak entzuten ari dira",
+    "frase_1_es": "Se están escuchando las campanas de la iglesia",
+    "frase_2_eu": "Herriko eliza plaza nagusian dago",
+    "frase_2_es": "La iglesia del pueblo está en la plaza principal",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "liburutegi",
+    "translation_es": "biblioteca",
+    "translation_en": "library",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 354,
+    "pronunciation": "liburutegui",
+    "definition_simple": "Local donde se guardan y prestan libros",
+    "uso_habitual": "Absolutivo singular: liburutegia. Proviene de 'liburu' (libro).",
+    "frase_1_eu": "Liburutegira nola heldu galdetu dut",
+    "frase_1_es": "He preguntado cómo llegar a la biblioteca",
+    "frase_2_eu": "Liburutegian isilik egon behar da",
+    "frase_2_es": "En la biblioteca hay que estar en silencio",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "antzoki",
+    "translation_es": "teatro",
+    "translation_en": "theater",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 355,
+    "pronunciation": "antzoki",
+    "definition_simple": "Edificio destinado a la representación de obras dramáticas",
+    "uso_habitual": "Absolutivo singular: antzokia. Proviene de 'antzeztu' (actuar/representar).",
+    "frase_1_eu": "Antzokiko sarrerak agortuta daude",
+    "frase_1_es": "Las entradas del teatro están agotadas",
+    "frase_2_eu": "Gaur antzerki polit bat ikusi dugu antzokian",
+    "frase_2_es": "Hoy hemos visto una bonita obra de teatro en el teatro",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "museo",
+    "translation_es": "museo",
+    "translation_en": "museum",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 356,
+    "pronunciation": "museo",
+    "definition_simple": "Lugar donde se guardan colecciones de objetos artísticos o científicos",
+    "uso_habitual": "Absolutivo singular: museoa.",
+    "frase_1_eu": "Guggenheim museooa Bilbon dago",
+    "frase_1_es": "El museo Guggenheim está en Bilbao",
+    "frase_2_eu": "Museora joango gara igandean artea ikustera",
+    "frase_2_es": "Iremos al museo el domingo a ver arte",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zinema",
+    "translation_es": "cine",
+    "translation_en": "cinema / movie theater",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 357,
+    "pronunciation": "sinema",
+    "definition_simple": "Lugar destinado a la proyección de películas",
+    "uso_habitual": "Absolutivo singular: zinema.",
+    "frase_1_eu": "Zineman pelikula berria ikusiko dugu",
+    "frase_1_es": "Veremos la película nueva en el cine",
+    "frase_2_eu": "Zinema beteta zegoen atzo gauean",
+    "frase_2_es": "El cine estaba lleno ayer por la noche",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "azoka",
+    "translation_es": "mercado / feria",
+    "translation_en": "market / fair",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 358,
+    "pronunciation": "asoka",
+    "definition_simple": "Lugar público con puestos de venta de alimentos y productos",
+    "uso_habitual": "Absolutivo singular: azoka. Muy típico de los sábados en Euskadi.",
+    "frase_1_eu": "Larunbateko azokan barazki freskoak erosi ditut",
+    "frase_1_es": "He comprado verduras frescas en el mercado del sábado",
+    "frase_2_eu": "Azoka oso alaia da goizetan",
+    "frase_2_es": "El mercado es muy alegre por las mañanas",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "epaitegi",
+    "translation_es": "juzgado / tribunal",
+    "translation_en": "court / courthouse",
+    "category": "otro",
+    "difficulty": 3,
+    "frequency_rank": 359,
+    "pronunciation": "epaitegui",
+    "definition_simple": "Lugar donde los jueces juzgan y administran justicia",
+    "uso_habitual": "Absolutivo singular: epaitegia. Proviene de 'epai' (sentencia).",
+    "frase_1_eu": "Epaitegira joan behar izan dut lekuko gisa",
+    "frase_1_es": "He tenido que ir al juzgado como testigo",
+    "frase_2_eu": "Epaitegiko eraikina plazaren aurrean dago",
+    "frase_2_es": "El edificio del juzgado está frente a la plaza",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "postetxe",
+    "translation_es": "oficina de correos",
+    "translation_en": "post office",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 360,
+    "pronunciation": "postetxe",
+    "definition_simple": "Oficina donde se gestiona el envío de cartas y paquetes",
+    "uso_habitual": "Absolutivo singular: postetxea. Literalmente significa 'casa del correo'.",
+    "frase_1_eu": "Pakete bat bidali dut postetxetik",
+    "frase_1_es": "He enviado un paquete desde la oficina de correos",
+    "frase_2_eu": "Non dago hurbilen dagoen postetxea?",
+    "frase_2_es": "¿Dónde está la oficina de correos más cercana?",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ikastetxe",
+    "translation_es": "colegio / centro escolar",
+    "translation_en": "school / educational center",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 361,
+    "pronunciation": "ikastetxe",
+    "definition_simple": "Establecimiento público o privado de enseñanza",
+    "uso_habitual": "Absolutivo singular: ikastetxea. Más formal que 'eskola'.",
+    "frase_1_eu": "Umeak ikastetxe berrian hasi dira aurten",
+    "frase_1_es": "Los niños han empezado en un colegio nuevo este año",
+    "frase_2_eu": "Ikastetxeak jolastoki handi bat dauka",
+    "frase_2_es": "El colegio tiene un patio grande",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "kiroldegi",
+    "translation_es": "polideportivo / centro deportivo",
+    "translation_en": "sports center / gym",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 362,
+    "pronunciation": "kiroldegui",
+    "definition_simple": "Instalación pública para practicar deportes y natación",
+    "uso_habitual": "Absolutivo singular: kiroldegia. Proviene de 'kirol' (deporte).",
+    "frase_1_eu": "Kiroldegira joaten naiz astearteetan igeri egitera",
+    "frase_1_es": "Voy al polideportivo los martes a nadar",
+    "frase_2_eu": "Kiroldegiko bazkide txartela galdu dut",
+    "frase_2_es": "He perdido la tarjeta de socio del polideportivo",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "udaletxe",
+    "translation_es": "ayuntamiento / casa consistorial",
+    "translation_en": "town hall / city hall",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 363,
+    "pronunciation": "udaletxe",
+    "definition_simple": "Casa consistorial del gobierno local de un pueblo",
+    "uso_habitual": "Absolutivo singular: udaletxea. Proviene de 'udal' (municipio) y 'etxe' (casa).",
+    "frase_1_eu": "Udaletxean erroldatu behar naiz",
+    "frase_1_es": "Tengo que empadronarme en el ayuntamiento",
+    "frase_2_eu": "Udaletxeko balkoian herriko bandera dago",
+    "frase_2_es": "En el balcón del ayuntamiento está la bandera del pueblo",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "kafetegi",
+    "translation_es": "cafetería",
+    "translation_en": "cafe / coffee shop",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 364,
+    "pronunciation": "kafetegui",
+    "definition_simple": "Establecimiento donde se sirve café y otras bebidas",
+    "uso_habitual": "Absolutivo singular: kafetegia. Proviene de 'kafe' (café).",
+    "frase_1_eu": "Kafetegian kafe bat esnearekin hartu dut",
+    "frase_1_es": "He tomado un café con leche en la cafetería",
+    "frase_2_eu": "Kafetegia jendez beteta dago gaur goizean",
+    "frase_2_es": "La cafetería está llena de gente esta mañana",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "jatetxe",
+    "translation_es": "restaurante",
+    "translation_en": "restaurant",
+    "category": "otro",
+    "difficulty": 1,
+    "frequency_rank": 365,
+    "pronunciation": "yatetxe",
+    "definition_simple": "Establecimiento donde se sirven comidas",
+    "uso_habitual": "Absolutivo singular: jatetxea. Proviene de 'jan' (comer) y 'etxe' (casa).",
+    "frase_1_eu": "Jatetxe tradizional batean bazkaldu dugu",
+    "frase_1_es": "Hemos comido en un restaurante tradicional",
+    "frase_2_eu": "Jatetxe honek menu bikaina dauka",
+    "frase_2_es": "Este restaurante tiene un menú excelente",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gozotegi",
+    "translation_es": "pastelería / confitería",
+    "translation_en": "bakery / pastry shop",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 366,
+    "pronunciation": "gozotegui",
+    "definition_simple": "Tienda donde se hacen y venden dulces y pasteles",
+    "uso_habitual": "Absolutivo singular: gozotegia. Proviene de 'gozo' (dulce).",
+    "frase_1_eu": "Gozotegian tarta handi bat erosi dut urtebetetzerako",
+    "frase_1_es": "He comprado una tarta grande en la pastelería para el cumpleaños",
+    "frase_2_eu": "Gozotegiko pastelak gozo-gozoak dira",
+    "frase_2_es": "Los pasteles de la pastelería son deliciosos",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "jolasgune",
+    "translation_es": "parque infantil / zona de recreo",
+    "translation_en": "playground / play area",
+    "category": "otro",
+    "difficulty": 2,
+    "frequency_rank": 367,
+    "pronunciation": "yolasgune",
+    "definition_simple": "Espacio público con columpios para el recreo infantil",
+    "uso_habitual": "Absolutivo singular: jolasgunea. Proviene de 'jolas' (juego) y 'gune' (zona).",
+    "frase_1_eu": "Haurrak jolasgunean pozik jolasten ari dira",
+    "frase_1_es": "Los niños juegan felices en el parque infantil",
+    "frase_2_eu": "Jolasgune berria babestuta dago",
+    "frase_2_es": "El parque infantil nuevo está protegido",
+    "tags": [
+      "lugares",
+      "sustantivo"
+    ],
+    "is_active": true
+  }
+]

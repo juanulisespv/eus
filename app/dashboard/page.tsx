@@ -161,15 +161,26 @@ export default async function DashboardPage() {
                 >
                   Todo mezclado
                 </Link>
-                {Array.from(new Set(allProgress.map(p => p.words?.category))).filter(Boolean).map(c => (
-                  <Link 
-                    key={c} 
-                    href={`/study?category=${c}`} 
-                    className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-medium text-sm transition-colors border border-white/[0.06] capitalize"
-                  >
-                    {c}
-                  </Link>
-                ))}
+                {(() => {
+                  const THEMES = [
+                    'familia', 'comida', 'ropa', 'trabajo', 'compras', 'transporte', 
+                    'naturaleza', 'clima', 'cuerpo', 'salud', 'emociones', 'animales', 
+                    'verbos', 'saludos', 'numeros', 'lugares', 'hogar'
+                  ];
+                  const learnedThemes = Array.from(
+                    new Set(allProgress.flatMap(p => p.words?.tags ?? []))
+                  ).filter(tag => THEMES.includes(tag));
+                  
+                  return learnedThemes.map(c => (
+                    <Link 
+                      key={c} 
+                      href={`/study?category=${c}`} 
+                      className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 font-medium text-sm transition-colors border border-white/[0.06] capitalize"
+                    >
+                      {c}
+                    </Link>
+                  ));
+                })()}
               </div>
             </div>
             {/* Botón: vocabulario */}

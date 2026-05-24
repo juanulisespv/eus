@@ -37,10 +37,30 @@ const categoryMap = {
     'lugares': 'sustantivo',
     'familia': 'sustantivo',
     'comida': 'sustantivo',
-    'descripciones': 'adjetivo'
+    'descripciones': 'adjetivo',
+    'hogar': 'sustantivo',
+    'ropa': 'sustantivo',
+    'trabajo': 'sustantivo',
+    'compras': 'sustantivo',
+    'transporte': 'sustantivo',
+    'naturaleza': 'sustantivo',
+    'clima': 'sustantivo',
+    'cuerpo': 'sustantivo',
+    'salud': 'sustantivo',
+    'emociones': 'sustantivo',
+    'animales': 'sustantivo'
 }
 
 function getWordCategory(w) {
+    // Si la palabra contiene la etiqueta 'verbos' o 'verbo', es un verbo gramatical
+    if (w.tags && (w.tags.includes('verbos') || w.tags.includes('verbo'))) {
+        return 'verbo';
+    }
+    // Si tiene la etiqueta 'adjetivos' o 'adjetivo', es un adjetivo gramatical
+    if (w.tags && (w.tags.includes('adjetivos') || w.tags.includes('adjetivo'))) {
+        return 'adjetivo';
+    }
+    
     if (categoryMap[w.category]) {
         return categoryMap[w.category];
     }
@@ -59,19 +79,28 @@ function getWordCategory(w) {
     return 'otro';
 }
 
-const cleaned = words.map(w => ({
-    word_eu: w.word_eu === 'goxoo' ? 'goxo' : w.word_eu,
-    translation_es: w.translation_es,
-    translation_en: w.translation_en ?? null,
-    category: getWordCategory(w),
-    difficulty: w.difficulty,
-    frequency_rank: w.frequency_rank,
-    pronunciation: w.pronunciation ?? null,
-    definition_simple: w.definition_simple ?? null,
-    uso_habitual: w.uso_habitual ?? null,
-    tags: w.tags ?? [],
-    is_active: w.is_active ?? true,
-}))
+const cleaned = words.map(w => {
+    // Asegurar que la categoría temática está incluida en los tags para poder filtrar por ella
+    const themesList = ['saludos', 'numeros', 'pronombres', 'verbos', 'lugares', 'familia', 'comida', 'descripciones', 'hogar', 'ropa', 'trabajo', 'compras', 'transporte', 'naturaleza', 'clima', 'cuerpo', 'salud', 'emociones', 'animales'];
+    const wordTags = w.tags ?? [];
+    if (w.category && themesList.includes(w.category) && !wordTags.includes(w.category)) {
+        wordTags.push(w.category);
+    }
+    
+    return {
+        word_eu: w.word_eu === 'goxoo' ? 'goxo' : w.word_eu,
+        translation_es: w.translation_es,
+        translation_en: w.translation_en ?? null,
+        category: getWordCategory(w),
+        difficulty: w.difficulty,
+        frequency_rank: w.frequency_rank,
+        pronunciation: w.pronunciation ?? null,
+        definition_simple: w.definition_simple ?? null,
+        uso_habitual: w.uso_habitual ?? null,
+        tags: wordTags,
+        is_active: w.is_active ?? true,
+    }
+})
 
 // Deduplicar palabras por word_eu (manteniendo la última aparición)
 const uniqueCleanedMap = new Map()

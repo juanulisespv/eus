@@ -1,0 +1,212 @@
+[
+  {
+    "word_eu": "nire ustez",
+    "translation_es": "en mi opinión / a mi parecer",
+    "translation_en": "in my opinion",
+    "category": "frase_hecha",
+    "difficulty": 3,
+    "frequency_rank": 489,
+    "pronunciation": "nire ustez",
+    "definition_simple": "Fórmula para introducir el propio punto de vista",
+    "uso_habitual": "Muy utilizado en debates o conversaciones cotidianas. Proviene de 'uste' (creencia).",
+    "frase_1_eu": "Nire ustez, euskara ikastea oso aberasgarria da",
+    "frase_1_es": "En mi opinión, aprender euskera es muy enriquecedor",
+    "frase_2_eu": "Nire ustez, ez daukazu arrazoirik kasu honetan",
+    "frase_2_es": "A mi parecer, no tienes razón en este caso",
+    "tags": [
+      "expresiones",
+      "opinion",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ez kezkatu",
+    "translation_es": "no te preocupes / no se preocupe",
+    "translation_en": "don't worry",
+    "category": "frase_hecha",
+    "difficulty": 3,
+    "frequency_rank": 490,
+    "pronunciation": "es kescatu",
+    "definition_simple": "Expresión para tranquilizar a alguien o restar importancia a algo",
+    "uso_habitual": "Proviene de 'kezkatu' (preocuparse). Equivalente a 'no pasa nada'.",
+    "frase_1_eu": "- Barkatu berandu etortzeagatik. - Ez kezkatu, lasai!",
+    "frase_1_es": "- Perdón por venir tarde. - ¡No te preocupes, tranquilo!",
+    "frase_2_eu": "Ez kezkatu etorkizunaz, gaurkoaz gozatu behar da",
+    "frase_2_es": "No te preocupes por el futuro, hay que disfrutar del hoy",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "bide batez",
+    "translation_es": "de paso / ya de paso / a la vez",
+    "translation_en": "by the way / at the same time",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 491,
+    "pronunciation": "bide batez",
+    "definition_simple": "Aprovechar el camino o la acción para realizar otra secundaria",
+    "uso_habitual": "Literalmente significa 'por un camino'.",
+    "frase_1_eu": "Dendara bagoaz, bide batez ogia erosi ahal dugu",
+    "frase_1_es": "Si vamos a la tienda, ya de paso podemos comprar el pan",
+    "frase_2_eu": "Eskerrak eman dizkio eta, bide batez, gutuna eman dio",
+    "frase_2_es": "Le ha dado las gracias y, de paso, le ha entregado la carta",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "izan ere",
+    "translation_es": "ya que / de hecho / en efecto",
+    "translation_en": "actually / indeed / since",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 493,
+    "pronunciation": "isan ere",
+    "definition_simple": "Locución conjuntiva o aclaratoria para reforzar una afirmación",
+    "uso_habitual": "Se utiliza a principio de frase o después de una coma para justificar algo.",
+    "frase_1_eu": "Ez naiz kalera aterako; izan ere, euria ari du gupidarik gabe",
+    "frase_1_es": "No saldré a la calle; ya que está lloviendo sin compasión",
+    "frase_2_eu": "Oso mutil azkarra da; izan ere, beti daki zer esan",
+    "frase_2_es": "Es un chico muy inteligente; de hecho, siempre sabe qué decir",
+    "tags": [
+      "expresiones",
+      "conectores",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "eskerrak",
+    "translation_es": "¡menos mal! / ¡gracias a Dios!",
+    "translation_en": "thank goodness! / luckily!",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 495,
+    "pronunciation": "eskerrak",
+    "definition_simple": "Expresar alivio ante una situación desfavorable que se ha evitado",
+    "uso_habitual": "Suele usarse al inicio de la frase. No confundir con el sustantivo 'eskerrak' (las gracias).",
+    "frase_1_eu": "Eskerrak etxean zeunden giltzas ahaztu zaizkidanean",
+    "frase_1_es": "¡Menos mal que estabas en casa cuando se me han olvidado las llaves!",
+    "frase_2_eu": "Eskerrak euriak gelditu duen, bestela ezin ginen atera",
+    "frase_2_es": "¡Menos mal que ha parado de llover, si no no podíamos salir!",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "zer esan nahi du?",
+    "translation_es": "¿qué quiere decir? / ¿qué significa?",
+    "translation_en": "what does it mean?",
+    "category": "frase_hecha",
+    "difficulty": 3,
+    "frequency_rank": 496,
+    "pronunciation": "ser esan nai du",
+    "definition_simple": "Pregunta para aclarar el significado de una palabra o frase",
+    "uso_habitual": "Muy útil para estudiantes de euskera al preguntar vocabulario.",
+    "frase_1_eu": "Barkatu, zer esan nahi du 'baserri' hitzak gaztelaniaz?",
+    "frase_1_es": "Disculpa, ¿qué significa la palabra 'baserri' en castellano?",
+    "frase_2_eu": "Zer esan nahi du seinale gorri honek?",
+    "frase_2_es": "¿Qué quiere decir esta señal roja?",
+    "tags": [
+      "expresiones",
+      "básico",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ez dago dudarik",
+    "translation_es": "no cabe duda / sin duda",
+    "translation_en": "there is no doubt / without a doubt",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 497,
+    "pronunciation": "es dago dudarik",
+    "definition_simple": "Afirmar algo con total certeza",
+    "uso_habitual": "Locución para dar énfasis y seguridad a una afirmación.",
+    "frase_1_eu": "Ez dago dudarik gaurko festa bikaina izango dela",
+    "frase_1_es": "No cabe duda de que la fiesta de hoy será excelente",
+    "frase_2_eu": "Guztiz ados nago zurekin, ez dago dudarik",
+    "frase_2_es": "Estoy totalmente de acuerdo contigo, no cabe duda",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "ez horixe!",
+    "translation_es": "¡claro que no! / ¡desde luego que no!",
+    "translation_en": "of course not!",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 498,
+    "pronunciation": "es orixe",
+    "definition_simple": "Negación enfática en respuesta a una pregunta",
+    "uso_habitual": "Es el opuesto a 'bai horixe!' (¡claro que sí!).",
+    "frase_1_eu": "- Zure etxea salduko duzu? - Ez horixe!",
+    "frase_1_es": "- ¿Vas a vender tu casa? - ¡Claro que no!",
+    "frase_2_eu": "- Nahi al duzu nire azterketa kopiatu? - Ez horixe, nire lana egingo dut!",
+    "frase_2_es": "- ¿Quieres copiar mi examen? - ¡Desde luego que no, haré mi trabajo!",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "gogoan izan",
+    "translation_es": "tener en cuenta / recordar",
+    "translation_en": "to keep in mind / to remember",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 499,
+    "pronunciation": "gogoan isan",
+    "definition_simple": "Recordar o retener información importante en la mente",
+    "uso_habitual": "Se conjuga con el auxiliar NOR-NORK (gogoan dut = lo tengo en mente/lo recuerdo).",
+    "frase_1_eu": "Gogoan izan bihar goizean bilera garrantzitsua daukagula",
+    "frase_1_es": "Ten en cuenta que mañana por la mañana tenemos una reunión importante",
+    "frase_2_eu": "Beti zaitut gogoan, nahiz eta urrun bizi",
+    "frase_2_es": "Siempre te tengo en el recuerdo, aunque vivas lejos",
+    "tags": [
+      "expresiones",
+      "cotidiano",
+      "frase_hecha"
+    ],
+    "is_active": true
+  },
+  {
+    "word_eu": "hala ere",
+    "translation_es": "sin embargo / no obstante / de todos modos",
+    "translation_en": "however / nevertheless",
+    "category": "frase_hecha",
+    "difficulty": 4,
+    "frequency_rank": 500,
+    "pronunciation": "ala ere",
+    "definition_simple": "Conector adversativo para oponer dos ideas",
+    "uso_habitual": "Muy frecuente al principio de la frase precedido de coma.",
+    "frase_1_eu": "Ariketa hau zaila zen; hala ere, guztia ondo egin dut",
+    "frase_1_es": "Este ejercicio era difícil; sin embargo, lo he hecho todo bien",
+    "frase_2_eu": "Ez nago oso gose; hala ere, afaria probatuko dut",
+    "frase_2_es": "No tengo mucha hambre; de todos modos, probaré la cena",
+    "tags": [
+      "expresiones",
+      "conectores",
+      "frase_hecha"
+    ],
+    "is_active": true
+  }
+]
