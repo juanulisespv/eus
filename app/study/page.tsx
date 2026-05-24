@@ -57,17 +57,28 @@ export default function StudyPage() {
 
     if (error) { setState("empty"); return; }
 
-    // ── AUTO-ENROLL: usuario nuevo sin palabras asignadas ────────
-    if (!progress || progress.length === 0) {
-      const { data: seedWords } = await supabase
+    // ── AUTO-ENROLL / TOP-UP: ajustar palabras nuevas al objetivo diario ──
+    // Calculamos cuántas palabras "nuevas" (next_review_at = null) tiene el
+    // usuario. Si tiene menos que su dailyGoal, enrolamos más del catálogo.
+    const existingIds = new Set((progress ?? []).map(p => p.word_id));
+    const currentNew = (progress ?? []).filter(p => !p.next_review_at).length;
+    const needed = dailyGoal - currentNew;
+
+    if (needed > 0) {
+      // Obtener palabras del catálogo que el usuario aún no tiene asignadas
+      const { data: moreWords } = await supabase
         .from("words")
         .select("id")
         .eq("is_active", true)
         .order("frequency_rank", { ascending: true })
-        .limit(dailyGoal);
+        .limit(needed + existingIds.size); // pedir más de lo necesario para filtrar
 
-      if (seedWords && seedWords.length > 0) {
-        const newRows = seedWords.map(w => ({
+      const toEnroll = (moreWords ?? [])
+        .filter(w => !existingIds.has(w.id))
+        .slice(0, needed);
+
+      if (toEnroll.length > 0) {
+        const newRows = toEnroll.map(w => ({
           user_id: user.id,
           word_id: w.id,
           ease_factor: 2.5,
@@ -80,6 +91,7 @@ export default function StudyPage() {
         }));
         await supabase.from("user_word_progress").insert(newRows);
 
+        // Recargar con las nuevas palabras incluidas
         const reloaded = await supabase
           .from("user_word_progress")
           .select(`
