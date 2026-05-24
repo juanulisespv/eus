@@ -22,10 +22,11 @@ export default async function DashboardPage() {
 
   const { data: sessionHistory } = await supabase
     .from("sessions")
-    .select("correct_count, total_reviewed, reviewed_at")
+    .select("correct_count, cards_reviewed, started_at")
     .eq("user_id", user.id)
-    .order("reviewed_at", { ascending: false })
-    .limit(30);
+    .eq("status", "completed")
+    .order("started_at", { ascending: false })
+    .limit(60);
 
   const allProgress = progress ?? [];
 
@@ -67,7 +68,7 @@ export default async function DashboardPage() {
   let longestStreak = 0;
   if (sessionHistory && sessionHistory.length > 0) {
     const days = new Set(
-      sessionHistory.map(s => new Date(s.reviewed_at).toDateString())
+      sessionHistory.map(s => new Date(s.started_at).toDateString())
     );
     const today = new Date();
     let streak = 0;

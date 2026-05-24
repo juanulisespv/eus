@@ -162,14 +162,16 @@ export default function StudyPage() {
       });
       setState("finished");
 
-      // Guardar sesión
+      // Guardar sesión — columnas según el schema SQL
       await supabase.from("sessions").insert({
         user_id: user.id,
-        total_reviewed: newResults.length,
+        mode: "review",
+        status: "completed",
+        cards_reviewed: newResults.length,
+        new_cards: newResults.filter(r => !queue.find(q => q.word_id === r.word_id)?.last_reviewed_at).length,
         correct_count: correct,
-        accuracy_percentage: Math.round((correct / newResults.length) * 100),
-        session_duration_seconds: newResults.reduce((s, r) => s + r.response_time_seconds, 0),
-        reviewed_at: new Date().toISOString(),
+        duration_seconds: newResults.reduce((s, r) => s + r.response_time_seconds, 0),
+        ended_at: new Date().toISOString(),
       });
     } else {
       setCurrentIdx(nextIdx);
