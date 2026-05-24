@@ -107,14 +107,24 @@ export default function StudyPage() {
       limit: 20,
     });
 
-    if (cards.length === 0) { setState("empty"); return; }
+    let orderedQueue: ProgressWithWord[];
 
-    // Reordenar la queue manteniendo los datos de la palabra
-    const ordered = cards.map(c =>
-      progress!.find(p => p.word_id === c.progress.word_id)
-    ).filter(Boolean) as ProgressWithWord[];
+    if (cards.length === 0) {
+      // ── MODO PRÁCTICA LIBRE ──────────────────────────────────────
+      // No hay tarjetas pendientes según SRS. En lugar de mostrar "vacío",
+      // ofrecemos todas las palabras del usuario en orden aleatorio para
+      // seguir practicando sin afectar el algoritmo SRS.
+      const shuffled = [...progress].sort(() => Math.random() - 0.5).slice(0, 20);
+      if (shuffled.length === 0) { setState("empty"); return; }
+      orderedQueue = shuffled as ProgressWithWord[];
+    } else {
+      // Reordenar la queue manteniendo los datos de la palabra
+      orderedQueue = cards.map(c =>
+        progress!.find(p => p.word_id === c.progress.word_id)
+      ).filter(Boolean) as ProgressWithWord[];
+    }
 
-    setQueue(ordered);
+    setQueue(orderedQueue);
     setCurrentIdx(0);
     setResults([]);
     cardStartTime.current = Date.now();
