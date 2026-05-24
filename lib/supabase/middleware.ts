@@ -42,12 +42,16 @@ export async function createClient(request: NextRequest) {
 
   // Añadir cabeceras de depuración para ver en las herramientas de desarrollo
   const cookiesList = request.cookies.getAll();
+  const tokenCookie = cookiesList.find(c => c.name.includes("-auth-token"));
+
   response.headers.set("x-debug-user", user ? user.email || "yes" : "null");
   response.headers.set("x-debug-session", session ? "exists" : "null");
   response.headers.set("x-debug-cookies-count", String(cookiesList.length));
   response.headers.set("x-debug-cookies-names", cookiesList.map(c => c.name).join(", "));
   response.headers.set("x-debug-env-url", supabaseUrl || "undefined");
   response.headers.set("x-debug-env-anon-len", String(supabaseAnonKey?.length || 0));
+  response.headers.set("x-debug-token-cookie-val-len", String(tokenCookie?.value?.length || 0));
+  response.headers.set("x-debug-token-cookie-val-start", tokenCookie?.value ? tokenCookie.value.substring(0, 30) : "none");
 
   return { supabase, user, response };
 }
